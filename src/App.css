@@ -1,0 +1,17 @@
+body{
+  background-color: #f1f2f4;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+
+@media only screen and (orientation: portrait) {
+  .dummyNav{
+    left: 16px;
+    right: 16px;
+  }
+}
