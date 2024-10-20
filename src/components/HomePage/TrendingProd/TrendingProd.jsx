@@ -1,6 +1,6 @@
 import React from 'react'
 import './TrendingProd.css'
-import Product from '../../Product/Product'
+import Product from '../Product/Product'
 
 const TrendingProd = () => {
     return (
