@@ -1,0 +1,95 @@
+.Solutions {
+    background-color: white;
+    padding: 60px 64px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.solutionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--grey);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0px 5px 10px #0000001a;
+}
+
+.SC_Grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 16px;
+    text-align: justify;
+}
+
+
+.SC_Header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    max-width: 500px;
+    justify-self: center;
+}
+
+.SC_head {
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.SC_head.one{
+    text-align: right;
+}
+
+.SC_text {
+    font-size: 13px;
+}
+
+.SC_img {
+    width: 100%;
+    height: 100%;
+    max-height: 140px;
+}
+
+.SC_img img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    max-height: 100%;
+}
+
+.SC_Cardsflex{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.SC_card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    width: 30%;
+}
+.SC_card.one{
+    width: 25%;
+}
+
+.SC_cardIcon{
+    height: 120px;
+}
+.SC_cardIcon img{
+    object-fit: contain;
+    height: 100%;
+}
+
+.SC_cardHead{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary);
+}

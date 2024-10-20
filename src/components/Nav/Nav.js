@@ -13,25 +13,25 @@ const Nav = () => {
                 <Link to='/'>
                     <div className='navitem selected'>Home</div>
                 </Link>
-                <Link to='/'>
-                    <div className='navitem'>Home</div>
+                <Link to='/about'>
+                    <div className='navitem'>About Us</div>
+                </Link>
+                <Link to='/products'>
+                    <div className='navitem'>Products</div>
                 </Link>
                 <Link to='/'>
-                    <div className='navitem'>Home</div>
+                    <div className='navitem'>Our Clients</div>
                 </Link>
                 <Link to='/'>
-                    <div className='navitem'>Home</div>
+                    <div className='navitem'>Gallery</div>
                 </Link>
                 <Link to='/'>
-                    <div className='navitem'>Home</div>
-                </Link>
-                <Link to='/'>
-                    <div className='navitem'>Home</div>
+                    <div className='navitem'>Contact Us</div>
                 </Link>
             </div>
 
             <div className='navSearch'>
-                <input placeholder='search' className='navInput'/>
+                <input placeholder='Search' className='navInput'/>
             </div>
         </div>
     )

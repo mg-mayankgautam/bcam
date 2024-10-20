@@ -13,5 +13,7 @@ code {
 }
 
 :root{
-  --primary: rgb(10, 60, 83);
+  --primary: #ff6600;
+  --secondary: #211769;
+  --grey: #f1f2f4;
 }

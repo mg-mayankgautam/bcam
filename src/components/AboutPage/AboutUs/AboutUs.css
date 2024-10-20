@@ -1,0 +1,40 @@
+.AboutUs{
+    padding: 100px 20px 16px;
+}
+
+.aboutUsBox{
+    background-image: url(../../../assets/aboutbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    min-height: calc(100vh - 132px);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /* padding: 32px; */
+    justify-items: center;
+}
+
+.aboutUsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
+    text-align: justify;
+    align-self: center;
+    padding: 32px;
+    font-size: 13px;
+    max-width: 600px;
+}
+
+.aboutHead{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.aboutUsImg{
+    padding: 32px;
+    border-radius: 20px;
+    height: 100%;
+}

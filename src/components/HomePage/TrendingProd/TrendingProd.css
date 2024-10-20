@@ -1,0 +1,18 @@
+.TrendingProd{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.TP_head{
+    font-size: 32px;
+    color: var(--secondary);
+}
+
+.TP_cardsFlex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

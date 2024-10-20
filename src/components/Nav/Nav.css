@@ -10,7 +10,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    padding: 16px 12px;
+    padding: 12px 20px;
+    box-shadow: 0px 5px 10px #0000001a;
 }
 
 .navLogo{
@@ -18,7 +19,22 @@
 }
 
 .navItems{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-grow: 1; */
+    font-size: 14px;
+}
 
+.navitem{
+    padding: 12px 19px;
+    border-radius: 10px;
+    transition: 100ms ease-in-out;
+}
+.navitem.selected, .navitem:hover{
+    background-color: var(--primary);
+    color: white;
 }
 
 .navInput{
