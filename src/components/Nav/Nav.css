@@ -12,6 +12,7 @@
     gap: 16px;
     padding: 12px 20px;
     box-shadow: 0px 5px 10px #0000001a;
+    z-index: 2;
 }
 
 .navLogo{

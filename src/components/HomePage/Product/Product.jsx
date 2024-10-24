@@ -2,18 +2,18 @@ import React from 'react'
 import './Product.css'
 import img from '../../../assets/sampleprod.png'
 
-const Product = () => {
+const Product = ({product}) => {
     return (
         <div className='Product'>
             <div className='ProdImg'>
-                <img src={img} />
+                <img src={require(`../../../assets/products/${product?.img}`)} />
             </div>
 
             <div className='prodHead'>
-                BEC-Wi-Fi-WL01
+                {product.model_no}
             </div>
             <div className='prodText'>
-                2MP Full-color Guard+ <br /> Network Bullet Camera
+                {/* 2MP Full-color Guard+ <br /> Network Bullet Camera */}
             </div>
         </div>
     )
