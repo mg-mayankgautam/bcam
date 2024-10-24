@@ -5,6 +5,10 @@ import img from '../../assets/products/SGA60E12-P1J - Power Adapter.png'
 
 const Collection = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const [selectedCategory, setSelectedCategory] = useState("4G Camera");
 
   const [products, setProducts] = useState(store.filter((category) => category.category === selectedCategory));
@@ -148,7 +152,7 @@ const Collection = () => {
                     <li key={i}>{feature}</li>
                   ))}
                 </ul>
-                
+
 
               </div>
             </div>
