@@ -1,0 +1,743 @@
+[
+    {
+        "category": "Wi-Fi Camera",
+        "products": [
+            {
+                "model_no": "BEC-Wi-Fi-WL01",
+                "features": [
+                    "3 Mega Pixel Wi-Fi color Robot Camera",
+                    "3.6mm Fixed Lens",
+                    "Rotatable 355 degree",
+                    "24x7 Full Color Vision",
+                    "Two-Way Audio Supported",
+                    "IR Range of 10 Mtr.",
+                    "Support Motion tracking",
+                    "Support 2.4Ghz",
+                    "Support Micro SD Card upto 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-Wi-Fi-WL01.png"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL03-D",
+                "features": [
+                    "3 Mega Pixel Wi-Fi color Camera",
+                    "3.6mm Dual Lens",
+                    "24x7 Full Color Vision",
+                    "Rotatable 355 degree",
+                    "Two-Way Audio Supported",
+                    "IR Range of 10 Mtr.",
+                    "Support Motion tracking",
+                    "Support 2.4Ghz",
+                    "Support Onvif",
+                    "Support Micro SD Card upto 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-Wi-Fi-WL03-D.png"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL04PT-D",
+                "features": [
+                    "3 Mega Pixel Wi-Fi PT Outdoor Camera",
+                    "3.6mm Lens",
+                    "24x7 Full Color Vision",
+                    "Rotatable 355 degree",
+                    "Two-Way Audio Supported",
+                    "IR Range of 20 Mtr.",
+                    "Support Motion tracking",
+                    "Support 2.4Ghz",
+                    "Support Micro SD Card upto 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-Wi-Fi-WL04PT-D.png"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL04-OTW",
+                "features": [
+                    "3 Mega Pixel Wi-Fi PT Outdoor Camera",
+                    "3.6mm Dual Lens",
+                    "24x7 Full Color Vision",
+                    "Rotatable 355 degree",
+                    "Two-Way Audio Supported",
+                    "IR Range of 20 Mtr.",
+                    "Support Motion tracking",
+                    "Support 2.4Ghz",
+                    "Support Micro SD Card upto 128GB",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-Wi-Fi-WL04-OTW.png"
+            },
+            {
+                "model_no": "BEC-WL05-MB",
+                "features": [
+                    "5 Mega Pixel Wi-Fi Camera",
+                    "4mm Fixed Lens",
+                    "Infrared Night Vision Dual Light Support",
+                    "Two-Way Audio Support",
+                    "Support Built-in Battery",
+                    "Support AI Features, SMD, PIR Alarm",
+                    "IR Range upto 15 Mtr.",
+                    "Support Motion Detection",
+                    "Support 2.4Ghz",
+                    "Support Micro SD Card upto 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-WL05-MB.png"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL06VC",
+                "features": [
+                    "3 Mega Pixel Wi-Fi PT Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color Vision",
+                    "Rotatable 355 degree",
+                    "Two-Way Audio Supported",
+                    "Two-Way Video Calling Supported",
+                    "Support Wi-Fi",
+                    "IR Range upto 15 Mtr.",
+                    "Support Motion tracking",
+                    "Support 2.4Ghz",
+                    "Support Micro SD Card upto 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-Wi-Fi-WL06VC.png"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL06PN",
+                "features": [
+                    "4 Mega Pixel Wi-Fi Panoramic Camera",
+                    "3.6mm Dual Lens",
+                    "180° Wide-angle viewing",
+                    "24x7 Full Color Vision",
+                    "Two-Way Audio Supported",
+                    "Support Wi-Fi",
+                    "IR Range upto 30 Mtr.",
+                    "Support Motion Detection",
+                    "Support 2.4Ghz",
+                    "Support Micro SD Card upto 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-Wi-Fi-WL06PN.png"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL08-BT",
+                "features": [
+                    "2 Mega Pixel Wi-Fi PT Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color Vision",
+                    "Rotatable 355 degree",
+                    "Two-Way Audio Supported",
+                    "Support Wi-Fi",
+                    "Support Built-in Battery",
+                    "IR Range upto 15 Mtr.",
+                    "Support Motion tracking",
+                    "Support 2.4Ghz",
+                    "Support Micro SD Card upto 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-Wi-Fi-WL08-BT.png"
+            }
+        ]
+    },
+    {
+        "category": "4G Camera",
+        "products": [
+            {
+                "model_no": "BEC-4G-B-3.0/A/S/SL/TWA",
+                "features": [
+                    "3 Mega Pixel 4G Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "4G Sim Supported",
+                    "Two-Way Audio Supported",
+                    "IR Range up to 20 Mtr.",
+                    "Support Micro SD Card up to 128GB",
+                    "Support Motion Detection",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-4G-B-3.0_A_S_SL_TWA.png"
+            },
+            {
+                "model_no": "BEC-4G-D-3.0MP/A/SL/TWA",
+                "features": [
+                    "3 Mega Pixel 4G Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "4G Sim Supported",
+                    "Two-Way Audio Supported",
+                    "IR Range up to 20 Mtr.",
+                    "Support Micro SD Card up to 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-4G-D-3.0MP_A_SL_TWA.png"
+            },
+            {
+                "model_no": "BEC-4G-B-3.0/PT",
+                "features": [
+                    "3 Mega Pixel 4G PT Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "4G Sim Supported",
+                    "Two-Way Audio Supported",
+                    "IR Range up to 30 Mtr.",
+                    "Support Micro SD Card up to 128GB",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png"
+            },
+            {
+                "model_no": "BEC-4G-PT SL",
+                "features": [
+                    "3 Mega Pixel 4G PT Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "4G Sim Supported",
+                    "Two-Way Audio Supported",
+                    "IR Range up to 30 Mtr.",
+                    "Support Micro SD Card up to 256GB",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png"
+            }
+        ]
+    },
+    {
+        "category": "IP Camera",
+        "products": [
+            {
+                "model_no": "BEC-IP-B-5.0MP/A/SL",
+                "features": [
+                    "5 Mega Pixel Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "IR Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Warm Light with 4 Array",
+                    "Weather proof IP67",
+                    "Metal Body",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-5.0MP_A_SL.png"
+            },
+            {
+                "model_no": "BEC-IP-B-5.0MP/A/SL_2",
+                "features": [
+                    "5 Mega Pixel Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP66",
+                    "Plastic Body",
+                    "Support Android & iOS Mobile Application"
+                ]
+                ,"img": "error.png"
+            },
+            {
+                "model_no": "BEC-IP-B-5.0MP/A/SL/Fisheye",
+                "features": [
+                    "5 Mega Pixel Bullet Fisheye Camera",
+                    "1.8mm Fixed Lens",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "Support Starlight Technology",
+                    "3 Array Range of 50 Mtr.",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-5.0MP_A_SL_Fisheye.png"
+            },
+            {
+                "model_no": "BEC-IP-D-5.0MP/A/SL",
+                "features": [
+                    "5 Mega Pixel Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP66",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-D-5.0MP_A_SL.png"
+            },
+            {
+                "model_no": "BEC-IP-B-4.0MP/A/SL",
+                "features": [
+                    "4 Mega Pixel Bullet Camera",
+                    "8mm Fixed Lens",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "Support Starlight Technology",
+                    "8 Array Range of 60 Mtr.",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-4.0MP_A_SL.png"
+            },
+            {
+                "model_no": "BEC-IP-B-4.0MP/A/SL_2",
+                "features": [
+                    "4 Mega Pixel Bullet Camera",
+                    "6mm Fixed Lens (8mm/12mm/16mm Optional)",
+                    "PoE Supported",
+                    "Support Starlight Technology",
+                    "Audio Supported",
+                    "10 Array Range of 40 Mtr.",
+                    "Weather proof IP66",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "error.png"
+            },
+            {
+                "model_no": "BEC-IP-D-4.0MP/A/SL/4AR",
+                "features": [
+                    "4 Mega Pixel Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP66",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-D-4.0MP_A_SL_4AR.png"
+            },
+            {
+                "model_no": "BEC-IP-B-8.0MP/A/SL",
+                "features": [
+                    "8 Mega Pixel Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "error.png"
+            },
+            {
+                "model_no": "BEC-IP-D-8.0MP/A/SL",
+                "features": [
+                    "8 Mega Pixel Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "error.png"
+            }
+        ]
+    },
+    {
+        "category": "Analog Camera",
+        "products": [
+            {
+                "model_no": "BEC-HD-B-2.4MP/SL",
+                "features": [
+                    "2.4 Mega Pixel HD Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "4 Array Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP66"
+                ],
+                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png"
+            },
+            {
+                "model_no": "BEC-HD-D-2.4MP/SL",
+                "features": [
+                    "2.4 Mega Pixel HD Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "2 Array Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP66"
+                ],
+                "img": "BEC-HD-D-2.4MP_SL.png"
+            },
+            {
+                "model_no": "BEC-HD-D-3.0MP/SL/A",
+                "features": [
+                    "3 Mega Pixel HD Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "Audio Supported",
+                    "2 Array Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP66"
+                ],
+                "img": "BEC-HD-D-3.0MP_SL_A.png"
+            },
+            {
+                "model_no": "BEC-HD-B-3.0MP/SL/A",
+                "features": [
+                    "3 Mega Pixel HD Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "Audio Supported",
+                    "4 Array Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP66"
+                ],
+                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png"
+            }
+        ]
+    },
+    {
+        "category": "NVR",
+        "products": [
+            {
+                "model_no": "BEC-NVR-1008-S1",
+                "features": [
+                    "10 Channel Network Video Recorder",
+                    "Support H.265/H.264/MJPEG Video Compression",
+                    "Support 1 SATA Port upto 6TB, 2 USB Ports",
+                    "Support upto 8MP Resolution",
+                    "HDMI / VGA simultaneous video output",
+                    "Support Audio out",
+                    "Support Onvif Protocol",
+                    "Support Multi-brand network cameras",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png"
+            },
+            {
+                "model_no": "BEC-NVR-1608-S1",
+                "features": [
+                    "16 Channel Network Video Recorder",
+                    "Support H.265/H.264/MJPEG Video Compression",
+                    "Support 1 SATA Port upto 6TB, 2 USB Ports",
+                    "Support upto 8MP Resolution",
+                    "HDMI / VGA simultaneous video output",
+                    "Support Audio out",
+                    "Support Onvif Protocol",
+                    "Support Multi-brand network cameras",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png"
+            },
+            {
+                "model_no": "BEC-NVR-3208-S2",
+                "features": [
+                    "16 Channel Network Video Recorder",
+                    "Support H.265/H.264/MJPEG Video Compression",
+                    "Support upto 8MP Resolution",
+                    "Support 2 SATA Ports upto 6TB, 2 USB Ports",
+                    "HDMI / VGA simultaneous video output",
+                    "Support Onvif Protocol",
+                    "Support Multi-brand network cameras",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png"
+            }
+        ]
+    },
+    {
+        "category": "DVR",
+        "products": [
+            {
+                "model_no": "BEC-XVR-4005-S1",
+                "features": [
+                    "Supports AHD/HDCVI/TVI/CVBS/IP video inputs",
+                    "04 Channel Video Input Supported",
+                    "Support 04 Ch. IP Camera Input upto 5MP Resolution",
+                    "Support H.265/H.264 Video Compression",
+                    "Support 1 SATA Port upto 6TB, 2 USB Ports",
+                    "HDMI / VGA simultaneous video output",
+                    "Audio Supported",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png"
+            },
+            {
+                "model_no": "BEC-XVR-8005-S1",
+                "features": [
+                    "Supports AHD/HDCVI/TVI/CVBS/IP video inputs",
+                    "08 Channel Video Input Supported",
+                    "Support 08 Ch. IP Camera Input upto 5MP Resolution",
+                    "Support H.265/H.264 Video Compression",
+                    "Support 1 SATA Port upto 6TB, 2 USB Ports",
+                    "HDMI / VGA simultaneous video output",
+                    "Audio Supported",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png"
+            },
+            {
+                "model_no": "BEC-XVR-1605-S2",
+                "features": [
+                    "Supports AHD/HDCVI/TVI/CVBS/IP video inputs",
+                    "16 Channel Video Input Supported",
+                    "Support 16 Ch. IP Camera Input upto 5MP Resolution",
+                    "Support H.265/H.264 Video Compression",
+                    "Support 1 SATA Port upto 6TB, 2 USB Ports",
+                    "HDMI / VGA simultaneous video output",
+                    "Audio Supported",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png"
+            }
+        ]
+    },
+    {
+        "category": "PoE Switch",
+        "products": [
+            {
+                "model_no": "BEC-PoE-0402FE",
+                "features": [
+                    "04 Port PoE Switch",
+                    "10/100Mbps Support Standard & Extended Mode",
+                    "Support 2 Uplink Ports up to 10/100Mbps",
+                    "Support 65W PoE Power Budget",
+                    "Support up to 250Mtr. Transmission distance"
+                ],
+                "img": "BEC-PoE-0402FE.png"
+            },
+            {
+                "model_no": "BEC-PoE-0802FE",
+                "features": [
+                    "08 Port PoE Switch",
+                    "10/100Mbps Support Standard & Extended Mode",
+                    "Support 2 Uplink Ports up to 10/100Mbps",
+                    "Support 120W PoE Power Budget",
+                    "Support up to 250Mtr. Transmission distance"
+                ],
+                "img": "BEC-PoE-0802FE.png"
+            },
+            {
+                "model_no": "BEC-PoE-0802-UPG",
+                "features": [
+                    "08 Port PoE Switch",
+                    "10/100Mbps Support Standard & Extended Mode",
+                    "Support 2 Uplink Ports up to 10/100/1000Mbps",
+                    "Support 120W PoE Power Budget",
+                    "Support up to 250Mtr. Transmission distance"
+                ],
+                "img": "BEC-PoE-0802-UPG.png"
+            },
+            {
+                "model_no": "BEC-PoE-0802-FG",
+                "features": [
+                    "08 Port PoE Switch",
+                    "10/100Mbps Support Standard & Extended Mode",
+                    "Support 2 Uplink Ports up to 10/100/1000Mbps",
+                    "Support 150W PoE Power Budget",
+                    "Support up to 250Mtr. Transmission distance"
+                ],
+                "img": "BEC-PoE-0802-FG.png"
+            },
+            {
+                "model_no": "BEC-PoE-1602UPGF1",
+                "features": [
+                    "16 Port PoE Switch",
+                    "10/100Mbps Support Standard & Extended Mode",
+                    "Support 2 Uplink Ports up to 10/100/1000Mbps & 1 SFP Port",
+                    "Support 200W PoE Power Budget",
+                    "Support up to 250Mtr. Transmission distance"
+                ],
+                "img": "error.png"
+            },
+            {
+                "model_no": "BEC-PoE-2402UPGF1",
+                "features": [
+                    "24 Port PoE Switch",
+                    "10/100Mbps Support Standard & Extended Mode",
+                    "Support 2 Uplink Ports up to 10/100/1000Mbps & 1 SFP Port",
+                    "Support 300W PoE Power Budget",
+                    "Support up to 250Mtr. Transmission distance"
+                ],
+                "img": "BEC-PoE-2402UPGF1.png"
+            }
+        ]
+    },
+    {
+        "category": "4G Router",
+        "products": [
+            {
+                "model_no": "BEC-RT-01-4G/5G",
+                "features": [
+                    "4G/5G Sim Supported",
+                    "Support 3 External Antenna",
+                    "Support Ethernet Port up to 10/100Mbps",
+                    "Support Wi-Fi 2.4/5.0GHz",
+                    "Support Reset",
+                    "Support Plug n Play"
+                ],
+                "img": "BEC-RT-01-4G-5G.png"
+            },
+            {
+                "model_no": "BEC-RT-03A",
+                "features": [
+                    "4G/5G Sim Supported",
+                    "Support 3 External Antenna",
+                    "Support Ethernet Port up to 300Mbps",
+                    "Support Wi-Fi 2.4/5.0GHz",
+                    "Built-in Adapter",
+                    "Support Reset",
+                    "Support Plug n Play"
+                ],
+                "img": "BEC-RT-03A, BEC-RT-03-4G-5G.png"
+            },
+            {
+                "model_no": "BEC-RT-03-4G/5G",
+                "features": [
+                    "4G/5G Sim Supported",
+                    "Support 3 External Antenna",
+                    "Support Ethernet Port up to 300Mbps",
+                    "Support Wi-Fi 2.4/5.0GHz",
+                    "Support Reset",
+                    "Support Plug n Play"
+                ],
+                "img": "BEC-RT-03A, BEC-RT-03-4G-5G.png"
+            },
+            {
+                "model_no": "BEC-RT-02-4G/5G",
+                "features": [
+                    "4G/5G Sim Supported",
+                    "Support 2 External Antenna",
+                    "Support Ethernet Port up to 300Mbps",
+                    "Support Wi-Fi 2.4/5.0GHz",
+                    "Support Reset",
+                    "Support Plug n Play"
+                ],
+                "img": "BEC-RT-02-4G-5G.png"
+            }
+        ]
+    },
+    {
+        "category": "Rack",
+        "products": [
+            {
+                "model_no": "BEC-RACK 2U",
+                "features": [
+                    "2U Modular Rack",
+                    "Front Door with Lock & Key",
+                    "Standard Finish Power Coated",
+                    "2 Side Panels Support",
+                    "Rack Mounting Kit"
+                ],
+                "img": "BEC-RACK 4U, BEC RACK 2U.png"
+            },
+            {
+                "model_no": "BEC-RACK 4U",
+                "features": [
+                    "4U Modular Rack",
+                    "Front Door with Lock & Key",
+                    "Standard Finish Power Coated",
+                    "2 Side Panels Support",
+                    "Rack Mounting Kit"
+                ],
+                "img": "BEC-RACK 4U, BEC RACK 2U.png"
+            }
+        ]
+    },
+    {
+        "category": "Power Supply",
+        "products": [
+            {
+                "model_no": "BEC-PS04-12",
+                "features": [
+                    "04 Channel Power Supply",
+                    "Support Power LED Indicator",
+                    "Support Over Current Protection",
+                    "Support 12V DC Output",
+                    "Metal Casing"
+                ],
+                "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png"
+            },
+            {
+                "model_no": "BEC-PS08-12",
+                "features": [
+                    "08 Channel Power Supply",
+                    "Support Power LED Indicator",
+                    "Support Over Current Protection",
+                    "Support 12V DC Output",
+                    "Metal Casing"
+                ],
+                "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png"
+            },
+            {
+                "model_no": "BEC-PS16-12",
+                "features": [
+                    "16 Channel Power Supply",
+                    "Support Power LED Indicator",
+                    "Support Over Current Protection",
+                    "Support 12V DC Output",
+                    "Metal Casing"
+                ],
+                "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png"
+            }
+        ]
+    },
+    {
+        "category": "Accessories",
+        "products": [
+            {
+                "model_no": "BNC Cable",
+                "features": [
+                    "Blue & Orange Color BNC"
+                ],
+                "img": "BNC Cable MG3560.png"
+            },
+            {
+                "model_no": "DC Pin Cable",
+                "features": [],
+                "img": "DC PIN  Cable.png"
+            },
+            {
+                "model_no": "Cat6 Cable",
+                "features": [
+                    "Cat6 Cable 100mtrs",
+                    "Cat6 Cable 305mtrs"
+                ],
+                "img": "error.png"
+            },
+            {
+                "model_no": "3+1 CCTV Cable",
+                "features": [
+                    "3+1 CCTV Cable",
+                    "90mtr"
+                ],
+                "img": "3+1 CCTV Cable.png"
+            },
+            {
+                "model_no": "HDMI Cable",
+                "features": [],
+                "img": "HDMI Cable.png"
+            },
+            {
+                "model_no": "Micro SD Card",
+                "features": [
+                    "64GB",
+                    "128GB",
+                    "256GB"
+                ],
+                "img": "error.png"
+            },
+            {
+                "model_no": "SGA60E12-P1J",
+                "features": [
+                    "12V 2Amp Power Adapter"
+                ],
+                "img": "SGA60E12-P1J - Power Adapter.png"
+            }
+        ]
+    }
+]
