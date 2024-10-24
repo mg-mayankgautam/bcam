@@ -75,12 +75,18 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    cursor: pointer;
+    width: 100%;
 }
 
 .C_prodImg {
     width: 100%;
     box-shadow: 0px 5px 10px #0000001a;
     border-radius: 16px;
+    transition: all 100ms ease-in-out;
+}
+.C_prodImg:hover{
+    box-shadow: 0px 5px 10px #00000050;
 }
 
 .C_prodImg>img {
@@ -94,4 +100,96 @@
     color: #737373;
     font-weight: 700;
     font-size: 15px;
+}
+
+
+
+.modalContainer{
+    position: fixed;
+    inset: 0;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.486);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.prod_Flex{
+    display: flex;
+    gap: 20px;
+}
+
+.prod_Img{
+    width: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #0000001a;
+    padding: 20px 40px;
+    background-color: white;
+}
+.prod_Img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: contain;
+    /* margin: 16px; */
+}
+
+.prod_Content{
+    width: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #0000001a;
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.prod_modelno{
+    font-size: 24px;
+    color: var(--secondary);
+    font-weight: 500;
+}
+.prod_category{
+    font-size: 15px;
+    color: var(--primary);
+    /* font-weight: 500; */
+}
+.prod_features{
+    font-size: 12px;
+    padding-left: 16px;
+    border-top: 1px solid #a6a6a6;
+    padding-top: 16px;
+}
+
+
+.prod_btnDiv{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #0000001a;
+    padding: 20px 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.prod_btn{
+    background-color: var(--primary);
+    color: white;
+    padding: 14px 32px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
 }

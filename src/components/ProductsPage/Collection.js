@@ -6,21 +6,33 @@ import img from '../../assets/products/SGA60E12-P1J - Power Adapter.png'
 const Collection = () => {
 
   const [selectedCategory, setSelectedCategory] = useState("4G Camera");
-  
-  const [products, setProducts] = useState(store.filter((category) => category.category === selectedCategory));
-  
-  const [modal, setModal] = useState(false)
 
+  const [products, setProducts] = useState(store.filter((category) => category.category === selectedCategory));
+
+  const [modal, setModal] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
   };
+
+  const handleProductClick = (product) => {
+    setSelectedProduct(product);
+    setModal(true); // Open the modal
+  };
+
 
 
   useEffect(() => {
     setProducts(store.filter((category) => category.category === selectedCategory))
   }, [selectedCategory])
 
+
+  const handleCloseModal = (e) => {
+    if (e.target.className === 'modalContainer') {
+      setModal(false);
+    }
+  };
 
   return (
     <div className='Collection'>
@@ -95,7 +107,7 @@ const Collection = () => {
                 {category?.products?.map((product) => (
 
                   <div key={product?.model_no} className='C_productItem'
-                  // onClick={setModal(true)}
+                    onClick={() => handleProductClick(product)}
                   >
 
                     <div className='C_prodImg'>
@@ -115,6 +127,40 @@ const Collection = () => {
           <div>Select a category to see products.</div>
         )}
       </div>
+
+
+      {modal && selectedProduct && (
+        <div className='modalContainer' onClick={handleCloseModal}>
+          <div className='modal'>
+
+            <div className='prod_Flex'>
+
+              <div className='prod_Img'>
+                <img src={require(`../../assets/products/${selectedProduct?.img}`)} alt='no' />
+              </div>
+
+              <div className='prod_Content'>
+                <div className='prod_modelno'>{selectedProduct.model_no}</div>
+                <div className='prod_category'>{selectedCategory}</div>
+
+                <ul className='prod_features'>
+                  {selectedProduct.features?.map((feature, i) => (
+                    <li key={i}>{feature}</li>
+                  ))}
+                </ul>
+                
+
+              </div>
+            </div>
+
+            <div className='prod_btnDiv'>
+              <button className='prod_btn'>
+                Request for information
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
