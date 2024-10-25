@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
-import img from '../../assets/products/BEC-IP-B-4.0MP_A_SL- 6mm.png'
+import img from '../../assets/products/3+1 CCTV Cable.png'
 
 const Collection = () => {
 
@@ -115,7 +115,7 @@ const Collection = () => {
                   >
 
                     <div className='C_prodImg'>
-                      <img src={require(`../../assets/products/${product?.img}`)} alt='no' />
+                      <img src={require(`../../assets/products/${product.img}`)} alt='not available' />
                     </div>
                     <div className='C_prodText'>
                       {product.model_no}
