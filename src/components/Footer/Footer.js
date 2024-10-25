@@ -8,27 +8,29 @@ const Footer = () => {
     <div className='Footer'>
       <div className='footerContent'>
 
-        <div className='footerLogo'>
-          <Link to='/'>
-            <img src={logo} />
-          </Link>
+        <div className='footerLogoContent'>
+
+          <div className='footerLogo'>
+            <Link to='/'>
+              <img src={logo} />
+            </Link>
+
+          </div>
+
+          <div>
+
+            <Link to=''>
+              <div>608, Sidharth Building,<br /> Nehru Place, Delhi <br/> India</div>
+            </Link>
+          </div>
+
+
         </div>
 
         <div className='footerInfo'>
 
           <div>
-            <Link to=''>
-              <div>+91XXXXXXXXXX</div>
-            </Link>
-            <Link to=''>
-              <div>sales@becam.in</div>
-            </Link>
-            <Link to=''>
-              <div>608, Sidharth Building,<br /> Nehru Place, Delhi</div>
-            </Link>
-          </div>
-
-          <div>
+            <div className='footerTitle'>QUICK LINKS</div>
             <Link to='/about'>
               <div>About Us</div>
             </Link>
@@ -44,11 +46,22 @@ const Footer = () => {
           </div>
 
           <div>
+            <div className='footerTitle'>POLICIES</div>
             <Link to='/termsandconditions'>
               <div>Terms & Conditions</div>
             </Link>
             <Link to='/privacypolicy'>
               <div>Privacy Policy</div>
+            </Link>
+          </div>
+
+          <div>
+            <div className='footerTitle'>CONTACT US</div>
+            <Link to=''>
+              <div>+91XXXXXXXXXX</div>
+            </Link>
+            <Link to=''>
+              <div>sales@becam.in</div>
             </Link>
           </div>
 
