@@ -29,17 +29,16 @@ const TrendingProd = () => {
             <div className='TP_head'>
                 <strong className='orange'>Trending</strong> Products
             </div>
-            {/* 
-            <div className='TP_cardsFlex'>
+            {/* <div className='TP_cardsFlex'>
                 <Product />
             </div> */}
 
             <Swiper className='TP_cardsFlex'
-                modules={[Pagination, Mousewheel]}
+                modules={[Pagination, Navigation]}
                 spaceBetween={20}
                 slidesPerView={4}
-                mousewheel={true}
                 loop={true}
+                navigation={true}
                 // pagination={{ clickable: true, dots:true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
