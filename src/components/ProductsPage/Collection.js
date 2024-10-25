@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
-import img from '../../assets/products/SGA60E12-P1J - Power Adapter.png'
+import img from '../../assets/products/BEC-IP-B-4.0MP_A_SL- 6mm.png'
 
 const Collection = () => {
 
@@ -9,7 +9,7 @@ const Collection = () => {
     window.scrollTo(0, 0)
   }, [])
 
-  const [selectedCategory, setSelectedCategory] = useState("4G Camera");
+  const [selectedCategory, setSelectedCategory] = useState("Wi-Fi Camera");
 
   const [products, setProducts] = useState(store.filter((category) => category.category === selectedCategory));
 
@@ -55,7 +55,7 @@ const Collection = () => {
               <div
                 key={category.category}
                 onClick={() => handleCategorySelect(category.category)}
-                className='C_categoryItem'
+                className={selectedCategory==category.category? 'C_categoryItem bold' : 'C_categoryItem'}
               >
                 &gt; {category.category}
               </div>

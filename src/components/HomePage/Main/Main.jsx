@@ -7,23 +7,27 @@ const Main = () => {
         <div className='HomeMain'>
             <div className='mainHeader'>
                 <div className='mainHeading'>
-                    Harness the <br />
-                    <strong>POWER</strong> of
                     <strong>
                         <span className='orange'> Be</span>
                         <span className='blue'>CAM</span>
                     </strong>
+                    <br />
+                    Feel <strong>SAFE</strong> With Us
+
                 </div>
                 <div className='mainText'>
-                    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br /> industry's standard dummy text ever since the 1500s </div>
-                    <button className='button'>
+                    <div>BE-CAM is your trusted partner in providing innovative and reliable CCTV surveillance solutions. <br/>With over 5 years of experience, we offer customized security systems for homes, businesses, and communities. 
+                    <br/>Whether you're protecting loved ones or ensuring the safety of your business, we deliver <br/>advanced, real-time monitoring solutions to meet your needs.
+                    </div>
+
+                    {/* <button className='button'>
                         Connect
-                    </button>
+                    </button> */}
                 </div>
             </div>
 
             <div className='mainImg'>
-                <img src={img}/>
+                <img src={img} />
             </div>
         </div>
     )

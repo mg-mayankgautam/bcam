@@ -1,4 +1,4 @@
-.Nav{
+.Nav {
     position: fixed;
     top: 16px;
     left: 20px;
@@ -10,16 +10,21 @@
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    padding: 12px 20px;
+    padding: 8px 20px;
     box-shadow: 0px 5px 10px #0000001a;
     z-index: 2;
 }
 
-.navLogo{
-
+.navLogo {
+    height: 50px;
 }
 
-.navItems{
+.navLogo img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.navItems {
     display: flex;
     gap: 14px;
     align-items: center;
@@ -28,17 +33,19 @@
     font-size: 14px;
 }
 
-.navitem{
+.navitem {
     padding: 12px 19px;
     border-radius: 10px;
     transition: 100ms ease-in-out;
 }
-.navitem.selected, .navitem:hover{
+
+.navitem.selected,
+.navitem:hover {
     background-color: var(--primary);
     color: white;
 }
 
-.navInput{
+.navInput {
     border-radius: 30px;
     border: 1px solid #0000001a;
     padding: 6px 16px;

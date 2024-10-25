@@ -43,9 +43,11 @@
     cursor: pointer;
     transition: all 100ms ease-in-out;
     text-transform: uppercase;
+    color: #737373;
 }
-.C_categoryItem:hover{
-    font-weight: 700;
+.C_categoryItem:hover, .C_categoryItem.bold{
+    color: black;
+    font-weight: 800;
 }
 
 .collectionMainbar {
@@ -122,14 +124,14 @@
 .modal{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
     width: 100%;
     max-width: 800px;
 }
 
 .prod_Flex{
     display: flex;
-    gap: 20px;
+    gap: 12px;
 }
 
 .prod_Img{

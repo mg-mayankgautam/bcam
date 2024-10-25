@@ -1,23 +1,34 @@
 import React from 'react'
 import './Nav.css'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import logo from '../../assets/logo.png'
 
 const Nav = () => {
+
+    const location = useLocation();
+
+
     return (
         <div className='Nav'>
             <div className='navLogo'>
-                logo
+                <img src={logo} />
             </div>
 
             <div className='navItems'>
                 <Link to='/'>
-                    <div className='navitem selected'>Home</div>
+                    <div className={`navitem ${location.pathname === '/' ? 'selected' : ''}`}>
+                        Home
+                    </div>
                 </Link>
                 <Link to='/about'>
-                    <div className='navitem'>About Us</div>
+                    <div className={`navitem ${location.pathname === '/about' ? 'selected' : ''}`}>
+                        About Us
+                    </div>
                 </Link>
                 <Link to='/products'>
-                    <div className='navitem'>Products</div>
+                    <div className={`navitem ${location.pathname === '/products' ? 'selected' : ''}`}>
+                        Products
+                    </div>
                 </Link>
                 <Link to='/'>
                     <div className='navitem'>Our Clients</div>
@@ -31,7 +42,7 @@ const Nav = () => {
             </div>
 
             <div className='navSearch'>
-                <input placeholder='Search' className='navInput'/>
+                <input placeholder='Search' className='navInput' />
             </div>
         </div>
     )

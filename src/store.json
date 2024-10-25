@@ -226,7 +226,7 @@
                 "img": "BEC-IP-B-5.0MP_A_SL.png"
             },
             {
-                "model_no": "BEC-IP-B-5.0MP/A/SL_2",
+                "model_no": "BEC-IP-B-5.0MP/A/SL (plastic body)",
                 "features": [
                     "5 Mega Pixel Bullet Camera",
                     "3.6mm Fixed Lens",
@@ -239,7 +239,7 @@
                     "Plastic Body",
                     "Support Android & iOS Mobile Application"
                 ]
-                ,"img": "error.png"
+                ,"img": "BEC-IP-B-5.0MP_A_SL (plastic body).png"
             },
             {
                 "model_no": "BEC-IP-B-5.0MP/A/SL/Fisheye",
@@ -285,7 +285,7 @@
                 "img": "BEC-IP-B-4.0MP_A_SL.png"
             },
             {
-                "model_no": "BEC-IP-B-4.0MP/A/SL_2",
+                "model_no": "BEC-IP-B-4.0MP/A/SL- 6mm",
                 "features": [
                     "4 Mega Pixel Bullet Camera",
                     "6mm Fixed Lens (8mm/12mm/16mm Optional)",
@@ -296,7 +296,7 @@
                     "Weather proof IP66",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "error.png"
+                "img": "BEC-IP-B-4.0MP_A_SL- 6mm.png"
             },
             {
                 "model_no": "BEC-IP-D-4.0MP/A/SL/4AR",

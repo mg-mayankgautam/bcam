@@ -39,6 +39,7 @@ const TrendingProd = () => {
                 slidesPerView={4}
                 loop={true}
                 navigation={true}
+                centeredSlides={true}
                 // pagination={{ clickable: true, dots:true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
