@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css';
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logowhite.png'
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -72,7 +72,7 @@ const Footer = () => {
       <div className='footerCopyright'>
         <div>©️BE-CAM TECH INDIA PVT LTD 2024. All Rights Reserved.</div>
         <Link to='https://www.thefuelmedia.co/' target='_blank'>
-          <div>Designed & Developed by The Fuel Media</div>
+          <strong style={{textTransform:'uppercase'}}><div>Designed & Developed by The Fuel Media</div></strong>
         </Link>
       </div>
     </div>
