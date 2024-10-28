@@ -1,7 +1,11 @@
 import React from 'react'
 import './Solutions.css'
-import img from '../../../assets/solutions.png'
-import icon from '../../../assets/solutionsicon.png'
+import one from '../../../assets/oursolnone.png'
+import two from '../../../assets/oursolntwo.png'
+import three from '../../../assets/oursolnthree.png'
+import four from '../../../assets/oursolnfour.png'
+import five from '../../../assets/oursolnfive.png'
+import six from '../../../assets/oursolnsix.png'
 import highreso from '../../../assets/icons/High Resolution.png'
 import remotemoni from '../../../assets/icons/Remote Monitoring.png'
 import scala from '../../../assets/icons/Scalability.png'
@@ -42,7 +46,7 @@ const Solutions = () => {
                         </div>
                     </div>
                     <div className='SC_img'>
-                        <img src={img} />
+                        <img src={one} />
                     </div>
                 </div>
 
@@ -101,7 +105,7 @@ const Solutions = () => {
             <div className='solutionsContainer'>
                 <div className='SC_Grid'>
                     <div className='SC_img'>
-                        <img src={img} />
+                        <img src={two} />
                     </div>
                     <div className='SC_Header'>
                         <div className='SC_head one'>
@@ -164,7 +168,7 @@ const Solutions = () => {
                         </div>
                     </div>
                     <div className='SC_img'>
-                        <img src={img} />
+                        <img src={three} />
                     </div>
                 </div>
 
@@ -211,7 +215,7 @@ const Solutions = () => {
             <div className='solutionsContainer'>
                 <div className='SC_Grid'>
                     <div className='SC_img'>
-                        <img src={img} />
+                        <img src={four} />
                     </div>
                     <div className='SC_Header'>
                         <div className='SC_head one'>
@@ -274,7 +278,7 @@ const Solutions = () => {
                         </div>
                     </div>
                     <div className='SC_img'>
-                        <img src={img} />
+                        <img src={five} />
                     </div>
                 </div>
 
@@ -321,7 +325,7 @@ const Solutions = () => {
             <div className='solutionsContainer'>
                 <div className='SC_Grid'>
                     <div className='SC_img'>
-                        <img src={img} />
+                        <img src={six} />
                     </div>
                     <div className='SC_Header'>
                         <div className='SC_head one'>
