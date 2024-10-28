@@ -12,17 +12,17 @@ import storeData from '../../../store.json'
 
 const TrendingProd = () => {
 
-    const [products, setproducts] = useState(storeData.flatMap(category => 
+    const [products, setproducts] = useState(storeData.flatMap(category =>
         category.products.filter(product => trendingIds.includes(product.model_no))
-      ))
+    ))
 
-    useEffect(()=>{
-        const trendingProducts = storeData.flatMap(category => 
+    useEffect(() => {
+        const trendingProducts = storeData.flatMap(category =>
             category.products.filter(product => trendingIds.includes(product.model_no))
-          );
+        );
         setproducts(trendingProducts)
         // console.log(trendingProducts, products);
-    },[])
+    }, [])
 
     return (
         <div className='TrendingProd'>
@@ -35,7 +35,7 @@ const TrendingProd = () => {
 
             <Swiper className='TP_cardsFlex'
                 modules={[Pagination, Navigation]}
-                spaceBetween={20}
+                spaceBetween={0}
                 slidesPerView={4}
                 loop={true}
                 navigation={true}
@@ -44,8 +44,8 @@ const TrendingProd = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
-                {products.length>0 && products.map((item, i) => (
-                    <SwiperSlide key={i}><Product product={item}/></SwiperSlide>
+                {products.length > 0 && products.map((item, i) => (
+                    <SwiperSlide key={i}><Product product={item} /></SwiperSlide>
                 ))
                 }
             </Swiper>
