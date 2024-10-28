@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
 
       <div className='footerCopyright'>
-        <div>©️BE-CAM TECH INDIA PVT LTD 2024. All Rights Reserved.</div>
+        <div>©️ BE-CAM TECH INDIA PVT LTD 2024. All Rights Reserved.</div>
         <Link to='https://www.thefuelmedia.co/' target='_blank'>
           <strong style={{textTransform:'uppercase'}}><div>Designed & Developed by The Fuel Media</div></strong>
         </Link>
