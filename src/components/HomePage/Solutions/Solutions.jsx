@@ -2,6 +2,26 @@ import React from 'react'
 import './Solutions.css'
 import img from '../../../assets/solutions.png'
 import icon from '../../../assets/solutionsicon.png'
+import highreso from '../../../assets/icons/High Resolution.png'
+import remotemoni from '../../../assets/icons/Remote Monitoring.png'
+import scala from '../../../assets/icons/Scalability.png'
+import advfeature from '../../../assets/icons/Advanced Features.png'
+import costeff from '../../../assets/icons/Cost  Effective.png'
+import easyinte from '../../../assets/icons/Easy Integration.png'
+import relperf from '../../../assets/icons/Reliable Performance.png'
+import flexinst from '../../../assets/icons/Flexible Installation.png'
+import batterypow from '../../../assets/icons/Battery-Powered Options.png'
+import smartconn from '../../../assets/icons/Smart Connectivity.png'
+import multicam from '../../../assets/icons/Multi Camera Management.png'
+import realtime from '../../../assets/icons/Real-time Alerts.png'
+import analreport from '../../../assets/icons/Analytics.png'
+import intesurv from '../../../assets/icons/Integrated Surveillance.png'
+import controlwho from '../../../assets/icons/Control who enters.png'
+import remoteacc from '../../../assets/icons/Remote Access.png'
+import intelianal from '../../../assets/icons/Intelligent analytics.png'
+import behavdet from '../../../assets/icons/Behaviour Detection.png'
+
+
 
 const Solutions = () => {
     return (
@@ -29,7 +49,7 @@ const Solutions = () => {
                 <div className='SC_Cardsflex'>
                     <div className='SC_card one'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={highreso} />
                         </div>
                         <div className='SC_cardHead'>
                             High-Resolution Video
@@ -41,7 +61,7 @@ const Solutions = () => {
 
                     <div className='SC_card one'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={remotemoni} />
                         </div>
                         <div className='SC_cardHead'>
                             Remote Monitoring
@@ -53,7 +73,7 @@ const Solutions = () => {
 
                     <div className='SC_card one'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={scala} />
                         </div>
                         <div className='SC_cardHead'>
                             Scalability
@@ -65,7 +85,7 @@ const Solutions = () => {
 
                     <div className='SC_card one'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={advfeature} />
                         </div>
                         <div className='SC_cardHead'>
                             Advanced Features
@@ -96,7 +116,7 @@ const Solutions = () => {
                 <div className='SC_Cardsflex'>
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={costeff} />
                         </div>
                         <div className='SC_cardHead'>
                             Cost-Effective
@@ -108,7 +128,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={easyinte} />
                         </div>
                         <div className='SC_cardHead'>
                             Easy Integration
@@ -120,7 +140,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={relperf} />
                         </div>
                         <div className='SC_cardHead'>
                             Reliable Performance
@@ -151,7 +171,7 @@ const Solutions = () => {
                 <div className='SC_Cardsflex'>
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={flexinst} />
                         </div>
                         <div className='SC_cardHead'>
                             Flexible Installation
@@ -163,7 +183,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={batterypow} />
                         </div>
                         <div className='SC_cardHead'>
                             Battery-Powered Options
@@ -175,7 +195,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={smartconn} />
                         </div>
                         <div className='SC_cardHead'>
                             Smart Connectivity
@@ -206,7 +226,7 @@ const Solutions = () => {
                 <div className='SC_Cardsflex'>
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={multicam} />
                         </div>
                         <div className='SC_cardHead'>
                             Multi-Camera Management
@@ -218,7 +238,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={realtime} />
                         </div>
                         <div className='SC_cardHead'>
                             Real-Time Alerts
@@ -230,7 +250,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={analreport} />
                         </div>
                         <div className='SC_cardHead'>
                             Analytics & Reporting
@@ -261,7 +281,7 @@ const Solutions = () => {
                 <div className='SC_Cardsflex'>
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={intesurv} />
                         </div>
                         <div className='SC_cardHead'>
                             Integrated Surveillance
@@ -273,7 +293,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={controlwho} />
                         </div>
                         <div className='SC_cardHead'>
                             Control Who Enters
@@ -285,7 +305,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={remoteacc} />
                         </div>
                         <div className='SC_cardHead'>
                             Remote Access
@@ -316,7 +336,7 @@ const Solutions = () => {
                 <div className='SC_Cardsflex'>
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={intelianal} />
                         </div>
                         <div className='SC_cardHead'>
                             Intelligent Analytics
@@ -328,7 +348,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={behavdet} />
                         </div>
                         <div className='SC_cardHead'>
                             Behavior Detection
@@ -340,7 +360,7 @@ const Solutions = () => {
 
                     <div className='SC_card'>
                         <div className='SC_cardIcon'>
-                            <img src={icon} />
+                            <img src={realtime} />
                         </div>
                         <div className='SC_cardHead'>
                             Real-Time Alerts

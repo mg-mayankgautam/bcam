@@ -1,8 +1,15 @@
 @font-face {
   font-family: 'myfont';
   src: url('./assets/fonts/NeueMontreal-Regular.otf') format('woff2');
-  font-weight: normal; /* Optional: Specify the weight */
-  font-style: normal;  /* Optional: Specify the style */
+  /* font-weight: normal; Optional: Specify the weight */
+  /* font-style: normal;  Optional: Specify the style */
+}
+
+@font-face {
+  font-family: 'myfontbold';
+  src: url('./assets/fonts/NeueMontreal-Bold.otf') format('woff2');
+  font-weight: 700; 
+  /* font-style: normal;   */
 }
 
 body{
