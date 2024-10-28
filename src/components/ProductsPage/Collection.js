@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
-import img from '../../assets/products/3+1 CCTV Cable.png'
 
 const Collection = () => {
 
