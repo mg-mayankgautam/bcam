@@ -30,6 +30,10 @@ button{
   cursor: pointer;
 }
 
+.bold, strong{
+  font-family: 'myfontbold';
+}
+
 
 @media only screen and (orientation: portrait) {
   .dummyNav{

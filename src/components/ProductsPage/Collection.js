@@ -41,10 +41,10 @@ const Collection = () => {
   return (
     <div className='Collection'>
       <div className='collectionSidebar'>
-        <div className='C_searchDiv'>
+        {/* <div className='C_searchDiv'>
           <div className='C_searchHead'>SEARCH</div>
           <input placeholder='Search' className='navInput' />
-        </div>
+        </div> */}
 
         <div className='C_FilterDiv'>
 

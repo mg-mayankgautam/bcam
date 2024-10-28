@@ -44,12 +44,12 @@
     margin: 2px 0;
     cursor: pointer;
     transition: all 100ms ease-in-out;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #737373;
 }
 .C_categoryItem:hover, .C_categoryItem.bold{
     color: black;
-    font-weight: 800;
+    font-family: 'myfontbold';
 }
 
 .collectionMainbar {
