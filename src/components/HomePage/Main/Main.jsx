@@ -15,14 +15,22 @@ const Main = () => {
                 </div> */}
 
                 <div className='mainImg'>
-                    <img src={img} />
+                    {/* <img src={img} /> */}
                 </div>
 
 
                 <div className='mainText'>
 
+                    <div className='mainHeading'>
+                        <strong>
+                            <span className='orange'> Be</span>
+                            <span className='blue'>CAM</span>
+                        </strong>
+                        <br />
+                    </div>
+
                     <div className='mainTagline'>
-                        "Feel <strong className='orange italic'>SAFE</strong> with us"
+                        "feel <strong className='orange italic'>SAFE</strong> with us"
                     </div>
 
                     <div>

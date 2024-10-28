@@ -25,7 +25,7 @@
 }
 
 .mainHeading{
-    font-size: 48px;
+    font-size: 68px;
 }
 
 .mainText{
@@ -34,15 +34,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 16px;
+    gap: 8px;
     max-width: 370px;
-    text-align: justify;
+    text-align: left;
+    margin-top: 66px;
 }
 
 .mainTagline{
-    font-size: 36px;
+    font-size: 20px;
     /* font-style: italic; */
     /* font-family: ; */
+    margin-bottom: 12px;
 }
 
 .italic{
