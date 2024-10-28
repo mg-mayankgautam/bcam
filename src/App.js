@@ -17,7 +17,7 @@ function App() {
         <Route index element={<Home />} />
 
         <Route path="about" element={<About />} />
-        <Route path="products" element={<Products />} />
+        <Route path="products/:id" element={<Products />} />
         <Route path="termsandconditions" element={<Terms />} />
         <Route path="privacypolicy" element={<PrivacyPolicy />} />
 

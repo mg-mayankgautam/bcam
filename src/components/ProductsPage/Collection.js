@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
+import { useParams } from 'react-router-dom';
 
 const Collection = () => {
 
+  const { id } = useParams();
+
   useEffect(() => {
     window.scrollTo(0, 0)
-  }, [])
+  }, [id])
 
-  const [selectedCategory, setSelectedCategory] = useState("Wi-Fi Camera");
+
+  const [selectedCategory, setSelectedCategory] = useState(id);
 
   const [products, setProducts] = useState(store.filter((category) => category.category === selectedCategory));
 
@@ -25,9 +29,13 @@ const Collection = () => {
   };
 
 
+  useEffect(() => {
+    setSelectedCategory(id)
+  }, [id])
 
   useEffect(() => {
     setProducts(store.filter((category) => category.category === selectedCategory))
+    console.log(selectedCategory)
   }, [selectedCategory])
 
 

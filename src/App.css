@@ -12,6 +12,13 @@
   /* font-style: normal;   */
 }
 
+@font-face {
+  font-family: 'myfontblack';
+  src: url('./assets/fonts/HelveticaNowDisplay-Black.woff2') format('woff2');
+  font-weight: 700; 
+  /* font-style: normal;   */
+}
+
 body{
   background-color: #f1f2f4;
   font-family: 'myfont';
@@ -34,6 +41,10 @@ button{
 .bold, strong{
   font-family: 'myfontbold';
   /* font-weight: 800; */
+}
+
+.black{
+  font-family: 'myfontblack';
 }
 
 

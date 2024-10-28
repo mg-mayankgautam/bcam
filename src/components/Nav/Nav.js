@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Nav.css'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import logo from '../../assets/logo.png'
 
 const Nav = () => {
@@ -8,8 +8,26 @@ const Nav = () => {
     const location = useLocation();
 
     const [searchInput, setSearchInput] = useState('');
-    const [searchResults, setSearchResults] = useState();
+    const [searchResults, setSearchResults] = useState([]);
+    const navigate = useNavigate();
 
+    const handleSearchChange = (e) => {
+        const inputValue = e.target.value;
+        setSearchInput(inputValue);
+
+        const filteredResults = categories.filter(category =>
+            category.toLowerCase().includes(inputValue.toLowerCase())
+        );
+
+        setSearchResults(filteredResults);
+
+    };
+
+    const handleSelect = (match) => {
+        navigate(`/products/${match}`);
+        setSearchInput('');
+        setSearchResults([]);
+    };
 
 
     return (
@@ -31,8 +49,8 @@ const Nav = () => {
                         About Us
                     </div>
                 </Link>
-                <Link to='/products'>
-                    <div className={`navitem ${location.pathname === '/products' ? 'selected' : ''}`}>
+                <Link to='/products/Wi-Fi%20Camera'>
+                    <div className={`navitem ${location.pathname.includes('/products') ? 'selected' : ''}`}>
                         Products
                     </div>
                 </Link>
@@ -48,12 +66,46 @@ const Nav = () => {
             </div>
 
             <div className='navSearch'>
-                <input placeholder='Search' className='navInput'
-                    onChange={(e) => setSearchInput(e.target.value)}
+                <input
+                    type="text"
+                    placeholder='Search'
+                    className='navInput'
+                    value={searchInput}
+                    onChange={handleSearchChange}
                 />
             </div>
+
+
+            {(searchResults.length > 0 && searchInput) && (
+                <div className='Navdropdown'>
+                    {searchResults.map((match, index) => (
+                        <div
+                            key={index}
+                            className='dropdown-item'
+                            onClick={() => handleSelect(match)}
+                        >
+                            {match}
+                        </div>
+                    ))}
+                </div>
+            )}
+
         </div>
     )
 }
 
 export default Nav
+
+const categories = [
+    "Wi-Fi Camera",
+    "4G Camera",
+    "IP Camera",
+    "Analog Camera",
+    "NVR",
+    "DVR",
+    "PoE Switch",
+    "4G Router",
+    "Rack",
+    "Power Supply",
+    "Accessories"
+];
