@@ -41,7 +41,7 @@
 
 .C_categoryItem {
     font-size: 12px;
-    margin: 2px 0;
+    margin: 9px 0;
     cursor: pointer;
     transition: all 100ms ease-in-out;
     /* text-transform: uppercase; */
@@ -68,7 +68,7 @@
 
 .C_productsContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 16px;
     row-gap: 48px;
     margin-top: 32px;
@@ -163,6 +163,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+    text-align: left;
 }
 
 .prod_modelno{

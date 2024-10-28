@@ -1,6 +1,6 @@
 .Footer{
     color: var(--secondary);
-    padding: 40px 80px;
+    padding: 60px 80px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -11,7 +11,7 @@
     /* background-image: linear-gradient(0deg, #ff660080,white); */
     /* background-color: var(--secondary); */
     color: white;
-    background-image: linear-gradient(180deg, #281c81, #0b0824);
+    background-image: linear-gradient(180deg, #281c81, #0a0720);
 
 }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Nav.css'
 import { Link, useLocation } from 'react-router-dom'
 import logo from '../../assets/logo.png'
@@ -7,11 +7,17 @@ const Nav = () => {
 
     const location = useLocation();
 
+    const [searchInput, setSearchInput] = useState('');
+    const [searchResults, setSearchResults] = useState();
+
+
 
     return (
         <div className='Nav'>
             <div className='navLogo'>
-                <img src={logo} />
+                <Link to='/'>
+                    <img src={logo} />
+                </Link>
             </div>
 
             <div className='navItems'>
@@ -42,7 +48,9 @@ const Nav = () => {
             </div>
 
             <div className='navSearch'>
-                <input placeholder='Search' className='navInput' />
+                <input placeholder='Search' className='navInput'
+                    onChange={(e) => setSearchInput(e.target.value)}
+                />
             </div>
         </div>
     )

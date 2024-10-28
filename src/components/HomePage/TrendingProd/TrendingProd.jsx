@@ -24,6 +24,24 @@ const TrendingProd = () => {
         // console.log(trendingProducts, products);
     }, [])
 
+
+
+    const [modal, setModal] = useState(false);
+    const [selectedProduct, setSelectedProduct] = useState(null);
+
+
+    const handleProductClick = (product) => {
+        setSelectedProduct(product);
+        setModal(true); // Open the modal
+    };
+
+    const handleCloseModal = (e) => {
+        if (e.target.className === 'modalContainer') {
+            setModal(false);
+        }
+    };
+
+
     return (
         <div className='TrendingProd'>
             <div className='TP_head'>
@@ -35,7 +53,7 @@ const TrendingProd = () => {
 
             <Swiper className='TP_cardsFlex'
                 modules={[Pagination, Navigation]}
-                spaceBetween={0}
+                spaceBetween={10}
                 slidesPerView={4}
                 loop={true}
                 navigation={true}
@@ -45,11 +63,54 @@ const TrendingProd = () => {
                 onSlideChange={() => console.log('slide change')}
             >
                 {products.length > 0 && products.map((item, i) => (
-                    <SwiperSlide key={i}><Product product={item} /></SwiperSlide>
+                    <SwiperSlide key={i}
+                        onClick={() => handleProductClick(item)}
+                    >
+                        <Product product={item} />
+                    </SwiperSlide>
                 ))
                 }
             </Swiper>
+
+
+
+            {modal && selectedProduct && (
+                <div className='modalContainer' onClick={handleCloseModal}>
+                    <div className='modal'>
+
+                        <div className='prod_Flex'>
+
+                            <div className='prod_Img'>
+                                <img src={require(`../../../assets/products/${selectedProduct?.img}`)} alt='no' />
+                            </div>
+
+                            <div className='prod_Content'>
+                                <div className='prod_modelno'>{selectedProduct.model_no}</div>
+                                {/* <div className='prod_category'>{selectedCategory}</div> */}
+
+                                <ul className='prod_features'>
+                                    {selectedProduct.features?.map((feature, i) => (
+                                        <li key={i}>{feature}</li>
+                                    ))}
+                                </ul>
+
+
+                            </div>
+                        </div>
+
+                        <div className='prod_btnDiv'>
+                            <button className='prod_btn'>
+                                Request for information
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+
         </div>
+
+
     )
 }
 
