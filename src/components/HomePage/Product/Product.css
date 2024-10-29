@@ -10,6 +10,7 @@
     align-items: center;
     margin: 28px 0;
     cursor: pointer;
+    min-height: 190px;
 }
 
 .ProdImg{
@@ -33,7 +34,8 @@
 
 @media only screen and (orientation: portrait) {
     .Product{
-        padding: 16px 10px 32px;
+    min-height: 170px;
+    padding: 16px 10px 32px;
     }
 
     .prodHead{
