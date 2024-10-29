@@ -64,7 +64,7 @@ const TrendingProd = () => {
                         slidesPerView: 2,
                         spaceBetween: 5,
                     },
-                    400: {
+                    500: {
                         slidesPerView: 3,
                         spaceBetween: 10,
                     },
