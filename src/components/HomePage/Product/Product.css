@@ -30,3 +30,17 @@
 .prodText{
     font-size: 13px;
 }
+
+@media only screen and (orientation: portrait) {
+    .Product{
+        padding: 16px 10px 32px;
+    }
+
+    .prodHead{
+        font-size: 14px;
+    }
+    
+    .prodText{
+        font-size: 12px;
+    }
+}

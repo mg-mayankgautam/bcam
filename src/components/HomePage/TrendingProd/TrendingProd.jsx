@@ -59,6 +59,20 @@ const TrendingProd = () => {
                 navigation={true}
                 centeredSlides={true}
                 // pagination={{ clickable: true, dots:true }}
+                breakpoints={{
+                    250: {
+                        slidesPerView: 2,
+                        spaceBetween: 5,
+                    },
+                    400: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                    800: {
+                        slidesPerView: 4,
+                        spaceBetween: 10,
+                    },
+                }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >

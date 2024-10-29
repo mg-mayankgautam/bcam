@@ -45,6 +45,10 @@
     color: white;
 }
 
+.navSearch {
+    position: relative;
+}
+
 .navInput {
     border-radius: 30px;
     border: 1px solid #0000001a;
@@ -53,15 +57,16 @@
 
 .Navdropdown {
     position: absolute;
-    top: 50px;
-    right: 27px;
+    top: 30px;
+    right: 0px;
+    left: 0;
     background-color: white;
     padding: 16px 28px;
     min-width: 130px;
     border-radius: 10px;
 }
 
-.dropdown-item{
+.dropdown-item {
     margin: 2px 0;
     text-align: left;
     font-size: 14px;
@@ -72,4 +77,80 @@
     color: black;
     font-weight: 600;
     cursor: pointer;
+}
+
+.hamburgerNav {
+    display: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.closeNavBtn {
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.mobileNavContainer {
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    justify-content: flex-end;
+}
+
+.mobileNav {
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 32px 20px;
+    background-color: white;
+    height: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mobilenavItems {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* align-items: center; */
+    /* flex-grow: 1; */
+    font-size: 14px;
+}
+
+.mobilenavitem {
+    padding: 12px 19px;
+    border-radius: 10px;
+    transition: 100ms ease-in-out;
+    text-align: left;
+}
+
+.mobilenavitem.selected,
+.mobilenavitem:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.mobilenavSearch {
+    position: relative;
+}
+
+.mobilenavSearch input {
+    width: calc(100% - 32px);
+}
+
+@media only screen and (max-width: 961px) {
+    .navItems {
+        display: none;
+    }
+
+    .navSearch {
+        display: none;
+    }
+
+    .hamburgerNav {
+        display: block;
+    }
 }

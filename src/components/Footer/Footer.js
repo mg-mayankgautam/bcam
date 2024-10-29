@@ -40,7 +40,7 @@ const Footer = () => {
             <Link to=''>
               <div>Gallery</div>
             </Link>
-            <Link to=''>
+            <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'>
               <div>Contact Us</div>
             </Link>
           </div>

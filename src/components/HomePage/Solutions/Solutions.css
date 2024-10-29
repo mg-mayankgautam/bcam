@@ -37,9 +37,10 @@
     color: var(--secondary);
     font-weight: 700;
     font-size: 25px;
+    text-align: left;
 }
 
-.SC_head.one{
+.SC_head.one {
     text-align: right;
 }
 
@@ -60,7 +61,7 @@
     max-height: 100%;
 }
 
-.SC_Cardsflex{
+.SC_Cardsflex {
     display: flex;
     gap: 16px;
     justify-content: space-between;
@@ -76,11 +77,12 @@
     align-items: center;
     width: 30%;
 }
-.SC_card.one{
+
+.SC_card.one {
     width: 25%;
 }
 
-.SC_cardIcon{
+.SC_cardIcon {
     height: 120px;
     width: 120px;
     display: flex;
@@ -89,13 +91,111 @@
     background-color: var(--primary);
     border-radius: 100px;
 }
-.SC_cardIcon img{
+
+.SC_cardIcon img {
     object-fit: contain;
     height: 90%;
 }
 
-.SC_cardHead{
+.SC_cardHead {
     font-size: 20px;
     font-weight: 700;
     color: var(--secondary);
+}
+
+@media only screen and (max-width: 870px) {
+    .Solutions {
+        padding: 60px 40px 60px;
+    }
+
+    .solutionsContainer {
+        padding: 20px;
+    }
+
+    .SC_Grid {
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        gap: 16px;
+    }
+
+    .SC_Cardsflex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .SC_card {
+        padding: 16px 16px 24px;
+        gap: 10px;
+        width: calc(50% - 32px - 10px);
+    }
+
+    .SC_card.one {
+        width: calc(50% - 32px - 10px);
+    }
+
+    .SC_cardIcon {
+        height: 120px;
+        width: 120px;
+    }
+
+    .SC_cardIcon img {
+        object-fit: contain;
+        height: 90%;
+    }
+
+    .SC_cardHead {
+        font-size: 20px;
+    }
+
+}
+
+
+@media only screen and (orientation: portrait) {
+    .Solutions {
+        padding: 60px 20px 60px;
+    }
+
+    .solutionsContainer {
+        padding: 20px;
+    }
+
+    .SC_Grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .SC_Cardsflex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .SC_card {
+        /* padding: 16px 10px 24px; */
+        gap: 10px;
+        width: calc(100% - 32px);
+    }
+
+    .SC_card.one {
+        width: calc(100% - 32px);
+    }
+
+    .SC_cardIcon {
+        height: 70px;
+        width: 70px;
+    }
+
+    .SC_cardIcon img {
+        object-fit: contain;
+        height: 90%;
+    }
+
+    .SC_cardHead {
+        font-size: 18px;
+    }
+
 }

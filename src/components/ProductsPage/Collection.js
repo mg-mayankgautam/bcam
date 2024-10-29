@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const Collection = () => {
 
@@ -62,7 +62,7 @@ const Collection = () => {
               <div
                 key={category.category}
                 onClick={() => handleCategorySelect(category.category)}
-                className={selectedCategory==category.category? 'C_categoryItem bold' : 'C_categoryItem'}
+                className={selectedCategory == category.category ? 'C_categoryItem bold' : 'C_categoryItem'}
               >
                 {category.category}
               </div>
@@ -165,9 +165,11 @@ const Collection = () => {
             </div>
 
             <div className='prod_btnDiv'>
-              <button className='prod_btn'>
-                Request for information
-              </button>
+              {/* <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'> */}
+                <button className='prod_btn'>
+                  Request for information
+                </button>
+              {/* </Link> */}
             </div>
           </div>
         </div>
