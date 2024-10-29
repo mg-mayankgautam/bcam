@@ -64,7 +64,7 @@ const Collection = () => {
                 onClick={() => handleCategorySelect(category.category)}
                 className={selectedCategory==category.category? 'C_categoryItem bold' : 'C_categoryItem'}
               >
-                &gt; {category.category}
+                {category.category}
               </div>
             ))}
           </div>

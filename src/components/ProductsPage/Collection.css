@@ -46,6 +46,7 @@
     transition: all 100ms ease-in-out;
     /* text-transform: uppercase; */
     color: #737373;
+    padding-left: 8px;
 }
 .C_categoryItem:hover, .C_categoryItem.bold{
     color: black;

@@ -44,7 +44,7 @@ const TrendingProd = () => {
 
     return (
         <div className='TrendingProd'>
-            <div className='TP_head'>
+            <div className='TP_head bold'>
                 <strong className='orange'>Trending</strong> Products
             </div>
             {/* <div className='TP_cardsFlex'>

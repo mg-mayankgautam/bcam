@@ -30,7 +30,7 @@ import behavdet from '../../../assets/icons/Behaviour Detection.png'
 const Solutions = () => {
     return (
         <div className='Solutions'>
-            <div className='TP_head'>
+            <div className='TP_head bold'>
                 <strong className='orange'>Our</strong> Solutions
             </div>
 
