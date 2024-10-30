@@ -53,50 +53,54 @@ const Collection = () => {
           <input placeholder='Search' className='navInput' />
         </div> */}
 
-        <div className='C_FilterDiv'>
+        <div className='C_ProdFunctions'>
 
-          <div className='C_searchHead'>PRODUCT CATEGORIES</div>
+          <div className='categoriesHideforMobile'>
+            <div className='C_searchHead'>PRODUCT CATEGORIES</div>
 
-          <div>
-            {store.map((category) => (
-              <div
-                key={category.category}
-                onClick={() => handleCategorySelect(category.category)}
-                className={selectedCategory == category.category ? 'C_categoryItem bold' : 'C_categoryItem'}
-              >
-                {category.category}
-              </div>
-            ))}
+            <div className='C_categoriesDiv'>
+              {store.map((category) => (
+                <div
+                  key={category.category}
+                  onClick={() => handleCategorySelect(category.category)}
+                  className={selectedCategory == category.category ? 'C_categoryItem bold' : 'C_categoryItem'}
+                >
+                  {category.category}
+                </div>
+              ))}
+            </div>
           </div>
 
-          <div className='C_searchHead'>FILTER BY</div>
           <div>
-            <div className='C_categoryItem'>
-              Product Series
-            </div>
+            <div className='C_searchHead'>FILTER BY</div>
+            <div className='C_FilterProdDiv'>
+              <div className='C_categoryItem'>
+                Product Series
+              </div>
 
-            <div className='C_categoryItem'>
-              Audio
-            </div>
+              <div className='C_categoryItem'>
+                Audio
+              </div>
 
-            <div className='C_categoryItem'>
-              Body Type
-            </div>
+              <div className='C_categoryItem'>
+                Body Type
+              </div>
 
-            <div className='C_categoryItem'>
-              Bandwidth Incoming
-            </div>
+              <div className='C_categoryItem'>
+                Bandwidth Incoming
+              </div>
 
-            <div className='C_categoryItem'>
-              IR
-            </div>
+              <div className='C_categoryItem'>
+                IR
+              </div>
 
-            <div className='C_categoryItem'>
-              IR Range
-            </div>
+              <div className='C_categoryItem'>
+                IR Range
+              </div>
 
-            <div className='C_categoryItem'>
-              Resolution
+              <div className='C_categoryItem'>
+                Resolution
+              </div>
             </div>
           </div>
 
@@ -166,9 +170,9 @@ const Collection = () => {
 
             <div className='prod_btnDiv'>
               {/* <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'> */}
-                <button className='prod_btn'>
-                  Request for information
-                </button>
+              <button className='prod_btn'>
+                Request for information
+              </button>
               {/* </Link> */}
             </div>
           </div>

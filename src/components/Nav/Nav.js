@@ -37,10 +37,17 @@ const Nav = () => {
         }
     };
 
-    useEffect(()=>{
+    useEffect(() => {
         setOpenMobileNav(false)
-    },[location.pathname])
+        setOpenMobileCategories(false)
+    }, [location.pathname])
 
+
+    const [openMobileCategories, setOpenMobileCategories] = useState(false);
+
+    const handleCloseCategories = (e) => {
+        
+    };
 
     return (
         <div className='Nav'>
@@ -109,54 +116,35 @@ const Nav = () => {
             </div>
 
 
-            {openMobileNav &&
-                (
-                    <div className='mobileNavContainer' onClick={handleCloseNav}>
-                        <div className='mobileNav'>
-                            <div className='closeNavBtn' onClick={() => setOpenMobileNav(false)}>
-                                ×
-                            </div>
+            {openMobileNav && (
+                <div className='mobileNavContainer' onClick={handleCloseNav}>
+                    <div className='mobileNav'>
+                        <div className='closeNavBtn' onClick={() => setOpenMobileNav(false)}>
+                            ×
+                        </div>
 
-                            <div className='mobilenavItems'>
-                                <Link to='/'>
-                                    <div className={`mobilenavitem ${location.pathname === '/' ? 'selected' : ''}`}>
-                                        Home
-                                    </div>
-                                </Link>
-                                <Link to='/about'>
-                                    <div className={`mobilenavitem ${location.pathname === '/about' ? 'selected' : ''}`}>
-                                        About Us
-                                    </div>
-                                </Link>
-                                <Link to='/products/Wi-Fi%20Camera'>
-                                    <div className={`mobilenavitem ${location.pathname.includes('/products') ? 'selected' : ''}`}>
-                                        Products
-                                    </div>
-                                </Link>
-                                <Link to='/'>
-                                    <div className='mobilenavitem'>Our Clients</div>
-                                </Link>
-                                <Link to='/'>
-                                    <div className='mobilenavitem'>Gallery</div>
-                                </Link>
-                                <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'>
-                                    <div className='mobilenavitem'>Contact Us</div>
-                                </Link>
-                            </div>
-
-                            <div className='mobilenavSearch'>
-                                <input
-                                    type="text"
-                                    placeholder='Search'
-                                    className='navInput'
-                                    value={searchInput}
-                                    onChange={handleSearchChange}
-                                />
-
-
-                                {(searchResults.length > 0 && searchInput) && (
-                                    <div className='Navdropdown'>
-                                        {searchResults.map((match, index) => (
+                        <div className='mobilenavItems'>
+                            <Link to='/'>
+                                <div className={`mobilenavitem ${location.pathname === '/' ? 'selected' : ''}`}>
+                                    Home
+                                </div>
+                            </Link>
+                            <Link to='/about'>
+                                <div className={`mobilenavitem ${location.pathname === '/about' ? 'selected' : ''}`}>
+                                    About Us
+                                </div>
+                            </Link>
+                            <div className='ProductDropDownDiv'
+                                // onClick={(handleCloseCategories)}
+                            >
+                                <div className={`mobilenavitem ${location.pathname.includes('/products') ? 'selected' : ''}`}
+                                onClick={()=> setOpenMobileCategories(!openMobileCategories)}
+                                >
+                                    Products
+                                </div>
+                                {(openMobileCategories && categories) && (
+                                    <div className='categoriesdropdown'>
+                                        {categories.map((match, index) => (
                                             <div
                                                 key={index}
                                                 className='dropdown-item'
@@ -168,10 +156,43 @@ const Nav = () => {
                                     </div>
                                 )}
                             </div>
+                            <Link to='/'>
+                                <div className='mobilenavitem'>Our Clients</div>
+                            </Link>
+                            <Link to='/'>
+                                <div className='mobilenavitem'>Gallery</div>
+                            </Link>
+                            <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'>
+                                <div className='mobilenavitem'>Contact Us</div>
+                            </Link>
+                        </div>
+
+                        <div className='mobilenavSearch'>
+                            <input
+                                type="text"
+                                placeholder='Search'
+                                className='navInput'
+                                value={searchInput}
+                                onChange={handleSearchChange}
+                            />
+
+                            {(searchResults.length > 0 && searchInput) && (
+                                <div className='Navdropdown'>
+                                    {searchResults.map((match, index) => (
+                                        <div
+                                            key={index}
+                                            className='dropdown-item'
+                                            onClick={() => handleSelect(match)}
+                                        >
+                                            {match}
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     </div>
-                )
-            }
+                </div>
+            )}
 
 
         </div>
