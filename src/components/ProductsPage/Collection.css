@@ -38,6 +38,10 @@
     font-size: 15px;
     color: #737373;
 }
+.C_searchHead.mobile{
+    display: flex;
+    justify-content: space-between;
+}
 
 .C_categoryItem {
     font-size: 12px;
@@ -218,6 +222,36 @@
     border: none;
 }
 
+.categoriesSHOWforMobile{
+    display: none;
+    position: relative;
+}
+
+.categoriesdropdown{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    left: 0;
+    background-color: var(--grey);
+    border: 0.25px solid #00000011;
+    box-shadow: 0px 5px 10px #0000001a;
+    padding: 16px 20px;
+    min-width: 130px;
+    border-radius: 5px;
+    z-index: 4;
+}
+
+.up{
+    transform: rotateX(0deg); /* 3D rotation along the Y-axis */
+    transform-style: preserve-3d; /* Ensures children of the element stay in 3D */
+    transition: all 400ms ease-in-out;
+    perspective: 1000px; /* Controls the depth. Higher value = less pronounced 3D effect */
+}
+.up.down{
+    transform: rotateX(180deg);
+}
+
+
 @media only screen and (max-width: 850px) {
     .Collection {
         padding: 32px 40px;
@@ -229,6 +263,7 @@
 
     .C_ProdFunctions {
         padding: 24px 20px;
+        gap: 24px;
     }
 
     .collectionMainbar {
@@ -355,6 +390,9 @@
 
     .categoriesHideforMobile {
         display: none;
+    }
+    .categoriesSHOWforMobile{
+        display: block;
     }
 
     .C_categoryItem, .C_filterItem {

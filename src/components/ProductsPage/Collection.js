@@ -56,6 +56,7 @@ const Collection = () => {
 
   useEffect(() => {
     setSelectedCategory(id)
+    setOpenMobileCategories(false)
   }, [id])
 
   useEffect(() => {
@@ -79,6 +80,7 @@ const Collection = () => {
     })
     // console.log(selectedCategory)
     // console.log(selectedFilters)
+    setOpenMobileCategories(false)
   }, [selectedCategory])
 
 
@@ -147,6 +149,9 @@ const Collection = () => {
   };
 
 
+  const [openMobileCategories, setOpenMobileCategories] = useState(false);
+
+
 
   return (
     <div className='Collection'>
@@ -172,6 +177,44 @@ const Collection = () => {
                 </div>
               ))}
             </div>
+          </div>
+
+
+          <div className='categoriesSHOWforMobile'>
+            <div className='C_searchHead mobile'
+              onClick={() => setOpenMobileCategories(!openMobileCategories)}>
+              <div>PRODUCT CATEGORIES</div>
+              {/* <div>{openMobileCategories ? '▲' : '▼'}</div> */}
+              <div className={openMobileCategories? 'up' : 'up down'}>▲</div>
+            </div>
+
+            {openMobileCategories &&
+              <div className='C_categoriesDiv categoriesdropdown'>
+                {store?.map((category) => (
+                  <div
+                    key={category.category}
+                    onClick={() => handleCategorySelect(category.category)}
+                    className={selectedCategory == category.category ? 'C_categoryItem bold' : 'C_categoryItem'}
+                  >
+                    {category.category}
+                  </div>
+                ))}
+              </div>
+            }
+
+            {/* {(openMobileCategories && categories) && (
+              <div className='categoriesdropdown'>
+                {categories.map((match, index) => (
+                  <div
+                    key={index}
+                    className='dropdown-item'
+                    onClick={() => handleSelect(match)}
+                  >
+                    {match}
+                  </div>
+                ))}
+              </div>
+            )} */}
           </div>
 
           <div>

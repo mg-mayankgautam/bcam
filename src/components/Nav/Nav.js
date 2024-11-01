@@ -39,15 +39,12 @@ const Nav = () => {
 
     useEffect(() => {
         setOpenMobileNav(false)
-        setOpenMobileCategories(false)
+        // setOpenMobileCategories(false)
     }, [location.pathname])
 
 
-    const [openMobileCategories, setOpenMobileCategories] = useState(false);
+    // const [openMobileCategories, setOpenMobileCategories] = useState(false);
 
-    const handleCloseCategories = (e) => {
-        
-    };
 
     return (
         <div className='Nav'>
@@ -134,28 +131,13 @@ const Nav = () => {
                                     About Us
                                 </div>
                             </Link>
-                            <div className='ProductDropDownDiv'
-                                // onClick={(handleCloseCategories)}
-                            >
+                            <Link to='/products/Wi-Fi%20Camera'>
                                 <div className={`mobilenavitem ${location.pathname.includes('/products') ? 'selected' : ''}`}
-                                onClick={()=> setOpenMobileCategories(!openMobileCategories)}
                                 >
                                     Products
                                 </div>
-                                {(openMobileCategories && categories) && (
-                                    <div className='categoriesdropdown'>
-                                        {categories.map((match, index) => (
-                                            <div
-                                                key={index}
-                                                className='dropdown-item'
-                                                onClick={() => handleSelect(match)}
-                                            >
-                                                {match}
-                                            </div>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
+                                
+                            </Link>
                             <Link to='/'>
                                 <div className='mobilenavitem'>Our Clients</div>
                             </Link>
