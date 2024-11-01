@@ -49,6 +49,15 @@
     padding-left: 8px;
 }
 
+.C_filterItem{
+    font-size: 12px;
+    margin: 9px 0;
+    transition: all 100ms ease-in-out;
+    /* text-transform: uppercase; */
+    color: #737373;
+    padding-left: 8px;
+}
+
 .C_categoryItem:hover,
 .C_categoryItem.bold {
     color: black;
@@ -348,7 +357,7 @@
         display: none;
     }
 
-    .C_categoryItem {
+    .C_categoryItem, .C_filterItem {
         font-size: 12px;
         margin: 4px 0;
     }

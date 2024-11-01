@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
 import { Link, useParams } from 'react-router-dom';
+import dvr from '../../assets/products/BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png'
 
 const Collection = () => {
 
@@ -9,7 +10,7 @@ const Collection = () => {
 
 
 
- 
+
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [id])
@@ -19,15 +20,26 @@ const Collection = () => {
 
   const [products, setProducts] = useState(store.filter((category) => category.category == selectedCategory));
 
-  
-  const [selectedFilters, setSelectedFilters] = useState(products[0]?.selectedFiltersobj);
-//   const [selectedFilters, setSelectedFilters] = useState({
-//     "Mega Pixel": [],
-//     "IR Range": [],
-//     "Memory Card": [],
-//     "Lens": []
-// });
-console.log(products)
+
+  // const [selectedFilters, setSelectedFilters] = useState(products[0]?.selectedFiltersobj);
+  const [selectedFilters, setSelectedFilters] = useState({
+    "Mega Pixel": [],
+    "IR Range": [],
+    "Memory Card": [],
+    "Lens": [],
+    "Body Type": [],
+    "Audio": [],
+    "Video Channel": [],
+    "Hard Disk": [],
+    "Port": [],
+    "SFP Port": [],
+    "Antenna": [],
+    "Adapter": [],
+    "Size": [],
+    "Channel": [],
+    "Ampere": [],
+  });
+
 
   const [modal, setModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -48,7 +60,25 @@ console.log(products)
 
   useEffect(() => {
     setProducts(store.filter((category) => category.category == selectedCategory))
-    console.log(selectedCategory)
+    setSelectedFilters({
+      "Mega Pixel": [],
+      "IR Range": [],
+      "Memory Card": [],
+      "Lens": [],
+      "Body Type": [],
+      "Audio": [],
+      "Video Channel": [],
+      "Hard Disk": [],
+      "Port": [],
+      "SFP Port": [],
+      "Antenna": [],
+      "Adapter": [],
+      "Size": [],
+      "Channel": [],
+      "Ampere": [],
+    })
+    // console.log(selectedCategory)
+    // console.log(selectedFilters)
   }, [selectedCategory])
 
 
@@ -59,30 +89,63 @@ console.log(products)
   };
 
   const handleCheckboxChange = (category, value) => {
+    // This function is called when a checkbox changes state (either checked or unchecked).
+    // It updates the selected filters based on the category and the value of the checkbox.
+
     setSelectedFilters(prevState => {
-      console.log(prevState[category])
+      // setSelectedFilters is a state updater function that updates the state of selected filters.
+      // It receives a function that takes the previous state (prevState) as an argument.
+
+      console.log(prevState[category]);
+      // Log the current selections for the specified category to the console for debugging purposes.
+
       const currentSelections = prevState[category];
-      
+      // Get the current selections for the specified category from the previous state.
+
       const newSelections = currentSelections?.includes(value)
         ? currentSelections.filter(item => item !== value) // Remove if already selected
         : [...currentSelections, value]; // Add if not selected
 
+      // Here, we check if the current selections include the value of the checkbox:
+      // - If it does, we filter the currentSelections array to remove that value (unselecting it).
+      // - If it does not, we create a new array that includes all the current selections and adds the new value (selecting it).
+
       return {
-        ...prevState,
-        [category]: newSelections
+        ...prevState, // Spread the previous state to keep all other categories and their selections intact.
+        [category]: newSelections // Update the selections for the specified category with the new selections.
       };
     });
   };
 
+
+
   const filterProducts = (products) => {
+    // This function filters the given products array based on selected filters.
     return products.filter(product => {
+      // The filter method creates a new array with all products that pass the test implemented by the provided function.
+
       return Object.entries(selectedFilters)?.every(([key, values]) => {
-        if (values.length === 0) return true; // If no filters selected for this key, keep all products
+        // Object.entries(selectedFilters) converts the selectedFilters object into an array of key-value pairs.
+        // For each key-value pair, we check if the product matches the selected filters.
+
+        if (values.length === 0) return true;
+        // If there are no selected filters for this key, we return true, meaning we keep all products.
+        // This allows products to be included in the filtered results when no filter is applied.
+
         const productFilterValue = product.filters.find(filter => filter[key] !== undefined);
+        // We use the find method to search through the product's filters to find one that matches the current key.
+        // If a matching filter is found, productFilterValue will hold that filter; otherwise, it will be undefined.
+
         return productFilterValue && values.includes(productFilterValue[key]);
+        // We return true if:
+        // - productFilterValue is truthy (i.e., a matching filter was found),
+        // - and the value of that filter for the current key is included in the selected values.
+        // If both conditions are met, the product passes this filter and will be included in the final filtered array.
       });
     });
+    // The overall result is an array of products that meet all the selected filter criteria.
   };
+
 
 
   return (
@@ -114,83 +177,38 @@ console.log(products)
           <div>
             <div className='C_searchHead'>FILTER BY</div>
             <div className='C_FilterProdDiv'>
-              {/* orignal */}
-              {/* <div className='C_categoryItem'>
-              Mega Pixel
-              </div> */}
 
-              {/* {products[0]?.filters?.map((filter, index) => {
-                const filterKey = Object.keys(filter)[0]; // Get the filter name
-                const filterOptions = filter[filterKey]; // Get the options for the filter
+              {products[0].filters.length > 0 &&
+                products[0].filters.map((filterCategory, index) => {
+                  const [key, values] = Object.entries(filterCategory)[0];
 
-                return (
-                  <div key={index} className='C_categoryItem'>
-                    <h4>{filterKey}</h4>
-                    {filterOptions.map((option, idx) => (
-                      <label key={idx} className='checkboxLabel'>
-                        <input
-                          type='checkbox'
-                          value={option}
-
-                        />
-                        {option}
-                      </label>
-                    ))}
-                  </div>
-                );
-              })} */}
-              {/* {products[0].filters.map((filterCategory, index) => {
-            // Extract key-value pairs from the filterCategory object
-            const [key, values] = Object.entries(filterCategory)[0]; // Get the first key-value pair
-
-            return (
-                <div key={index}>
-                    <h4>{key}</h4>
-                    <ul>
+                  console.log(filterCategory)
+                  return (
+                    <div key={index} className='C_filterItem'>
+                      <div>{key}</div>
+                      <div>
                         {values.map((value, idx) => (
-                            <li key={idx}>{value}</li>
+
+                          <div key={idx}>
+                            <label>
+                              <input
+                                type="checkbox"
+                                checked={selectedFilters[key]?.includes(value)}
+                                onChange={() => handleCheckboxChange(key, value)}
+                              />
+                              {value}
+
+                            </label>
+                          </div>
                         ))}
-                    </ul>
-                </div>
-            );
-        })} */}
+                      </div>
+                    </div>
+                  );
+                })}
 
-              {products[0].filters.map((filterCategory, index) => {
-                const [key, values] = Object.entries(filterCategory)[0];
-
-                return (
-                  <div key={index}>
-                    <h4>{key}</h4>
-                    <ul>
-                      {values.map((value, idx) => (
-
-                        <li key={idx}>
-                          <label>
-                            <input
-                              type="checkbox"
-                              checked={selectedFilters[key]?.includes(value)}
-                              onChange={() => handleCheckboxChange(key, value)}
-                            />
-                            {value}
-
-                          </label>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                );
-              })}
+              {products[0].filters.length == 0 && <div className='C_categoryItem'>No Filters Available</div>}
 
             </div>
-
-
-
-
-
-
-
-
-
 
           </div>
 
@@ -198,47 +216,13 @@ console.log(products)
         </div>
       </div>
 
-      {/* <div className='collectionMainbar'>
-        {products.length > 0 ? (
-          products.map((category) => (
-
-            <div key={category.category}>
-
-              <div className='C_MainHead'>
-                {category.category}
-              </div>
-
-              <div className='C_productsContainer'>
-
-                {category?.products?.map((product) => (
-
-                  <div key={product?.model_no} className='C_productItem'
-                    onClick={() => handleProductClick(product)}
-                  >
-
-                    <div className='C_prodImg'>
-                      <img src={require(`../../assets/products/${product.img}`)} alt='not available' />
-                    </div>
-                    <div className='C_prodText'>
-                      {product.model_no}
-                    </div>
-
-                  </div>
-                ))}
-
-              </div>
-            </div>
-          ))
-        ) : (
-          <div>Select a category to see products.</div>
-        )}
-      </div> */}
 
       <div className='collectionMainbar'>
         {products.length > 0 ? (
           products.map((category) => {
-            const filteredProducts = filterProducts(category.products); // Get filtered products for the current category
 
+            const filteredProducts = filterProducts(category.products); // Get filtered products for the current category
+            // console.log(filteredProducts)
             return (
               <div key={category.category}>
                 <div className='C_MainHead'>
@@ -312,3 +296,80 @@ console.log(products)
 };
 
 export default Collection;
+
+{/* orignal */ }
+{/* <div className='C_categoryItem'>
+              Mega Pixel
+              </div> */}
+
+{/* {products[0]?.filters?.map((filter, index) => {
+                const filterKey = Object.keys(filter)[0]; // Get the filter name
+                const filterOptions = filter[filterKey]; // Get the options for the filter
+
+                return (
+                  <div key={index} className='C_categoryItem'>
+                    <h4>{filterKey}</h4>
+                    {filterOptions.map((option, idx) => (
+                      <label key={idx} className='checkboxLabel'>
+                        <input
+                          type='checkbox'
+                          value={option}
+
+                        />
+                        {option}
+                      </label>
+                    ))}
+                  </div>
+                );
+              })} */}
+{/* {products[0].filters.map((filterCategory, index) => {
+            // Extract key-value pairs from the filterCategory object
+            const [key, values] = Object.entries(filterCategory)[0]; // Get the first key-value pair
+
+            return (
+                <div key={index}>
+                    <h4>{key}</h4>
+                    <ul>
+                        {values.map((value, idx) => (
+                            <li key={idx}>{value}</li>
+                        ))}
+                    </ul>
+                </div>
+            );
+        })} */}
+
+{/* <div className='collectionMainbar'>
+        {products.length > 0 ? (
+          products.map((category) => (
+
+            <div key={category.category}>
+
+              <div className='C_MainHead'>
+                {category.category}
+              </div>
+
+              <div className='C_productsContainer'>
+
+                {category?.products?.map((product) => (
+
+                  <div key={product?.model_no} className='C_productItem'
+                    onClick={() => handleProductClick(product)}
+                  >
+
+                    <div className='C_prodImg'>
+                      <img src={require(`../../assets/products/${product.img}`)} alt='not available' />
+                    </div>
+                    <div className='C_prodText'>
+                      {product.model_no}
+                    </div>
+
+                  </div>
+                ))}
+
+              </div>
+            </div>
+          ))
+        ) : (
+          <div>Select a category to see products.</div>
+        )}
+      </div> */}

@@ -404,7 +404,6 @@
             }
         ]
     },
-   
     {
         "category": "IP Camera",
         "filters": [
@@ -468,11 +467,21 @@
                 ],
                 "img": "BEC-IP-B-5.0MP_A_SL.png",
                 "filters": [
-                    { "Mega Pixel": "5" },
-                    { "Body Type": "Bullet" },
-                    { "IR Range": "20 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -491,11 +500,21 @@
                 ],
                 "img": "BEC-IP-B-5.0MP_A_SL (plastic body).png",
                 "filters": [
-                    { "Mega Pixel": "5" },
-                    { "Body Type": "Bullet" },
-                    { "IR Range": "30 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -512,11 +531,21 @@
                 ],
                 "img": "BEC-IP-B-5.0MP_A_SL_Fisheye.png",
                 "filters": [
-                    { "Mega Pixel": "5" },
-                    { "Body Type": "Fisheye" },
-                    { "IR Range": "50 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Fisheye"
+                    },
+                    {
+                        "IR Range": "50 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -534,11 +563,21 @@
                 ],
                 "img": "BEC-IP-D-5.0MP_A_SL.png",
                 "filters": [
-                    { "Mega Pixel": "5" },
-                    { "Body Type": "Dome" },
-                    { "IR Range": "30 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -555,11 +594,21 @@
                 ],
                 "img": "BEC-IP-B-4.0MP_A_SL.png",
                 "filters": [
-                    { "Mega Pixel": "4" },
-                    { "Body Type": "Bullet" },
-                    { "IR Range": "60 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "4"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "60 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -576,11 +625,21 @@
                 ],
                 "img": "BEC-IP-B-4.0MP_A_SL- 6mm.png",
                 "filters": [
-                    { "Mega Pixel": "4" },
-                    { "Body Type": "Bullet" },
-                    { "IR Range": "40 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "4"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "40 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -598,11 +657,21 @@
                 ],
                 "img": "BEC-IP-D-4.0MP_A_SL_4AR.png",
                 "filters": [
-                    { "Mega Pixel": "4" },
-                    { "Body Type": "Dome" },
-                    { "IR Range": "20 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "4"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -620,11 +689,21 @@
                 ],
                 "img": "error.png",
                 "filters": [
-                    { "Mega Pixel": "8" },
-                    { "Body Type": "Bullet" },
-                    { "IR Range": "30 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "8"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -642,15 +721,25 @@
                 ],
                 "img": "error.png",
                 "filters": [
-                    { "Mega Pixel": "8" },
-                    { "Body Type": "Dome" },
-                    { "IR Range": "30 Mtr" },
-                    { "Memory Card": "No" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "8"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             }
         ]
-    }    ,
+    },
     {
         "category": "Analog Camera",
         "filters": [
@@ -691,9 +780,15 @@
                 ],
                 "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png",
                 "filters": [
-                    { "Mega Pixel": "2.4" },
-                    { "Body Type": "Bullet" },
-                    { "Audio": "No" }
+                    {
+                        "Mega Pixel": "2.4"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "Audio": "No"
+                    }
                 ]
             },
             {
@@ -708,9 +803,15 @@
                 ],
                 "img": "BEC-HD-D-2.4MP_SL.png",
                 "filters": [
-                    { "Mega Pixel": "2.4" },
-                    { "Body Type": "Dome" },
-                    { "Audio": "No" }
+                    {
+                        "Mega Pixel": "2.4"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "Audio": "No"
+                    }
                 ]
             },
             {
@@ -726,9 +827,15 @@
                 ],
                 "img": "BEC-HD-D-3.0MP_SL_A.png",
                 "filters": [
-                    { "Mega Pixel": "3" },
-                    { "Body Type": "Dome" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "3"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             },
             {
@@ -744,16 +851,48 @@
                 ],
                 "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png",
                 "filters": [
-                    { "Mega Pixel": "3" },
-                    { "Body Type": "Bullet" },
-                    { "Audio": "Yes" }
+                    {
+                        "Mega Pixel": "3"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ]
             }
         ]
-    }
-    ,
+    },
     {
         "category": "NVR",
+        "filters": [
+            {
+                "Video Channel": [
+                    "10Ch",
+                    "16Ch"
+                ]
+            },
+            {
+                "Hard Disk": [
+                    1,
+                    2,
+                    4,
+                    8
+                ]
+            },
+            {
+                "Audio": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersobj": {
+            "Video Channel": [],
+            "Hard Disk": [],
+            "Audio": []
+        },
         "products": [
             {
                 "model_no": "BEC-NVR-1008-S1",
@@ -767,6 +906,17 @@
                     "Support Onvif Protocol",
                     "Support Multi-brand network cameras",
                     "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Video Channel": "10Ch"
+                    },
+                    {
+                        "Hard Disk": 1
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ],
                 "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png"
             },
@@ -783,6 +933,17 @@
                     "Support Multi-brand network cameras",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Video Channel": "16Ch"
+                    },
+                    {
+                        "Hard Disk": 1
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
                 "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png"
             },
             {
@@ -797,12 +958,51 @@
                     "Support Multi-brand network cameras",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Video Channel": "16Ch"
+                    },
+                    {
+                        "Hard Disk": 2
+                    },
+                    {
+                        "Audio": "No"
+                    }
+                ],
                 "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png"
             }
         ]
     },
     {
         "category": "DVR",
+        "filters": [
+            {
+                "Video Channel": [
+                    "4Ch",
+                    "8Ch",
+                    "16Ch"
+                ]
+            },
+            {
+                "Hard Disk": [
+                    1,
+                    2,
+                    4,
+                    8
+                ]
+            },
+            {
+                "Audio": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersObj": {
+            "Video Channel": [],
+            "Hard Disk": [],
+            "Audio": []
+        },
         "products": [
             {
                 "model_no": "BEC-XVR-4005-S1",
@@ -815,6 +1015,17 @@
                     "HDMI / VGA simultaneous video output",
                     "Audio Supported",
                     "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Video Channel": "4Ch"
+                    },
+                    {
+                        "Hard Disk": 1
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
                 ],
                 "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png"
             },
@@ -830,6 +1041,17 @@
                     "Audio Supported",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Video Channel": "8Ch"
+                    },
+                    {
+                        "Hard Disk": 1
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
                 "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png"
             },
             {
@@ -844,12 +1066,43 @@
                     "Audio Supported",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Video Channel": "16Ch"
+                    },
+                    {
+                        "Hard Disk": 1
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
                 "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png"
             }
         ]
     },
     {
         "category": "PoE Switch",
+        "filters": [
+            {
+                "Port": [
+                    4,
+                    8,
+                    16,
+                    24
+                ]
+            },
+            {
+                "SFP Port": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersObj": {
+            "Port": [],
+            "SFP Port": []
+        },
         "products": [
             {
                 "model_no": "BEC-PoE-0402FE",
@@ -859,6 +1112,14 @@
                     "Support 2 Uplink Ports up to 10/100Mbps",
                     "Support 65W PoE Power Budget",
                     "Support up to 250Mtr. Transmission distance"
+                ],
+                "filters": [
+                    {
+                        "Port": 4
+                    },
+                    {
+                        "SFP Port": "No"
+                    }
                 ],
                 "img": "BEC-PoE-0402FE.png"
             },
@@ -871,6 +1132,14 @@
                     "Support 120W PoE Power Budget",
                     "Support up to 250Mtr. Transmission distance"
                 ],
+                "filters": [
+                    {
+                        "Port": 8
+                    },
+                    {
+                        "SFP Port": "No"
+                    }
+                ],
                 "img": "BEC-PoE-0802FE.png"
             },
             {
@@ -881,6 +1150,14 @@
                     "Support 2 Uplink Ports up to 10/100/1000Mbps",
                     "Support 120W PoE Power Budget",
                     "Support up to 250Mtr. Transmission distance"
+                ],
+                "filters": [
+                    {
+                        "Port": 8
+                    },
+                    {
+                        "SFP Port": "No"
+                    }
                 ],
                 "img": "BEC-PoE-0802-UPG.png"
             },
@@ -893,6 +1170,14 @@
                     "Support 150W PoE Power Budget",
                     "Support up to 250Mtr. Transmission distance"
                 ],
+                "filters": [
+                    {
+                        "Port": 8
+                    },
+                    {
+                        "SFP Port": "No"
+                    }
+                ],
                 "img": "BEC-PoE-0802-FG.png"
             },
             {
@@ -903,6 +1188,14 @@
                     "Support 2 Uplink Ports up to 10/100/1000Mbps & 1 SFP Port",
                     "Support 200W PoE Power Budget",
                     "Support up to 250Mtr. Transmission distance"
+                ],
+                "filters": [
+                    {
+                        "Port": 16
+                    },
+                    {
+                        "SFP Port": "Yes"
+                    }
                 ],
                 "img": "error.png"
             },
@@ -915,12 +1208,38 @@
                     "Support 300W PoE Power Budget",
                     "Support up to 250Mtr. Transmission distance"
                 ],
+                "filters": [
+                    {
+                        "Port": 24
+                    },
+                    {
+                        "SFP Port": "Yes"
+                    }
+                ],
                 "img": "BEC-PoE-2402UPGF1.png"
             }
         ]
     },
     {
         "category": "4G Router",
+        "filters": [
+            {
+                "Antenna": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "Adapter": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersObj": {
+            "Antenna": [],
+            "Adapter": []
+        },
         "products": [
             {
                 "model_no": "BEC-RT-01-4G/5G",
@@ -931,6 +1250,14 @@
                     "Support Wi-Fi 2.4/5.0GHz",
                     "Support Reset",
                     "Support Plug n Play"
+                ],
+                "filters": [
+                    {
+                        "Antenna": 3
+                    },
+                    {
+                        "Adapter": "No"
+                    }
                 ],
                 "img": "BEC-RT-01-4G-5G.png"
             },
@@ -945,6 +1272,14 @@
                     "Support Reset",
                     "Support Plug n Play"
                 ],
+                "filters": [
+                    {
+                        "Antenna": 3
+                    },
+                    {
+                        "Adapter": "Yes"
+                    }
+                ],
                 "img": "BEC-RT-03A, BEC-RT-03-4G-5G.png"
             },
             {
@@ -956,6 +1291,14 @@
                     "Support Wi-Fi 2.4/5.0GHz",
                     "Support Reset",
                     "Support Plug n Play"
+                ],
+                "filters": [
+                    {
+                        "Antenna": 3
+                    },
+                    {
+                        "Adapter": "No"
+                    }
                 ],
                 "img": "BEC-RT-03A, BEC-RT-03-4G-5G.png"
             },
@@ -969,12 +1312,31 @@
                     "Support Reset",
                     "Support Plug n Play"
                 ],
+                "filters": [
+                    {
+                        "Antenna": 2
+                    },
+                    {
+                        "Adapter": "No"
+                    }
+                ],
                 "img": "BEC-RT-02-4G-5G.png"
             }
         ]
     },
     {
         "category": "Rack",
+        "filters": [
+            {
+                "Size": [
+                    "2U",
+                    "4U"
+                ]
+            }
+        ],
+        "selectedFiltersObj": {
+            "Size": []
+        },
         "products": [
             {
                 "model_no": "BEC-RACK 2U",
@@ -984,6 +1346,11 @@
                     "Standard Finish Power Coated",
                     "2 Side Panels Support",
                     "Rack Mounting Kit"
+                ],
+                "filters": [
+                    {
+                        "Size": "2U"
+                    }
                 ],
                 "img": "BEC-RACK 4U, BEC RACK 2U.png"
             },
@@ -996,12 +1363,37 @@
                     "2 Side Panels Support",
                     "Rack Mounting Kit"
                 ],
+                "filters": [
+                    {
+                        "Size": "4U"
+                    }
+                ],
                 "img": "BEC-RACK 4U, BEC RACK 2U.png"
             }
         ]
     },
     {
         "category": "Power Supply",
+        "filters": [
+            {
+                "Channel": [
+                    "4",
+                    "8",
+                    "16"
+                ]
+            },
+            {
+                "Ampere": [
+                    "5amp",
+                    "10amp",
+                    "15amp"
+                ]
+            }
+        ],
+        "selectedFiltersObj": {
+            "Channel": [],
+            "Ampere": []
+        },
         "products": [
             {
                 "model_no": "BEC-PS04-12",
@@ -1011,6 +1403,14 @@
                     "Support Over Current Protection",
                     "Support 12V DC Output",
                     "Metal Casing"
+                ],
+                "filters": [
+                    {
+                        "Channel": "4"
+                    },
+                    {
+                        "Ampere": "5amp"
+                    }
                 ],
                 "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png"
             },
@@ -1023,6 +1423,14 @@
                     "Support 12V DC Output",
                     "Metal Casing"
                 ],
+                "filters": [
+                    {
+                        "Channel": "8"
+                    },
+                    {
+                        "Ampere": "10amp"
+                    }
+                ],
                 "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png"
             },
             {
@@ -1034,12 +1442,22 @@
                     "Support 12V DC Output",
                     "Metal Casing"
                 ],
+                "filters": [
+                    {
+                        "Channel": "16"
+                    },
+                    {
+                        "Ampere": "15amp"
+                    }
+                ],
                 "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png"
             }
         ]
     },
     {
         "category": "Accessories",
+        "filters": [],
+        "selectedFiltersObj": {},
         "products": [
             {
                 "model_no": "BNC Cable",
