@@ -325,7 +325,7 @@ const Collection = () => {
             </div>
 
             <div className='prod_btnDiv'>
-              <Link to={selectedProduct.form_link} target='_blank'>
+              <Link to={selectedProduct.form_link}>
               <button className='prod_btn'>
                 Request for information
               </button>

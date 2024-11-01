@@ -80,7 +80,7 @@ const Nav = () => {
                 <Link to='/'>
                     <div className='navitem'>Gallery</div>
                 </Link>
-                <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'>
+                <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
                     <div className='navitem'>Contact Us</div>
                 </Link>
             </div>
@@ -148,7 +148,7 @@ const Nav = () => {
                             <Link to='/'>
                                 <div className='mobilenavitem'>Gallery</div>
                             </Link>
-                            <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'>
+                            <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
                                 <div className='mobilenavitem'>Contact Us</div>
                             </Link>
                         </div>
