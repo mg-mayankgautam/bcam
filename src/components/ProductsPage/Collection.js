@@ -325,11 +325,11 @@ const Collection = () => {
             </div>
 
             <div className='prod_btnDiv'>
-              {/* <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7' target='_blank'> */}
+              <Link to={selectedProduct.form_link} target='_blank'>
               <button className='prod_btn'>
                 Request for information
               </button>
-              {/* </Link> */}
+              </Link>
             </div>
           </div>
         </div>

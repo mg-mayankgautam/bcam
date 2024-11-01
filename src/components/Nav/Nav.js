@@ -14,13 +14,18 @@ const Nav = () => {
     const handleSearchChange = (e) => {
         const inputValue = e.target.value;
         setSearchInput(inputValue);
-
         const filteredResults = categories.filter(category =>
             category.toLowerCase().includes(inputValue.toLowerCase())
         );
-
         setSearchResults(filteredResults);
 
+        // const inputValue = e.target.value;
+        // setSearchInput(inputValue);
+        // const normalizedInput = inputValue.toLowerCase().replace(/wi[-]?fi/g, 'wifi');
+        // const filteredResults = categories.filter(category =>
+        //     category.toLowerCase().includes(normalizedInput)
+        // );
+        // setSearchResults(filteredResults);
     };
 
     const handleSelect = (match) => {
@@ -136,7 +141,7 @@ const Nav = () => {
                                 >
                                     Products
                                 </div>
-                                
+
                             </Link>
                             <Link to='/'>
                                 <div className='mobilenavitem'>Our Clients</div>
