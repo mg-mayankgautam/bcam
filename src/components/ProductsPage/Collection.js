@@ -7,6 +7,9 @@ const Collection = () => {
 
   const { id } = useParams();
 
+
+
+ 
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [id])
@@ -14,7 +17,17 @@ const Collection = () => {
 
   const [selectedCategory, setSelectedCategory] = useState(id);
 
-  const [products, setProducts] = useState(store.filter((category) => category.category === selectedCategory));
+  const [products, setProducts] = useState(store.filter((category) => category.category == selectedCategory));
+
+  
+  const [selectedFilters, setSelectedFilters] = useState(products[0]?.selectedFiltersobj);
+//   const [selectedFilters, setSelectedFilters] = useState({
+//     "Mega Pixel": [],
+//     "IR Range": [],
+//     "Memory Card": [],
+//     "Lens": []
+// });
+console.log(products)
 
   const [modal, setModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -34,7 +47,7 @@ const Collection = () => {
   }, [id])
 
   useEffect(() => {
-    setProducts(store.filter((category) => category.category === selectedCategory))
+    setProducts(store.filter((category) => category.category == selectedCategory))
     console.log(selectedCategory)
   }, [selectedCategory])
 
@@ -44,6 +57,33 @@ const Collection = () => {
       setModal(false);
     }
   };
+
+  const handleCheckboxChange = (category, value) => {
+    setSelectedFilters(prevState => {
+      console.log(prevState[category])
+      const currentSelections = prevState[category];
+      
+      const newSelections = currentSelections?.includes(value)
+        ? currentSelections.filter(item => item !== value) // Remove if already selected
+        : [...currentSelections, value]; // Add if not selected
+
+      return {
+        ...prevState,
+        [category]: newSelections
+      };
+    });
+  };
+
+  const filterProducts = (products) => {
+    return products.filter(product => {
+      return Object.entries(selectedFilters)?.every(([key, values]) => {
+        if (values.length === 0) return true; // If no filters selected for this key, keep all products
+        const productFilterValue = product.filters.find(filter => filter[key] !== undefined);
+        return productFilterValue && values.includes(productFilterValue[key]);
+      });
+    });
+  };
+
 
   return (
     <div className='Collection'>
@@ -59,7 +99,7 @@ const Collection = () => {
             <div className='C_searchHead'>PRODUCT CATEGORIES</div>
 
             <div className='C_categoriesDiv'>
-              {store.map((category) => (
+              {store?.map((category) => (
                 <div
                   key={category.category}
                   onClick={() => handleCategorySelect(category.category)}
@@ -74,40 +114,91 @@ const Collection = () => {
           <div>
             <div className='C_searchHead'>FILTER BY</div>
             <div className='C_FilterProdDiv'>
-              <div className='C_categoryItem'>
-                Product Series
-              </div>
+              {/* orignal */}
+              {/* <div className='C_categoryItem'>
+              Mega Pixel
+              </div> */}
 
-              <div className='C_categoryItem'>
-                Audio
-              </div>
+              {/* {products[0]?.filters?.map((filter, index) => {
+                const filterKey = Object.keys(filter)[0]; // Get the filter name
+                const filterOptions = filter[filterKey]; // Get the options for the filter
 
-              <div className='C_categoryItem'>
-                Body Type
-              </div>
+                return (
+                  <div key={index} className='C_categoryItem'>
+                    <h4>{filterKey}</h4>
+                    {filterOptions.map((option, idx) => (
+                      <label key={idx} className='checkboxLabel'>
+                        <input
+                          type='checkbox'
+                          value={option}
 
-              <div className='C_categoryItem'>
-                Bandwidth Incoming
-              </div>
+                        />
+                        {option}
+                      </label>
+                    ))}
+                  </div>
+                );
+              })} */}
+              {/* {products[0].filters.map((filterCategory, index) => {
+            // Extract key-value pairs from the filterCategory object
+            const [key, values] = Object.entries(filterCategory)[0]; // Get the first key-value pair
 
-              <div className='C_categoryItem'>
-                IR
-              </div>
+            return (
+                <div key={index}>
+                    <h4>{key}</h4>
+                    <ul>
+                        {values.map((value, idx) => (
+                            <li key={idx}>{value}</li>
+                        ))}
+                    </ul>
+                </div>
+            );
+        })} */}
 
-              <div className='C_categoryItem'>
-                IR Range
-              </div>
+              {products[0].filters.map((filterCategory, index) => {
+                const [key, values] = Object.entries(filterCategory)[0];
 
-              <div className='C_categoryItem'>
-                Resolution
-              </div>
+                return (
+                  <div key={index}>
+                    <h4>{key}</h4>
+                    <ul>
+                      {values.map((value, idx) => (
+
+                        <li key={idx}>
+                          <label>
+                            <input
+                              type="checkbox"
+                              checked={selectedFilters[key]?.includes(value)}
+                              onChange={() => handleCheckboxChange(key, value)}
+                            />
+                            {value}
+
+                          </label>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+
             </div>
+
+
+
+
+
+
+
+
+
+
           </div>
+
 
         </div>
       </div>
 
-      <div className='collectionMainbar'>
+      {/* <div className='collectionMainbar'>
         {products.length > 0 ? (
           products.map((category) => (
 
@@ -141,7 +232,45 @@ const Collection = () => {
         ) : (
           <div>Select a category to see products.</div>
         )}
+      </div> */}
+
+      <div className='collectionMainbar'>
+        {products.length > 0 ? (
+          products.map((category) => {
+            const filteredProducts = filterProducts(category.products); // Get filtered products for the current category
+
+            return (
+              <div key={category.category}>
+                <div className='C_MainHead'>
+                  {category.category}
+                </div>
+
+                <div className='C_productsContainer'>
+                  {filteredProducts.length > 0 ? (
+                    filteredProducts.map((product) => (
+                      <div key={product?.model_no} className='C_productItem'
+                        onClick={() => handleProductClick(product)}
+                      >
+                        <div className='C_prodImg'>
+                          <img src={require(`../../assets/products/${product.img}`)} alt='not available' />
+                        </div>
+                        <div className='C_prodText'>
+                          {product.model_no}
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <div>No products match your filters.</div>
+                  )}
+                </div>
+              </div>
+            );
+          })
+        ) : (
+          <div>Select a category to see products.</div>
+        )}
       </div>
+
 
 
       {modal && selectedProduct && (

@@ -1,6 +1,43 @@
 [
     {
         "category": "Wi-Fi Camera",
+        "filters": [
+            {
+                "Mega Pixel": [
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "IR Range": [
+                    "10 Mtr",
+                    "15 Mtr",
+                    "20 Mtr",
+                    "30 Mtr"
+                ]
+            },
+            {
+                "Memory Card": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "Lens": [
+                    "Single Lens",
+                    "Dual Lens",
+                    "Triple Lens"
+                ]
+            }
+        ],
+        "selectedFiltersobj": {
+            "Mega Pixel": [],
+            "IR Range": [],
+            "Memory Card": [],
+            "Lens": []
+        },
         "products": [
             {
                 "model_no": "BEC-Wi-Fi-WL01",
@@ -15,6 +52,20 @@
                     "Support 2.4Ghz",
                     "Support Micro SD Card upto 128GB",
                     "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": 3
+                    },
+                    {
+                        "IR Range": "10 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Single Lens"
+                    }
                 ],
                 "img": "BEC-Wi-Fi-WL01.png"
             },
@@ -33,6 +84,20 @@
                     "Support Micro SD Card upto 128GB",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Mega Pixel": 3
+                    },
+                    {
+                        "IR Range": "10 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Dual Lens"
+                    }
+                ],
                 "img": "BEC-Wi-Fi-WL03-D.png"
             },
             {
@@ -48,6 +113,20 @@
                     "Support 2.4Ghz",
                     "Support Micro SD Card upto 128GB",
                     "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": 3
+                    },
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Single Lens"
+                    }
                 ],
                 "img": "BEC-Wi-Fi-WL04PT-D.png"
             },
@@ -66,6 +145,20 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Mega Pixel": 3
+                    },
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Dual Lens"
+                    }
+                ],
                 "img": "BEC-Wi-Fi-WL04-OTW.png"
             },
             {
@@ -82,6 +175,20 @@
                     "Support 2.4Ghz",
                     "Support Micro SD Card upto 128GB",
                     "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": 5
+                    },
+                    {
+                        "IR Range": "15 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Single Lens"
+                    }
                 ],
                 "img": "BEC-WL05-MB.png"
             },
@@ -101,6 +208,20 @@
                     "Support Micro SD Card upto 128GB",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Mega Pixel": 3
+                    },
+                    {
+                        "IR Range": "15 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Single Lens"
+                    }
+                ],
                 "img": "BEC-Wi-Fi-WL06VC.png"
             },
             {
@@ -117,6 +238,20 @@
                     "Support 2.4Ghz",
                     "Support Micro SD Card upto 128GB",
                     "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": 4
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Dual Lens"
+                    }
                 ],
                 "img": "BEC-Wi-Fi-WL06PN.png"
             },
@@ -136,12 +271,44 @@
                     "Support Micro SD Card upto 128GB",
                     "Support Android & iOS Mobile Application"
                 ],
+                "filters": [
+                    {
+                        "Mega Pixel": 2
+                    },
+                    {
+                        "IR Range": "15 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Single Lens"
+                    }
+                ],
                 "img": "BEC-Wi-Fi-WL08-BT.png"
             }
         ]
     },
     {
         "category": "4G Camera",
+        "filters": [
+            {
+                "IR Range": [
+                    "20 Mtr",
+                    "30 Mtr"
+                ]
+            },
+            {
+                "Memory Card": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersobj": {
+            "IR Range": [],
+            "Memory Card": []
+        },
         "products": [
             {
                 "model_no": "BEC-4G-B-3.0/A/S/SL/TWA",
@@ -157,7 +324,15 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-4G-B-3.0_A_S_SL_TWA.png"
+                "img": "BEC-4G-B-3.0_A_S_SL_TWA.png",
+                "filters": [
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    }
+                ]
             },
             {
                 "model_no": "BEC-4G-D-3.0MP/A/SL/TWA",
@@ -171,7 +346,15 @@
                     "Support Micro SD Card up to 128GB",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-4G-D-3.0MP_A_SL_TWA.png"
+                "img": "BEC-4G-D-3.0MP_A_SL_TWA.png",
+                "filters": [
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    }
+                ]
             },
             {
                 "model_no": "BEC-4G-B-3.0/PT",
@@ -186,7 +369,15 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png"
+                "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png",
+                "filters": [
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    }
+                ]
             },
             {
                 "model_no": "BEC-4G-PT SL",
@@ -201,12 +392,64 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png"
+                "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png",
+                "filters": [
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    }
+                ]
             }
         ]
     },
+   
     {
         "category": "IP Camera",
+        "filters": [
+            {
+                "Mega Pixel": [
+                    "4",
+                    "5",
+                    "8"
+                ]
+            },
+            {
+                "Body Type": [
+                    "Dome",
+                    "Bullet",
+                    "Fisheye"
+                ]
+            },
+            {
+                "IR Range": [
+                    "20 Mtr",
+                    "30 Mtr",
+                    "50 Mtr",
+                    "60 Mtr"
+                ]
+            },
+            {
+                "Memory Card": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "Audio": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersobj": {
+            "Mega Pixel": [],
+            "Body Type": [],
+            "IR Range": [],
+            "Memory Card": [],
+            "Audio": []
+        },
         "products": [
             {
                 "model_no": "BEC-IP-B-5.0MP/A/SL",
@@ -223,7 +466,14 @@
                     "Metal Body",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-5.0MP_A_SL.png"
+                "img": "BEC-IP-B-5.0MP_A_SL.png",
+                "filters": [
+                    { "Mega Pixel": "5" },
+                    { "Body Type": "Bullet" },
+                    { "IR Range": "20 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-IP-B-5.0MP/A/SL (plastic body)",
@@ -238,8 +488,15 @@
                     "Weather proof IP66",
                     "Plastic Body",
                     "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-5.0MP_A_SL (plastic body).png",
+                "filters": [
+                    { "Mega Pixel": "5" },
+                    { "Body Type": "Bullet" },
+                    { "IR Range": "30 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
                 ]
-                ,"img": "BEC-IP-B-5.0MP_A_SL (plastic body).png"
             },
             {
                 "model_no": "BEC-IP-B-5.0MP/A/SL/Fisheye",
@@ -253,7 +510,14 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-5.0MP_A_SL_Fisheye.png"
+                "img": "BEC-IP-B-5.0MP_A_SL_Fisheye.png",
+                "filters": [
+                    { "Mega Pixel": "5" },
+                    { "Body Type": "Fisheye" },
+                    { "IR Range": "50 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-IP-D-5.0MP/A/SL",
@@ -268,7 +532,14 @@
                     "Weather proof IP66",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-D-5.0MP_A_SL.png"
+                "img": "BEC-IP-D-5.0MP_A_SL.png",
+                "filters": [
+                    { "Mega Pixel": "5" },
+                    { "Body Type": "Dome" },
+                    { "IR Range": "30 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-IP-B-4.0MP/A/SL",
@@ -282,7 +553,14 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-4.0MP_A_SL.png"
+                "img": "BEC-IP-B-4.0MP_A_SL.png",
+                "filters": [
+                    { "Mega Pixel": "4" },
+                    { "Body Type": "Bullet" },
+                    { "IR Range": "60 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-IP-B-4.0MP/A/SL- 6mm",
@@ -296,7 +574,14 @@
                     "Weather proof IP66",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-4.0MP_A_SL- 6mm.png"
+                "img": "BEC-IP-B-4.0MP_A_SL- 6mm.png",
+                "filters": [
+                    { "Mega Pixel": "4" },
+                    { "Body Type": "Bullet" },
+                    { "IR Range": "40 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-IP-D-4.0MP/A/SL/4AR",
@@ -311,7 +596,14 @@
                     "Weather proof IP66",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-D-4.0MP_A_SL_4AR.png"
+                "img": "BEC-IP-D-4.0MP_A_SL_4AR.png",
+                "filters": [
+                    { "Mega Pixel": "4" },
+                    { "Body Type": "Dome" },
+                    { "IR Range": "20 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-IP-B-8.0MP/A/SL",
@@ -326,7 +618,14 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "error.png"
+                "img": "error.png",
+                "filters": [
+                    { "Mega Pixel": "8" },
+                    { "Body Type": "Bullet" },
+                    { "IR Range": "30 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-IP-D-8.0MP/A/SL",
@@ -341,12 +640,44 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "error.png"
+                "img": "error.png",
+                "filters": [
+                    { "Mega Pixel": "8" },
+                    { "Body Type": "Dome" },
+                    { "IR Range": "30 Mtr" },
+                    { "Memory Card": "No" },
+                    { "Audio": "Yes" }
+                ]
             }
         ]
-    },
+    }    ,
     {
         "category": "Analog Camera",
+        "filters": [
+            {
+                "Mega Pixel": [
+                    "2.4",
+                    "3"
+                ]
+            },
+            {
+                "Body Type": [
+                    "Dome",
+                    "Bullet"
+                ]
+            },
+            {
+                "Audio": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersobj": {
+            "Mega Pixel": [],
+            "Body Type": [],
+            "Audio": []
+        },
         "products": [
             {
                 "model_no": "BEC-HD-B-2.4MP/SL",
@@ -358,7 +689,12 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png"
+                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png",
+                "filters": [
+                    { "Mega Pixel": "2.4" },
+                    { "Body Type": "Bullet" },
+                    { "Audio": "No" }
+                ]
             },
             {
                 "model_no": "BEC-HD-D-2.4MP/SL",
@@ -370,7 +706,12 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-D-2.4MP_SL.png"
+                "img": "BEC-HD-D-2.4MP_SL.png",
+                "filters": [
+                    { "Mega Pixel": "2.4" },
+                    { "Body Type": "Dome" },
+                    { "Audio": "No" }
+                ]
             },
             {
                 "model_no": "BEC-HD-D-3.0MP/SL/A",
@@ -383,7 +724,12 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-D-3.0MP_SL_A.png"
+                "img": "BEC-HD-D-3.0MP_SL_A.png",
+                "filters": [
+                    { "Mega Pixel": "3" },
+                    { "Body Type": "Dome" },
+                    { "Audio": "Yes" }
+                ]
             },
             {
                 "model_no": "BEC-HD-B-3.0MP/SL/A",
@@ -396,10 +742,16 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png"
+                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png",
+                "filters": [
+                    { "Mega Pixel": "3" },
+                    { "Body Type": "Bullet" },
+                    { "Audio": "Yes" }
+                ]
             }
         ]
-    },
+    }
+    ,
     {
         "category": "NVR",
         "products": [
