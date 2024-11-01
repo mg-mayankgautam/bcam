@@ -221,7 +221,7 @@ const Collection = () => {
             <div className='C_searchHead'>FILTER BY</div>
             <div className='C_FilterProdDiv'>
 
-              {products[0].filters.length > 0 &&
+              {products[0]?.filters?.length > 0 &&
                 products[0].filters.map((filterCategory, index) => {
                   const [key, values] = Object.entries(filterCategory)[0];
 
@@ -249,7 +249,7 @@ const Collection = () => {
                   );
                 })}
 
-              {products[0].filters.length == 0 && <div className='C_categoryItem'>No Filters Available</div>}
+              {products[0]?.filters?.length == 0 && <div className='C_categoryItem'>No Filters Available</div>}
 
             </div>
 
@@ -261,7 +261,7 @@ const Collection = () => {
 
 
       <div className='collectionMainbar'>
-        {products.length > 0 ? (
+        {products?.length > 0 ? (
           products.map((category) => {
 
             const filteredProducts = filterProducts(category.products); // Get filtered products for the current category
@@ -273,7 +273,7 @@ const Collection = () => {
                 </div>
 
                 <div className='C_productsContainer'>
-                  {filteredProducts.length > 0 ? (
+                  {filteredProducts?.length > 0 ? (
                     filteredProducts.map((product) => (
                       <div key={product?.model_no} className='C_productItem'
                         onClick={() => handleProductClick(product)}
