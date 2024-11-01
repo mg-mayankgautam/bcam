@@ -14,18 +14,17 @@ const Nav = () => {
     const handleSearchChange = (e) => {
         const inputValue = e.target.value;
         setSearchInput(inputValue);
-        const filteredResults = categories.filter(category =>
-            category.toLowerCase().includes(inputValue.toLowerCase())
-        );
-        setSearchResults(filteredResults);
 
-        // const inputValue = e.target.value;
-        // setSearchInput(inputValue);
-        // const normalizedInput = inputValue.toLowerCase().replace(/wi[-]?fi/g, 'wifi');
-        // const filteredResults = categories.filter(category =>
-        //     category.toLowerCase().includes(normalizedInput)
-        // );
-        // setSearchResults(filteredResults);
+        // Normalize input by removing hyphens and spaces
+        const normalizedInput = inputValue.toLowerCase().replace(/[-\s]/g, '');
+
+        const filteredResults = categories.filter(category => {
+            // Normalize category by removing hyphens and spaces for matching
+            const normalizedCategory = category.toLowerCase().replace(/[-\s]/g, '');
+            return normalizedCategory.includes(normalizedInput);
+        });
+
+        setSearchResults(filteredResults);
     };
 
     const handleSelect = (match) => {
