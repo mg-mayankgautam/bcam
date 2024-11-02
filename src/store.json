@@ -700,8 +700,9 @@
                     "24x7 Full Color with Night Vision",
                     "PoE Supported",
                     "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66",
+                    "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-IP-B-8.0MPASL,  BEC-IP-D-8.0MPASL.png",
@@ -713,7 +714,41 @@
                         "Body Type": "Bullet"
                     },
                     {
-                        "IR Range": "No"
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                    
+                ],
+                "form_link":"https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-8.0MP/A/SL"
+            },
+            {
+                "model_no": "BEC-IP-D-8.0MP/A/SL",
+                "features": [
+                    "8 Mega Pixel Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Weather proof IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-8.0MPASL,  BEC-IP-D-8.0MPASL.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "8"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
                     },
                     {
                         "Memory Card": "No"
@@ -722,7 +757,7 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-8.0MP/A/SL"
+                "form_link":"https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-8.0MP/A/SL"
             }
         ]
     },
