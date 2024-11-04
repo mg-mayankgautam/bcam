@@ -25,18 +25,22 @@
 }
 
 .navItems {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 14px;
     align-items: center;
-    justify-content: space-around;
-    /* flex-grow: 1; */
+    /* justify-content: space-around; */
     font-size: 14px;
 }
 
 .navitem {
-    padding: 12px 19px;
+    padding: 12px 12px;
+    min-width: fit-content;
     border-radius: 10px;
     transition: 100ms ease-in-out;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
 }
 
 .navitem.selected,
@@ -51,8 +55,10 @@
 
 .navInput {
     border-radius: 30px;
-    border: 1px solid #0000001a;
-    padding: 6px 16px;
+    border: 1px solid #0000005d;
+    padding: 8px 16px;
+    max-width: 300px;
+    /* min-width: calc(100% - 32px); */
 }
 
 .Navdropdown {

@@ -23,14 +23,14 @@ const Main = () => {
 
                     <div className='mainHeading'>
                         <strong>
-                            <span className='orange'> Be</span>
+                            <span className='orange'> BE</span>
                             <span className='blue'>CAM</span>
                         </strong>
                         <br />
                     </div>
 
-                    <div className='mainTagline'>
-                        "feel <strong className='orange italic'>SAFE</strong> with us"
+                    <div className='mainTagline italic'>
+                        feel <strong className='orange italic'>SAFE</strong> with us
                     </div>
 
                     <div>

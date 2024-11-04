@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './TrendingProd.css'
 import Product from '../Product/Product'
-import { Navigation, Pagination, Scrollbar, A11y, Mousewheel } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
@@ -52,10 +52,17 @@ const TrendingProd = () => {
             </div> */}
 
             <Swiper className='TP_cardsFlex'
-                modules={[Pagination, Navigation]}
+                modules={[Pagination, Navigation, Autoplay]}
                 spaceBetween={10}
                 slidesPerView={4}
                 loop={true}
+                // mousewheel={true}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true
+                }}
+                speed={1000}
                 navigation={true}
                 centeredSlides={true}
                 // pagination={{ clickable: true, dots:true }}
