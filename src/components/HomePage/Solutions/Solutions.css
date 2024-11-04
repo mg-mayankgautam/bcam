@@ -9,7 +9,7 @@
 .solutionsContainer {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 32px;
     background-color: var(--grey);
     border-radius: 20px;
     padding: 32px;
@@ -19,8 +19,8 @@
 .SC_Grid {
     display: grid;
     grid-template-columns: 1.1fr 1fr;
-    gap: 16px;
-    text-align: justify;
+    gap: 32px;
+    /* text-align: justify; */
 }
 
 
@@ -38,14 +38,26 @@
     font-weight: 700;
     font-size: 25px;
     text-align: left;
+    font-family: 'myfontblack';
+}
+.SC_head + .SC_text{
+    text-align: left;
 }
 
 .SC_head.one {
     text-align: right;
 }
 
+.SC_head.one + .SC_text{
+    text-align: right;
+}
+
 .SC_text {
     font-size: 13px;
+    max-width: 280px;
+}
+.SC_text.head{
+    max-width: unset;
 }
 
 .SC_img {
@@ -70,16 +82,18 @@
 .SC_card {
     background-color: white;
     border-radius: 30px;
-    padding: 16px 16px 24px;
+    padding: 48px 24px 48px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
     width: 30%;
+    /* text-align: left; */
 }
 
 .SC_card.one {
     width: 25%;
+    /* text-align: right; */
 }
 
 .SC_cardIcon {
@@ -90,6 +104,7 @@
     justify-content: center;
     background-color: var(--primary);
     border-radius: 100px;
+    margin-bottom: 12px;
 }
 
 .SC_cardIcon img {
@@ -126,7 +141,7 @@
     }
 
     .SC_card {
-        padding: 16px 16px 24px;
+        padding: 32px 20px 32px;
         gap: 10px;
         width: calc(50% - 32px - 10px);
     }

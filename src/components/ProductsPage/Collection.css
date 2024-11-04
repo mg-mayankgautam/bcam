@@ -58,8 +58,22 @@
     margin: 9px 0;
     transition: all 100ms ease-in-out;
     /* text-transform: uppercase; */
-    color: #737373;
+    color: #000000;
     padding-left: 8px;
+}
+
+.C_filterMapGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
+    margin: 2px 0 10px;
+}
+
+.C_filtercheckboxFlex{
+    display: flex;
+    align-items: center;
+    color: #737373;
+    font-size: 12px;
 }
 
 .C_categoryItem:hover,

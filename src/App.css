@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'myfontblack';
-  src: url('./assets/fonts/HelveticaNowDisplay-Black.woff2') format('woff2');
+  src: url('./assets/fonts/HelveticaNowDisplay-ExtraBold.woff2') format('woff2');
   font-weight: 700; 
   /* font-style: normal;   */
 }

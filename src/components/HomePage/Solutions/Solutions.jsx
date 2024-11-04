@@ -30,8 +30,8 @@ import behavdet from '../../../assets/icons/Behaviour Detection.png'
 const Solutions = () => {
     return (
         <div className='Solutions'>
-            <div className='TP_head bold'>
-                <strong className='orange'>Our</strong> Solutions
+            <div className='TP_head black'>
+                <span className='orange'>Our</span> Solutions
             </div>
 
             <div className='solutionsContainer'>
@@ -41,7 +41,7 @@ const Solutions = () => {
                         <div className='SC_head'>
                             IP Camera Solutions
                         </div>
-                        <div className='SC_text'>
+                        <div className='SC_text head'>
                             Our IP camera systems deliver high-definition video and allow for remote access from anywhere in the world. These cameras are ideal for environments where clear, detailed images are essential for identifying people and objects.
                         </div>
                     </div>
@@ -111,7 +111,7 @@ const Solutions = () => {
                         <div className='SC_head one'>
                             Analog Camera Solutions
                         </div>
-                        <div className='SC_text'>
+                        <div className='SC_text head'>
                             For cost-effective security, our Analog camera systems offer a reliable and efficient solution. These systems are perfect for clients seeking a more traditional, budget-friendly surveillance setup.
                         </div>
                     </div>
@@ -163,7 +163,7 @@ const Solutions = () => {
                         <div className='SC_head'>
                             Wireless CCTV Systems
                         </div>
-                        <div className='SC_text'>
+                        <div className='SC_text head'>
                             Our wireless CCTV systems offer flexibility and convenience, eliminating the need for complex wiring and allowing for easy installation in hard-to-reach areas.
                         </div>
                     </div>
@@ -221,7 +221,7 @@ const Solutions = () => {
                         <div className='SC_head one'>
                             Video Management Software (VMS)
                         </div>
-                        <div className='SC_text'>
+                        <div className='SC_text head'>
                             Our Video Management Software (VMS) provides an intuitive and centralized platform for managing multiple cameras, viewing live or recorded footage, and configuring custom alerts.
                         </div>
                     </div>
@@ -273,7 +273,7 @@ const Solutions = () => {
                         <div className='SC_head'>
                             Access Control Integration
                         </div>
-                        <div className='SC_text'>
+                        <div className='SC_text head'>
                             We offer integrated access control solutions that work seamlessly with our CCTV systems to provide a comprehensive security strategy for businesses and high-security environments.
                         </div>
                     </div>
@@ -331,7 +331,7 @@ const Solutions = () => {
                         <div className='SC_head one'>
                             Smart Surveillance & AI Solutions
                         </div>
-                        <div className='SC_text'>
+                        <div className='SC_text head'>
                             Harness the power of AI for advanced security solutions. Our AI-powered surveillance systems are equipped with intelligent analytics, allowing for real-time detection of unusual activities, behavior patterns, and security breaches.
                         </div>
                     </div>

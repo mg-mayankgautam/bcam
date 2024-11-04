@@ -186,7 +186,7 @@ const Collection = () => {
               onClick={() => setOpenMobileCategories(!openMobileCategories)}>
               <div>PRODUCT CATEGORIES</div>
               {/* <div>{openMobileCategories ? '▲' : '▼'}</div> */}
-              <div className={openMobileCategories? 'up' : 'up down'}>▲</div>
+              <div className={openMobileCategories ? 'up' : 'up down'}>▲</div>
             </div>
 
             {openMobileCategories &&
@@ -230,18 +230,18 @@ const Collection = () => {
                   return (
                     <div key={index} className='C_filterItem'>
                       <div>{key}</div>
-                      <div>
+
+                      <div className='C_filterMapGrid'>
                         {values.map((value, idx) => (
 
-                          <div key={idx}>
+                          <div key={idx} className='C_filtercheckboxFlex'>
+                            <input
+                              type="checkbox"
+                              checked={selectedFilters[key]?.includes(value)}
+                              onChange={() => handleCheckboxChange(key, value)}
+                            />
                             <label>
-                              <input
-                                type="checkbox"
-                                checked={selectedFilters[key]?.includes(value)}
-                                onChange={() => handleCheckboxChange(key, value)}
-                              />
                               {value}
-
                             </label>
                           </div>
                         ))}
@@ -327,9 +327,9 @@ const Collection = () => {
 
             <div className='prod_btnDiv'>
               <Link to={selectedProduct.form_link}>
-              <button className='prod_btn'>
-                Request for information
-              </button>
+                <button className='prod_btn'>
+                  Request for information
+                </button>
               </Link>
             </div>
           </div>

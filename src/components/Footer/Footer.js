@@ -20,7 +20,7 @@ const Footer = () => {
           <div>
 
             <Link to=''>
-              <div>608, Sidharth Building,<br /> Nehru Place, Delhi <br/> India</div>
+              <div>608, Sidharth Building, <br />Nehru Place, Delhi, India</div>
             </Link>
           </div>
 
