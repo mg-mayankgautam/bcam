@@ -80,8 +80,10 @@ const Nav = () => {
                     {/* <Link to='/'>
                     <div className='navitem'>Our Clients</div>
                 </Link> */}
-                    <Link to='/'>
-                        <div className='navitem'>Gallery</div>
+                    <Link to='/mediagallery'>
+                        <div className={`navitem ${location.pathname === '/mediagallery' ? 'selected' : ''}`}>
+                            Gallery
+                        </div>
                     </Link>
                     <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
                         <div className='navitem'>Contact Us</div>
@@ -151,8 +153,10 @@ const Nav = () => {
                                 {/* <Link to='/'>
                                 <div className='mobilenavitem'>Our Clients</div>
                             </Link> */}
-                                <Link to='/'>
-                                    <div className='mobilenavitem'>Gallery</div>
+                                <Link to='/mediagallery'>
+                                    <div className={`mobilenavitem ${location.pathname === '/mediagallery' ? 'selected' : ''}`}>
+                                        Gallery
+                                    </div>
                                 </Link>
                                 <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
                                     <div className='mobilenavitem'>Contact Us</div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
 import { Link, useParams } from 'react-router-dom';
-// import dvr from '../../assets/products/BEC-IP-B-8.0MPASL,  BEC-IP-D-8.0MPASL.png'
+import dvr from '../../assets/products/64 GB SD Card.png'
 // BEC-IP-B-8.0MP_A_SL.png
 
 const Collection = () => {

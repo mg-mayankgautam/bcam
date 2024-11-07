@@ -739,7 +739,7 @@
                     "Weather proof IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-8.0MPASL,  BEC-IP-D-8.0MPASL.png",
+                "img": "BEC-IP-D-8.0MP.png",
                 "filters": [
                     {
                         "Mega Pixel": "8"
@@ -1521,7 +1521,7 @@
                     "Cat6 Cable 100mtrs",
                     "Cat6 Cable 305mtrs"
                 ],
-                "img": "error.png",
+                "img": "CAT6 Cable.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Accessories&entry.233447731=Cat6+Cable"
             },
             {
@@ -1546,7 +1546,7 @@
                     "128GB",
                     "256GB"
                 ],
-                "img": "error.png",
+                "img": "64 GB SD Card.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Accessories&entry.233447731=Micro+SD+Card"
             },
             {

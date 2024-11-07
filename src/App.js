@@ -7,6 +7,7 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Terms from './components/TermsConditions/Terms';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
+import MediaGallery from './pages/MediaGallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="products/:id" element={<Products />} />
+        <Route path="mediagallery" element={<MediaGallery />} />
         <Route path="termsandconditions" element={<Terms />} />
         <Route path="privacypolicy" element={<PrivacyPolicy />} />
 

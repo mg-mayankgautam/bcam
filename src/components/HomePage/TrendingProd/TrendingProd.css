@@ -21,14 +21,14 @@
     /* gap: 20px; */
 }
 
-.swiper-slide {
+/* .swiper-slide {
     transition: transform 150ms ease-in-out;
     transform: scale(1, 1);
 }
 
 .swiper-slide:hover {
     transform: scale(1.06, 1.06);
-}
+} */
 
 
 .swiper-button-prev::after,

@@ -37,7 +37,7 @@ const Footer = () => {
             <Link to=''>
               <div>Our Clients</div>
             </Link>
-            <Link to=''>
+            <Link to='/mediagallery'>
               <div>Gallery</div>
             </Link>
             <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
