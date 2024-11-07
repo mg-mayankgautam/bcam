@@ -1,23 +1,26 @@
-.Footer{
+.Footer {
     color: var(--secondary);
     padding: 40px 80px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    box-shadow: 0px -0px 10px #0000001a;
+    /* box-shadow: 0px -0px 10px #0000001a; */
     font-size: 14px;
     font-weight: 500;
     /* background-image: linear-gradient(0deg, #ff660080,white); */
     background-color: #000066;
-    /* background-color: var(--grey); */
-    /* background-color: white; */
+    background-color: white;
     color: white;
-    /* color: var(--secondary); */
+    color: var(--secondary);
     /* background-image: linear-gradient(180deg, #281c81, #0a0720); */
 
 }
 
-.footerContent{
+.Footer.home {
+    background-color: var(--grey);
+}
+
+.footerContent {
     display: grid;
     grid-template-columns: 1fr 3fr;
     /* display: flex;
@@ -26,28 +29,29 @@
     text-align: left;
 }
 
-.footerLogo{
+.footerLogo {
     height: 60px;
 }
-.footerLogo img{
+
+.footerLogo img {
     height: 100%;
     object-fit: contain;
 }
 
-.footerInfo{
+.footerInfo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     gap: 16px;
 }
 
-.Footer a > div{
+.Footer a>div {
     margin: 8px 0;
 }
 
-.footerCopyright{
+.footerCopyright {
     border-top: 1px solid #02006d31;
-    border-top: 0.5px solid #ffffff4d;
+    /* border-top: 0.5px solid #ffffff4d; */
     width: 100%;
     max-width: 1100px;
     align-self: center;
@@ -56,34 +60,34 @@
     font-weight: 400;
 }
 
-.footerLogoContent{
+.footerLogoContent {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.footerTitle{
+.footerTitle {
     font-size: 16px;
     margin-bottom: 12px;
     font-weight: 700;
 }
 
 @media only screen and (max-width: 780px) {
-    .Footer{
+    .Footer {
         padding: 40px 40px;
         font-size: 14px;
     }
-    
-    .footerContent{
+
+    .footerContent {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .footerInfo{
+    .footerInfo {
         grid-template-columns: 1fr;
         justify-items: start;
         gap: 32px;
         margin: 16px 0;
     }
-    
+
 }

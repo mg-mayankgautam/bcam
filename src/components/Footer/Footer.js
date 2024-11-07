@@ -1,11 +1,14 @@
 import React from 'react'
 import './Footer.css';
-import logo from '../../assets/logowhite.png'
-import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png'
+import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
+
+  const location = useLocation();
+
   return (
-    <div className='Footer'>
+    <div className={location.pathname=='/'? 'Footer home' : 'Footer'}>
       <div className='footerContent'>
 
         <div className='footerLogoContent'>
