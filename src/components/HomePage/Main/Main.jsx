@@ -23,7 +23,7 @@ const Main = () => {
 
                     <div className='mainHeading'>
                         <strong>
-                            <span className='orange'> BE</span>
+                            <span className='orange'> BE-</span>
                             <span className='blue'>CAM</span>
                         </strong>
                         <br />

@@ -1506,7 +1506,7 @@
                 "features": [
                     "Blue & Orange Color BNC"
                 ],
-                "img": "BNC Cable MG3560.png",
+                "img": "BNC cable MG 3564.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Accessories&entry.233447731=BNC+Cable"
             },
             {
@@ -1535,7 +1535,14 @@
             },
             {
                 "model_no": "HDMI Cable",
-                "features": [],
+                "features": [
+                    "1.5 Meter",
+                    "3 Meter",
+                    "5 Meter",
+                    "10 Meter",
+                    "15 Meter",
+                    "20 Meter"
+                ],
                 "img": "HDMI Cable.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Accessories&entry.233447731=HDMI+Cable"
             },
