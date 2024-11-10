@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Gallery.css'
 import one from '../../assets/gallery/one.jpg';
 import two from '../../assets/gallery/two.jpg';
@@ -25,6 +25,10 @@ const images = [
 ];
 
 const Gallery = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [activeIndex, setActiveIndex] = useState(0);

@@ -43,7 +43,7 @@ const Footer = () => {
             <Link to='/mediagallery'>
               <div>Gallery</div>
             </Link>
-            <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
+            <Link to='/contactus'>
               <div>Contact Us</div>
             </Link>
           </div>
@@ -61,7 +61,8 @@ const Footer = () => {
           <div>
             <div className='footerTitle'>CONTACT US</div>
             <Link to=''>
-              <div>+91XXXXXXXXXX</div>
+              <div>+919319998197/
+                <br/>9319998196</div>
             </Link>
             <Link to=''>
               <div>sales@becam.in</div>

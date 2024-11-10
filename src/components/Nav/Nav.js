@@ -85,7 +85,7 @@ const Nav = () => {
                             Gallery
                         </div>
                     </Link>
-                    <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
+                    <Link to='/contactus'>
                         <div className='navitem'>Contact Us</div>
                     </Link>
                 </div>
