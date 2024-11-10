@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Gallery.css'
 import one from '../../assets/gallery/one.jpg';
 import two from '../../assets/gallery/two.jpg';
@@ -12,9 +12,32 @@ import nine from '../../assets/gallery/nine.jpg';
 import ten from '../../assets/gallery/ten.jpg';
 import eleven from '../../assets/gallery/eleven.jpg';
 import twelve from '../../assets/gallery/twelve.jpg';
+import { Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
+const images = [
+    one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve
+];
 
 const Gallery = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const openModal = (index) => {
+        setActiveIndex(index);
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
     return (
         <div className='Gallery'>
 
@@ -24,44 +47,40 @@ const Gallery = () => {
             </div>
 
             <div className='C_productsContainer MG_Grid'>
-                <div className='photoDiv'>
-                    <img src={one} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={two} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={three} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={four} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={five} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={six} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={seven} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={eight} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={nine} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={ten} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={eleven} />
-                </div>
-                <div className='photoDiv'>
-                    <img src={twelve} />
-                </div>
-
+                {images.length > 0 && images.map((image, index) => (
+                    <div key={index} className='photoDiv'
+                        onClick={() => openModal(index)}
+                    >
+                        <img src={image} alt={`Gallery image ${index + 1}`} />
+                    </div>
+                ))}
             </div>
+
+
+            {isModalOpen && (
+                <div className="MG_modalContainer" onClick={closeModal}>
+                    <div className="MG_modal" onClick={(e) => e.stopPropagation()}>
+                        <Swiper
+                            initialSlide={activeIndex}
+                            spaceBetween={10}
+                            modules={[Navigation]}
+                            slidesPerView={1}
+                            navigation={true}
+                            onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+                        >
+                            {images.map((image, index) => (
+                                <SwiperSlide key={index}>
+                                    <div className='MG_modalImg'>
+                                        <img src={image} alt={`Gallery image ${index + 1}`} />
+                                    </div>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
+                        <button className="close-btn" onClick={closeModal}>Close</button>
+                    </div>
+                </div>
+            )}
+
         </div>
     )
 }

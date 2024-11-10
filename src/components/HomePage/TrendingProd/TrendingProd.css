@@ -58,8 +58,8 @@
 
 @media only screen and (orientation: portrait) {
 
-    .swiper-button-prev::after,
-    .swiper-button-next::after {
+    .TrendingProd .swiper-button-prev::after,
+    .TrendingProd .swiper-button-next::after {
         display: none;
     }
 }

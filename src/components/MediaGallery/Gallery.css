@@ -1,15 +1,15 @@
-.Gallery{
+.Gallery {
     padding: 84px 64px 80px;
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 80px);
 }
 
-.MG_head{
+.MG_head {
     padding: 40px 0;
 }
 
-.photoDiv{
+.photoDiv {
     width: 100%;
     height: 250px;
     overflow: hidden;
@@ -17,7 +17,7 @@
     cursor: pointer;
 }
 
-.photoDiv img{
+.photoDiv img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -26,30 +26,102 @@
     transition: all 150ms ease-in-out;
 }
 
-.photoDiv img:hover{
-    transform: scale(1.1,1.1);
+.photoDiv img:hover {
+    transform: scale(1.1, 1.1);
 }
 
-.MG_Grid{
+.MG_Grid {
     max-width: 1000px;
     margin: 0 auto;
 }
 
+.Gallery .swiper {
+    width: 100%;
+}
+
+.MG_modalContainer {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MG_modal {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 90%;
+    max-width: 700px;
+    /* background: white; */
+    border-radius: 8px;
+}
+
+.MG_modalImg {
+    width: 100%;
+    height: 450px;
+    max-width: 100%;
+    border-radius: 10px;
+    /* overflow: hidden; Prevents image overflow */
+}
+
+.MG_modalImg img {
+    object-fit: contain;
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    object-position: top;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff5c5c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
 @media only screen and (orientation: portrait) {
-    .Gallery{
+    .Gallery {
         padding: 84px 20px 80px;
         display: flex;
         flex-direction: column;
         min-height: calc(100vh - 80px);
     }
-    
-    .MG_head{
+
+    .MG_head {
         padding: 40px 0;
         font-size: 24px;
     }
-    
-    .photoDiv{
+
+    .photoDiv {
         height: 250px;
     }
-    
-  }
+
+    .MG_modal {
+        width: 100%;
+        padding: 20px; /* Adds padding within the modal on mobile */
+        max-width: 100%; /* Allows modal to take full width */
+    }
+
+    .MG_modalImg {
+        width: calc(100% - 40px); /* Ensures padding without setting it explicitly */
+        max-width: 100%;
+        margin: auto;
+        height: 250px; /* Sets max height for mobile */
+    }
+
+    .MG_modalImg img {
+        width: 100%;
+        height: unset;
+        max-width: 100%;
+        /* height: 1; Allows image to adjust naturally */
+    }
+}
