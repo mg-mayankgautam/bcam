@@ -61,9 +61,9 @@ const Footer = () => {
           <div>
             <div className='footerTitle'>CONTACT US</div>
             <div>
-              <Link to="tel:+919319998197">+919319998197</Link>
+              <Link to="tel:+919319998197">+91 93199 98197</Link>
                 <br/>
-                <Link to="tel:+919319998196">+919319998196</Link>
+                <Link to="tel:+919319998196">+91 93199 98196</Link>
             </div>
             <Link to='mailto:sales@becam.in'>
               <div>sales@becam.in</div>

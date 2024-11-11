@@ -116,6 +116,7 @@
         max-width: 100%;
         margin: auto;
         height: 250px; /* Sets max height for mobile */
+        border-radius: 0;
     }
 
     .MG_modalImg img {
@@ -123,5 +124,6 @@
         height: unset;
         max-width: 100%;
         /* height: 1; Allows image to adjust naturally */
+        border-radius: 0;
     }
 }
