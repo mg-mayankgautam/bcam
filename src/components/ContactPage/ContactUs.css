@@ -110,6 +110,7 @@
     
     .CU_Container {
         flex-direction: column;
+        min-height: unset;
     }
     
     .CU_infoDiv {
