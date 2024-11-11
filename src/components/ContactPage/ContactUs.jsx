@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import './ContactUs.css'
 import { Link } from 'react-router-dom'
-import call from '../../assets/icons/call.png'
-import mail from '../../assets/icons/mail.png'
-import map from '../../assets/icons/location.png'
+import call from '../../assets/icons/call.svg'
+import mail from '../../assets/icons/mail.svg'
+import map from '../../assets/icons/location.svg'
 
 const ContactUs = () => {
 
@@ -22,7 +22,7 @@ const ContactUs = () => {
                         </div>
                         <div>
                             <Link to="tel:+919319998197">+919319998197</Link>,
-                            <Link to="tel:+919319998196">+919319998196</Link>
+                            <Link to="tel:+919319998196"> +919319998196</Link>
                         </div>
 
                     </div>
@@ -50,7 +50,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className='iframeDiv googleform'>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?embedded=true" width="" height="" style={{ height: '100%' }} frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?embedded=true" width="" height="" style={{ height: '100%', width:'100%' }} frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
 
                 <div className='googleformMobile'>
