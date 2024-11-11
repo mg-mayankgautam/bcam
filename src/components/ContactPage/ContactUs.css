@@ -1,6 +1,6 @@
 .ContactUs {
     display: flex;
-    padding: 120px 64px;
+    padding: 110px 64px;
     flex-direction: column;
     gap: 32px;
 }
@@ -9,13 +9,12 @@
     display: flex;
     gap: 32px;
     position: relative;
-
 }
 
 .CU_infoDiv {
     display: flex;
     flex-direction: column;
-    padding: 32px 24px;
+    padding: 32px 24px 24px;
     background-color: white;
     box-shadow: 0px 5px 10px #0000001a;
     border-radius: 10px;
@@ -25,33 +24,102 @@
     position: sticky;
     top: 120px;
     align-self: flex-start;
-    margin-top: 12px;
+    /* margin-top: 12px; */
     color: var(--secondary);
-    font-family: 'myfontbold';
+    /* font-family: 'myfontbold'; */
     height: 100%;
     max-height: calc(100vh - 120px);
+    font-size: 15px;
+}
+
+.CU_flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.CU_icon {
+    height: 20px;
+    width: 20px;
+}
+
+.CU_icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .iframeDiv {
     max-width: 100%;
 }
 
-.iframeDiv iframe{
+.iframeDiv iframe {
     width: 100%;
 }
 
-.iframeDiv.map{
+.iframeDiv.map {
     max-height: 100%;
 }
-.iframeDiv.map iframe{
+
+.iframeDiv.map iframe {
     height: 100%;
 }
 
-.iframeDiv.googleform{
+.iframeDiv.googleform {
     flex-grow: 1;
     margin: 0 0 !important;
     /* height: 100%; */
 }
-.iframeDiv.googleform iframe{
+
+.iframeDiv.googleform iframe {
+    /* height: 100%; */
     /* min-height: 100% !important; */
+}
+
+.googleformMobile{
+    display: none;
+    font-size: 20px;
+    margin-top: 32px;
+    padding: 20px;
+    /* background-color: white;
+    box-shadow: 0px 5px 10px #0000001a;
+    border-radius: 10px; */
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .CU_infoDiv {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 861px) {
+    .ContactUs {
+        padding: 110px 20px;
+    }
+    
+    .CU_Container {
+        flex-direction: column;
+    }
+    
+    .CU_infoDiv {
+        padding: 24px 20px 24px;
+        gap: 20px;
+        max-width: unset;
+        width: calc(100% - 40px);
+        position: static;
+        top: unset;
+        align-self: flex-start;
+        height: 100%;
+        max-height: calc(100vh - 120px);
+        font-size: 14px;
+    }
+    
+    .iframeDiv.googleform {
+        display: none;
+    }
+
+    .googleformMobile{
+        display: block;
+    }
 }

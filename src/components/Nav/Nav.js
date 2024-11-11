@@ -86,7 +86,9 @@ const Nav = () => {
                         </div>
                     </Link>
                     <Link to='/contactus'>
-                        <div className='navitem'>Contact Us</div>
+                        <div className={`navitem ${location.pathname === '/contactus' ? 'selected' : ''}`}>
+                            Contact Us
+                        </div>
                     </Link>
                 </div>
 
@@ -158,8 +160,10 @@ const Nav = () => {
                                         Gallery
                                     </div>
                                 </Link>
-                                <Link to='https://forms.gle/C4NbEVKxn3n5WKcW7'>
-                                    <div className='mobilenavitem'>Contact Us</div>
+                                <Link to='/contactus'>
+                                    <div className={`mobilenavitem ${location.pathname === '/contactus' ? 'selected' : ''}`}>
+                                        Contact Us
+                                    </div>
                                 </Link>
                             </div>
 

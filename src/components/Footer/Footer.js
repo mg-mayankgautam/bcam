@@ -60,11 +60,12 @@ const Footer = () => {
 
           <div>
             <div className='footerTitle'>CONTACT US</div>
-            <Link to=''>
-              <div>+919319998197/
-                <br/>9319998196</div>
-            </Link>
-            <Link to=''>
+            <div>
+              <Link to="tel:+919319998197">+919319998197</Link>
+                <br/>
+                <Link to="tel:+919319998196">+919319998196</Link>
+            </div>
+            <Link to='mailto:sales@becam.in'>
               <div>sales@becam.in</div>
             </Link>
           </div>
