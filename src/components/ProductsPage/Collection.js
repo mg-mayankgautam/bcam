@@ -2,14 +2,19 @@ import React, { useEffect, useState } from 'react';
 import './Collection.css';
 import store from '../../store.json';
 import { Link, useParams } from 'react-router-dom';
-import dvr from '../../assets/products/BNC cable MG 3564.png'
-// BEC-IP-B-8.0MP_A_SL.png
+import bnc2 from '../../assets/products/BNC Cable MG3560.png'
+import bnc1 from '../../assets/products/BNC cable MG 3564.png'
+import sd1 from '../../assets/products/64 GB SD Card.png'
+import sd2 from '../../assets/products/128 GB SD Card.png'
+import sd3 from '../../assets/products/256 GB SD Card.png'
+import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Collection = () => {
 
   const { id } = useParams();
-
-
 
 
   useEffect(() => {
@@ -49,9 +54,17 @@ const Collection = () => {
     setSelectedCategory(category);
   };
 
-  const handleProductClick = (product) => {
-    setSelectedProduct(product);
-    setModal(true); // Open the modal
+  const handleProductClick = (product, e) => {
+    if (
+      e.target.classList.contains('swiper-pagination') || 
+      e.target.closest('.swiper-pagination')
+    ) {
+      e.stopPropagation();
+    }
+    else {
+      setSelectedProduct(product);
+      setModal(true); // Open the modal
+    }
   };
 
 
@@ -275,18 +288,91 @@ const Collection = () => {
 
                 <div className='C_productsContainer'>
                   {filteredProducts?.length > 0 ? (
-                    filteredProducts.map((product) => (
-                      <div key={product?.model_no} className='C_productItem'
-                        onClick={() => handleProductClick(product)}
-                      >
-                        <div className='C_prodImg'>
-                          <img src={require(`../../assets/products/${product.img}`)} alt='not available' />
-                        </div>
-                        <div className='C_prodText'>
-                          {product.model_no}
-                        </div>
-                      </div>
-                    ))
+                    filteredProducts.map((product) => {
+                      if (product.model_no === 'BNC Cable') {
+                        return (
+                          <div key={product?.model_no} className='C_productItem'
+                            onClick={(e) => handleProductClick(product, e)}
+                          >
+                            {/* <div onClick={handleSwiperPagination}> */}
+                            <Swiper className='swiperBNC'
+                              modules={[Pagination]}
+                              spaceBetween={10}
+                              slidesPerView={1}
+                              pagination={{ clickable: true, dots: true }}
+                              onSwiper={(swiper) => console.log(swiper)}
+                              onSlideChange={() => console.log('slide change')}
+                            // onClick={handleSwiperPagination} 
+                            >
+                              <SwiperSlide>
+                                <div className='C_prodImg'>
+                                  <img src={bnc1} alt='not available' />
+                                </div>
+                              </SwiperSlide>
+                              <SwiperSlide>
+                                <div className='C_prodImg'>
+                                  <img src={bnc2} alt='not available' />
+                                </div>
+                              </SwiperSlide>
+                            </Swiper>
+                            {/* </div> */}
+                            <div className='C_prodText'>
+                              {product.model_no}
+                            </div>
+                          </div>
+                        );
+                      }
+                      else if (product.model_no === 'Micro SD Card') {
+                        return (
+                          <div key={product?.model_no} className='C_productItem'
+                            onClick={(e) => handleProductClick(product, e)}
+                          >
+                              <Swiper className='swiperSD'
+                                modules={[Pagination]}
+                                spaceBetween={10}
+                                slidesPerView={1}
+                                pagination={{ clickable: true, dots: true }}
+                                onSwiper={(swiper) => console.log(swiper)}
+                                onSlideChange={() => console.log('slide change')}
+                              // onClick={handleSwiperPagination} 
+                              >
+                                <SwiperSlide>
+                                  <div className='C_prodImg'>
+                                    <img src={sd1} alt='not available' />
+                                  </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                  <div className='C_prodImg'>
+                                    <img src={sd2} alt='not available' />
+                                  </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                  <div className='C_prodImg'>
+                                    <img src={sd3} alt='not available' />
+                                  </div>
+                                </SwiperSlide>
+                              </Swiper>
+                            <div className='C_prodText2'>
+                              {product.model_no}
+                            </div>
+                          </div>
+                        );
+                      }
+                      else {
+                        return (
+                          <div key={product?.model_no} className='C_productItem'
+                            onClick={(e) => handleProductClick(product, e)}
+                          >
+                            <div className='C_prodImg'>
+                              <img src={require(`../../assets/products/${product.img}`)} alt='not available' />
+                            </div>
+                            <div className='C_prodText'>
+                              {product.model_no}
+                            </div>
+                          </div>
+                        );
+                      }
+                    })
                   ) : (
                     <div>No products match your filters.</div>
                   )}

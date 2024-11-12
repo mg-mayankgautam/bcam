@@ -1506,7 +1506,7 @@
                 "features": [
                     "Blue & Orange Color BNC"
                 ],
-                "img": "BNC cable MG 3564.png",
+                "img": ["BNC cable MG 3564.png","BNC Cable MG3560.png"],
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Accessories&entry.233447731=BNC+Cable"
             },
             {
@@ -1553,7 +1553,7 @@
                     "128GB",
                     "256GB"
                 ],
-                "img": "64 GB SD Card.png",
+                "img": ["64 GB SD Card.png", "128 GB SD Card.png", "256 GB SD Card.png"],
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Accessories&entry.233447731=Micro+SD+Card"
             },
             {
