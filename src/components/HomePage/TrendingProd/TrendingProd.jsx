@@ -80,7 +80,10 @@ const TrendingProd = () => {
                         spaceBetween: 10,
                     },
                 }}
-                onSwiper={(swiper) => console.log(swiper)}
+                onSwiper={(swiper) =>
+                     console.log(swiper)
+
+                }
                 onSlideChange={() => console.log('slide change')}
             >
                 {products.length > 0 && products.map((item, i) => (

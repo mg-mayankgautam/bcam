@@ -14,7 +14,37 @@ import 'swiper/css/pagination';
 
 const Collection = () => {
 
-  const { id } = useParams();
+  const { id, code } = useParams();
+
+  useEffect(() => {
+    // const { id, code } = useParams();
+    if (code) {
+      console.log(code);
+
+      // Search for the product in the store
+      const categoryData = store.find(category =>
+        category.category.toLowerCase() === decodeURIComponent(id).toLowerCase()
+      );
+
+      if (categoryData) {
+        // Find the product with matching model_no
+        const product = categoryData.products.find(
+          (item) => item.model_no === decodeURIComponent(code)
+        );
+
+        if (product) {
+          setSelectedProduct(product);
+          setModal(true);
+        }
+      }
+    }
+
+    // setSelectedProduct(code);
+    // setModal(true); 
+
+  }, [code])
+
+
 
 
   useEffect(() => {
@@ -56,16 +86,19 @@ const Collection = () => {
 
   const handleProductClick = (product, e) => {
     if (
-      e.target.classList.contains('swiper-pagination') || 
+      e.target.classList.contains('swiper-pagination') ||
       e.target.closest('.swiper-pagination')
     ) {
       e.stopPropagation();
     }
     else {
+      console.log(product)
       setSelectedProduct(product);
       setModal(true); // Open the modal
     }
   };
+
+
 
 
   useEffect(() => {
@@ -327,31 +360,31 @@ const Collection = () => {
                           <div key={product?.model_no} className='C_productItem'
                             onClick={(e) => handleProductClick(product, e)}
                           >
-                              <Swiper className='swiperSD'
-                                modules={[Pagination]}
-                                spaceBetween={10}
-                                slidesPerView={1}
-                                pagination={{ clickable: true, dots: true }}
-                                onSwiper={(swiper) => console.log(swiper)}
-                                onSlideChange={() => console.log('slide change')}
-                              // onClick={handleSwiperPagination} 
-                              >
-                                <SwiperSlide>
-                                  <div className='C_prodImg'>
-                                    <img src={sd1} alt='not available' />
-                                  </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                  <div className='C_prodImg'>
-                                    <img src={sd2} alt='not available' />
-                                  </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                  <div className='C_prodImg'>
-                                    <img src={sd3} alt='not available' />
-                                  </div>
-                                </SwiperSlide>
-                              </Swiper>
+                            <Swiper className='swiperSD'
+                              modules={[Pagination]}
+                              spaceBetween={10}
+                              slidesPerView={1}
+                              pagination={{ clickable: true, dots: true }}
+                              onSwiper={(swiper) => console.log(swiper)}
+                              onSlideChange={() => console.log('slide change')}
+                            // onClick={handleSwiperPagination} 
+                            >
+                              <SwiperSlide>
+                                <div className='C_prodImg'>
+                                  <img src={sd1} alt='not available' />
+                                </div>
+                              </SwiperSlide>
+                              <SwiperSlide>
+                                <div className='C_prodImg'>
+                                  <img src={sd2} alt='not available' />
+                                </div>
+                              </SwiperSlide>
+                              <SwiperSlide>
+                                <div className='C_prodImg'>
+                                  <img src={sd3} alt='not available' />
+                                </div>
+                              </SwiperSlide>
+                            </Swiper>
                             <div className='C_prodText2'>
                               {product.model_no}
                             </div>
@@ -393,9 +426,67 @@ const Collection = () => {
 
             <div className='prod_Flex'>
 
-              <div className='prod_Img'>
-                <img src={require(`../../assets/products/${selectedProduct?.img}`)} alt='no' />
-              </div>
+              {selectedProduct.model_no === "BNC Cable" ? (
+                <div className='prod_Img'>
+
+                  <Swiper className='swiperBNC'
+                    modules={[Pagination]}
+                    spaceBetween={10}
+                    slidesPerView={1}
+                    pagination={{ clickable: true, dots: true }}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
+                  // onClick={handleSwiperPagination} 
+                  >
+                    <SwiperSlide>
+                      {/* <div className='prod_Img'> */}
+                      <img src={bnc1} alt='not available' />
+                      {/* </div> */}
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      {/* <div className='prod_Img'> */}
+                      <img src={bnc2} alt='not available' />
+                      {/* </div> */}
+                    </SwiperSlide>
+                  </Swiper>
+                </div>
+              ) :
+                selectedProduct.model_no === "Micro SD Card" ? (
+                  <div className='prod_Img'>
+
+                    <Swiper className='swiperSD'
+                      modules={[Pagination]}
+                      spaceBetween={10}
+                      slidesPerView={1}
+                      pagination={{ clickable: true, dots: true }}
+                      onSwiper={(swiper) => console.log(swiper)}
+                      onSlideChange={() => console.log('slide change')}
+                    // onClick={handleSwiperPagination} 
+                    >
+                      <SwiperSlide>
+                        {/* <div className='prod_Img'> */}
+                        <img src={sd1} alt='not available' />
+                        {/* </div> */}
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        {/* <div className='prod_Img'> */}
+                        <img src={sd2} alt='not available' />
+                        {/* </div> */}
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        {/* <div className='prod_Img'> */}
+                        <img src={sd3} alt='not available' />
+                        {/* </div> */}
+                      </SwiperSlide>
+                    </Swiper>
+                  </div>
+                ) :
+                  (
+                    <div className='prod_Img'>
+                      <img src={require(`../../assets/products/${selectedProduct?.img}`)} alt='no' />
+                    </div>
+                  )}
+
 
               <div className='prod_Content'>
                 <div className='prod_modelno'>{selectedProduct.model_no}</div>

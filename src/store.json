@@ -318,7 +318,7 @@
         },
         "products": [
             {
-                "model_no": "BEC-4G-B-3.0/A/S/SL/TWA",
+                "model_no": "BEC-4G-B-3.0-A-S-SL-TWA",
                 "features": [
                     "3 Mega Pixel 4G Bullet Camera",
                     "3.6mm Fixed Lens",
@@ -343,7 +343,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-B-3.0/A/S/SL/TWA"
             },
             {
-                "model_no": "BEC-4G-D-3.0MP/A/SL/TWA",
+                "model_no": "BEC-4G-D-3.0MP-A-SL-TWA",
                 "features": [
                     "3 Mega Pixel 4G Dome Camera",
                     "3.6mm Fixed Lens",
@@ -366,7 +366,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-D-3.0MP/A/SL/TWA"
             },
             {
-                "model_no": "BEC-4G-B-3.0/PT",
+                "model_no": "BEC-4G-B-3.0-PT",
                 "features": [
                     "3 Mega Pixel 4G PT Camera",
                     "3.6mm Fixed Lens",
@@ -462,7 +462,7 @@
         },
         "products": [
             {
-                "model_no": "BEC-IP-B-5.0MP/A/SL",
+                "model_no": "BEC-IP-B-5.0MP-A-SL",
                 "features": [
                     "5 Mega Pixel Bullet Camera",
                     "3.6mm Fixed Lens",
@@ -497,7 +497,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL"
             },
             {
-                "model_no": "BEC-IP-B-5.0MP/A/SL (plastic body)",
+                "model_no": "BEC-IP-B-5.0MP-A-SL (plastic body)",
                 "features": [
                     "5 Mega Pixel Bullet Camera",
                     "3.6mm Fixed Lens",
@@ -531,7 +531,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL+(plastic+body)"
             },
             {
-                "model_no": "BEC-IP-B-5.0MP/A/SL/Fisheye",
+                "model_no": "BEC-IP-B-5.0MP-A-SL-Fisheye",
                 "features": [
                     "5 Mega Pixel Bullet Fisheye Camera",
                     "1.8mm Fixed Lens",
@@ -563,7 +563,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL/Fisheye"
             },
             {
-                "model_no": "BEC-IP-D-5.0MP/A/SL",
+                "model_no": "BEC-IP-D-5.0MP-A-SL",
                 "features": [
                     "5 Mega Pixel Dome Camera",
                     "3.6mm Fixed Lens",
@@ -596,7 +596,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-5.0MP/A/SL"
             },
             {
-                "model_no": "BEC-IP-B-4.0MP/A/SL",
+                "model_no": "BEC-IP-B-4.0MP-A-SL",
                 "features": [
                     "4 Mega Pixel Bullet Camera",
                     "8mm Fixed Lens",
@@ -628,7 +628,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL"
             },
             {
-                "model_no": "BEC-IP-B-4.0MP/A/SL- 6mm",
+                "model_no": "BEC-IP-B-4.0MP-A-SL- 6mm",
                 "features": [
                     "4 Mega Pixel Bullet Camera",
                     "6mm Fixed Lens (8mm/12mm/16mm Optional)",
@@ -660,7 +660,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL+(6mm)"
             },
             {
-                "model_no": "BEC-IP-D-4.0MP/A/SL/4AR",
+                "model_no": "BEC-IP-D-4.0MP-A-SL-4AR",
                 "features": [
                     "4 Mega Pixel Dome Camera",
                     "3.6mm Fixed Lens",
@@ -693,7 +693,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-4.0MP/A/SL/4AR"
             },
             {
-                "model_no": "BEC-IP-B-8.0MP/A/SL",
+                "model_no": "BEC-IP-B-8.0MP-A-SL",
                 "features": [
                     "8 Mega Pixel Bullet Camera",
                     "3.6mm Fixed Lens",
@@ -727,7 +727,7 @@
                 "form_link":"https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-8.0MP/A/SL"
             },
             {
-                "model_no": "BEC-IP-D-8.0MP/A/SL",
+                "model_no": "BEC-IP-D-8.0MP-A-SL",
                 "features": [
                     "8 Mega Pixel Dome Camera",
                     "3.6mm Fixed Lens",
@@ -790,7 +790,7 @@
         },
         "products": [
             {
-                "model_no": "BEC-HD-B-2.4MP/SL",
+                "model_no": "BEC-HD-B-2.4MP-SL",
                 "features": [
                     "2.4 Mega Pixel HD Bullet Camera",
                     "3.6mm Fixed Lens",
@@ -814,7 +814,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-B-2.4MP/SL"
             },
             {
-                "model_no": "BEC-HD-D-2.4MP/SL",
+                "model_no": "BEC-HD-D-2.4MP-SL",
                 "features": [
                     "2.4 Mega Pixel HD Dome Camera",
                     "3.6mm Fixed Lens",
@@ -838,7 +838,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-D-2.4MP/SL"
             },
             {
-                "model_no": "BEC-HD-D-3.0MP/SL/A",
+                "model_no": "BEC-HD-D-3.0MP-SL-A",
                 "features": [
                     "3 Mega Pixel HD Dome Camera",
                     "3.6mm Fixed Lens",
@@ -863,7 +863,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-D-3.0MP/SL/A"
             },
             {
-                "model_no": "BEC-HD-B-3.0MP/SL/A",
+                "model_no": "BEC-HD-B-3.0MP-SL-A",
                 "features": [
                     "3 Mega Pixel HD Bullet Camera",
                     "3.6mm Fixed Lens",
@@ -1275,7 +1275,7 @@
         },
         "products": [
             {
-                "model_no": "BEC-RT-01-4G/5G",
+                "model_no": "BEC-RT-01-4G-5G",
                 "features": [
                     "4G/5G Sim Supported",
                     "Support 3 External Antenna",
@@ -1318,7 +1318,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-03A"
             },
             {
-                "model_no": "BEC-RT-03-4G/5G",
+                "model_no": "BEC-RT-03-4G-5G",
                 "features": [
                     "4G/5G Sim Supported",
                     "Support 3 External Antenna",
@@ -1339,7 +1339,7 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-03-4G/5G"
             },
             {
-                "model_no": "BEC-RT-02-4G/5G",
+                "model_no": "BEC-RT-02-4G-5G",
                 "features": [
                     "4G/5G Sim Supported",
                     "Support 2 External Antenna",
