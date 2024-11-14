@@ -179,7 +179,7 @@
 }
 
 .mobilenavSearch input {
-    width: calc(100% - 32px);
+    width: calc(100% - 48px);
 }
 
 .ProductDropDownDiv{
@@ -197,5 +197,19 @@
 
     .hamburgerNav {
         display: block;
+    }
+
+    .Navdropdown {
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        left: 0;
+        background-color: var(--grey);
+        padding: 16px;
+        padding-left: 24px;
+        min-width: 130px;
+        border-radius: 10px;
+        max-height: 250px;
+        overflow-y: scroll;
     }
 }
