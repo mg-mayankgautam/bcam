@@ -30,7 +30,8 @@ const Main = () => {
                     </div>
 
                     <div className='mainTagline italic'>
-                        feel <strong className='orange italic'>SAFE</strong> with us
+                        {/* feel <strong className='orange italic'>SAFE</strong> with us */}
+                        Rakhe Nazar Har Kadam Par
                     </div>
 
                     <div>

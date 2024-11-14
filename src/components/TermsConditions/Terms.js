@@ -41,7 +41,7 @@ const Terms = () => {
             </div>
 
             {/* 3. Pricing & Payment */}
-            <div>
+            {/* <div>
                 <div className='terms_Title'>
                     3. Pricing & Payment
                 </div>
@@ -52,10 +52,10 @@ const Terms = () => {
                     <br />
                     3.3. <strong>Taxes:</strong> Any applicable taxes, duties, or charges will be added to the total purchase price.
                 </div>
-            </div>
+            </div> */}
 
             {/* 4. Shipping & Delivery */}
-            <div>
+            {/* <div>
                 <div className='terms_Title'>
                     4. Shipping & Delivery
                 </div>
@@ -64,10 +64,10 @@ const Terms = () => {
                     <br />
                     4.2. <strong>Delivery Times:</strong> Estimated delivery times are provided for convenience and are not guaranteed. BE-CAM is not liable for delays beyond our control.
                 </div>
-            </div>
+            </div> */}
 
             {/* 5. Returns & Refunds */}
-            <div>
+            {/* <div>
                 <div className='terms_Title'>
                     5. Returns & Refunds
                 </div>
@@ -81,78 +81,78 @@ const Terms = () => {
                     <br />
                     5.3. <strong>Shipping Costs for Returns:</strong> The customer is responsible for return shipping costs unless the product is defective or incorrect.
                 </div>
-            </div>
+            </div> */}
 
             {/* 6. Warranty */}
             <div>
                 <div className='terms_Title'>
-                    6. Warranty
+                    3. Warranty
                 </div>
                 <div>
-                    6.1. <strong>Warranty Coverage:</strong> Our products are covered by a 2-year limited warranty. This warranty covers defects in materials or workmanship under normal use.
+                    3.1. <strong>Warranty Coverage:</strong> Our products are covered by a 2-year limited warranty. This warranty covers defects in materials or workmanship under normal use.
                     <br />
-                    6.2. <strong>Exclusions:</strong> The warranty does not cover damage caused by accidents, misuse, or unauthorized modifications.
+                    3.2. <strong>Exclusions:</strong> The warranty does not cover damage caused by accidents, misuse, or unauthorized modifications.
                     <br />
-                    6.3. <strong>Warranty Claims:</strong> To file a warranty claim, please contact us at sales@becam.in. You may be required to provide proof of purchase and details of the issue.
+                    3.3. <strong>Warranty Claims:</strong> To file a warranty claim, please contact us at sales@becam.in. You may be required to provide proof of purchase and details of the issue.
                 </div>
             </div>
 
             {/* 7. Limitation of Liability */}
             <div>
                 <div className='terms_Title'>
-                    7. Limitation of Liability
+                    4. Limitation of Liability
                 </div>
                 <div>
-                    7.1. <strong>No Liability:</strong> To the maximum extent permitted by law, BE-CAM will not be liable for any direct, indirect, incidental, or consequential damages arising out of or related to your use of the website, products, or services.
+                    4.1. <strong>No Liability:</strong> To the maximum extent permitted by law, BE-CAM will not be liable for any direct, indirect, incidental, or consequential damages arising out of or related to your use of the website, products, or services.
                     <br />
-                    7.2. <strong>Indemnification:</strong> You agree to indemnify and hold BE-CAM harmless from any claims, damages, or expenses arising from your breach of these Terms or misuse of our products.
+                    4.2. <strong>Indemnification:</strong> You agree to indemnify and hold BE-CAM harmless from any claims, damages, or expenses arising from your breach of these Terms or misuse of our products.
                 </div>
             </div>
 
             {/* 8. Privacy Policy */}
             <div>
                 <div className='terms_Title'>
-                    8. Privacy Policy
+                    5. Privacy Policy
                 </div>
                 <div>
-                    8.1. <strong>Personal Information:</strong> By using our website and services, you agree to the collection and use of your personal information as outlined in our Privacy Policy. We are committed to protecting your privacy and maintaining the confidentiality of your personal information.
+                    5.1. <strong>Personal Information:</strong> By using our website and services, you agree to the collection and use of your personal information as outlined in our Privacy Policy. We are committed to protecting your privacy and maintaining the confidentiality of your personal information.
                 </div>
             </div>
 
             {/* 9. Intellectual Property */}
             <div>
                 <div className='terms_Title'>
-                    9. Intellectual Property
+                    6. Intellectual Property
                 </div>
                 <div>
-                    9.1. All content on our website, including text, images, logos, and graphics, is the property of BE-CAM and protected by copyright and trademark laws. You may not use, reproduce, or distribute any content without our written permission.
+                    6.1. All content on our website, including text, images, logos, and graphics, is the property of BE-CAM and protected by copyright and trademark laws. You may not use, reproduce, or distribute any content without our written permission.
                 </div>
             </div>
 
             {/* 10. Changes to Terms */}
             <div>
                 <div className='terms_Title'>
-                    10. Changes to Terms
+                    7. Changes to Terms
                 </div>
                 <div>
-                    10.1. <strong>Modifications:</strong> We reserve the right to update or modify these Terms at any time without prior notice. Changes will be effective immediately upon posting on our website. Your continued use of our services constitutes your acceptance of any changes.
+                    7.1. <strong>Modifications:</strong> We reserve the right to update or modify these Terms at any time without prior notice. Changes will be effective immediately upon posting on our website. Your continued use of our services constitutes your acceptance of any changes.
                 </div>
             </div>
 
             {/* 11. Governing Law */}
             <div>
                 <div className='terms_Title'>
-                    11. Governing Law
+                    8. Governing Law
                 </div>
                 <div>
-                    11.1. These Terms are governed by and construed in accordance with the laws of Delhi, and any disputes arising out of or related to these Terms will be subject to the exclusive jurisdiction of the courts in Delhi.
+                    8.1. These Terms are governed by and construed in accordance with the laws of Delhi, and any disputes arising out of or related to these Terms will be subject to the exclusive jurisdiction of the courts in Delhi.
                 </div>
             </div>
 
             {/* 12. Contact Information */}
             <div>
                 <div className='terms_Title'>
-                    12. Contact Information
+                    9. Contact Information
                 </div>
                 <div>
                     If you have any questions or concerns about these Terms, please contact us at:

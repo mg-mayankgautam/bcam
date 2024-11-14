@@ -31,6 +31,14 @@ const ContactUs = () => {
                             <img src={mail} />
                         </div>
                         <div>sales@becam.in</div>
+                        
+                    </Link>
+                    <Link to='mailto:technicalsupport@becam.in' className='CU_flex'>
+                        <div className='CU_icon'>
+                            <img src={mail} />
+                        </div>
+                        <div>technicalsupport@becam.in</div>
+                        
                     </Link>
 
                     <div className='CU_flex'>

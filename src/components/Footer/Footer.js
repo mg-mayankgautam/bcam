@@ -68,6 +68,9 @@ const Footer = () => {
             <Link to='mailto:sales@becam.in'>
               <div>sales@becam.in</div>
             </Link>
+            <Link to='mailto:technicalsupport@becam.in'>
+              <div>technicalsupport@becam.in</div>
+            </Link>
           </div>
 
         </div>
