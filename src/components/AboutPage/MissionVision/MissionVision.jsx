@@ -43,7 +43,7 @@ const MissionVision = () => {
                     <img src={support} />
                 </div>
                 <div className='WCU_content'>
-                    <div className='WCU_head'>24/7 Support</div>
+                    <div className='WCU_head'>Technical Support</div>
                     <div className='WCU_text'>
                         We offer round-the-clock technical support and maintenance services to ensure your system operates flawlessly.
                     </div>

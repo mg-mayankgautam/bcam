@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import '../TermsConditions/Terms.css'
+import { Link } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
 
@@ -152,7 +153,16 @@ const PrivacyPolicy = () => {
                     If you have any questions or concerns about this Privacy Policy or how we handle your personal data, please contact us at:
                     <ul>
                         <li>Company Name: BE-CAM TECH INDIA PVT LTD</li>
-                        <li>Email: sales@becam.in</li>
+                        <li>Sales Support:{' '}
+                            <Link to='mailto:sales@becam.in'>
+                                sales@becam.in
+                            </Link>
+                        </li>
+                        <li>Technical Support:{' '}
+                            <Link to='mailto:technicalsupport@becam.in'>
+                                technicalsupport@becam.in
+                            </Link>
+                        </li>
                         <li>Address: 608, Sidharth Building, Nehru Place, Delhi</li>
                     </ul>
                 </div>

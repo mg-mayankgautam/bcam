@@ -97,12 +97,14 @@
     margin: 8px 0 2px;
     text-align: left;
     font-size: 14px;
-    color: #111111;
+    /* color: #111111; */
+    color: var(--primary);
+    font-family: 'myfontbold';
 }
 
 .dropdown-item:hover {
-    color: black;
-    font-weight: 600;
+    /* color: black; */
+    font-family: 'myfontblack';
     cursor: pointer;
 }
 
