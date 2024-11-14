@@ -134,7 +134,7 @@
 @media only screen and (orientation: portrait) {
     .certifications{
         grid-template-columns: repeat(5, auto);
-        gap: 8px;
+        gap: 20px;
         margin: 40px 0;
     }
 }
