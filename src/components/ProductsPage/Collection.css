@@ -360,17 +360,24 @@
 
 @media only screen and (orientation: portrait) {
     .Collection {
-        padding: 32px 20px;
-        flex-direction: column;
+        padding: 32px 16px;
+        /* flex-direction: column; */
+        gap: 16px;
     }
 
     .collectionSidebar {
-        max-width: unset;
+        /* max-width: unset; */
+        max-width: 130px;
+    }
+
+    .C_ProdFunctions {
+        padding: 24px 16px;
+        gap: 24px;
     }
 
     .collectionMainbar {
         padding: 24px 20px 64px;
-        width: calc(100% - 40px);
+        /* width: calc(100% - 40px); */
     }
 
     .C_productsContainer {
@@ -448,5 +455,16 @@
     .C_categoryItem, .C_filterItem {
         font-size: 12px;
         margin: 4px 0;
+    }
+
+    .C_filterMapGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 8px;
+        margin: 2px 0 10px;
+    }
+
+    .C_searchHead{
+        font-size: 14px;
     }
 }
