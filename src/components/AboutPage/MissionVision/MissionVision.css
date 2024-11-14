@@ -75,6 +75,7 @@
 @media only screen and (orientation: portrait) {
     .MissionVision {
         padding: 32px 20px;
+        margin: 30px 20px 56px;
     }
 
     .MV_head {
@@ -134,6 +135,6 @@
     .certifications{
         grid-template-columns: repeat(5, auto);
         gap: 8px;
-        margin: 60px 0;
+        margin: 40px 0;
     }
 }
