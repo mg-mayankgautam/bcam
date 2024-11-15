@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import call from '../../assets/icons/call.svg'
 import mail from '../../assets/icons/mail.svg'
 import map from '../../assets/icons/location.svg'
+import wp from '../../assets/wpOrng.png'
 
 const ContactUs = () => {
 
@@ -40,6 +41,16 @@ const ContactUs = () => {
                         <div>technicalsupport@becam.in</div>
                         
                     </Link>
+
+                    <div className='CU_flex'>
+                        <div className='CU_icon'>
+                            <img src={wp} />
+                        </div>
+                        <div>
+                            <div>BE-CAM TECH INDIA PVT LTD</div>
+                            <div>608, Sidharth Building, Nehru Place, Delhi, India</div>
+                        </div>
+                    </div>
 
                     <div className='CU_flex'>
                         <div className='CU_icon'>
