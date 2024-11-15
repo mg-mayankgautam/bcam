@@ -31,7 +31,7 @@ const Main = () => {
 
                     <div className='mainTagline italic'>
                         {/* feel <strong className='orange italic'>SAFE</strong> with us */}
-                        Rakhe Nazar Har Kadam Par
+                        Rakhe <strong className='orange italic'>Nazar</strong> Har Kadam Par
                     </div>
 
                     <div>

@@ -8,7 +8,7 @@ const Footer = () => {
   const location = useLocation();
 
   return (
-    <div className={location.pathname=='/'? 'Footer home' : 'Footer'}>
+    <div className={location.pathname == '/' ? 'Footer home' : 'Footer'}>
       <div className='footerContent'>
 
         <div className='footerLogoContent'>
@@ -60,11 +60,26 @@ const Footer = () => {
 
           <div>
             <div className='footerTitle'>CONTACT US</div>
+
+            {/* <Link to="tel:+919319998197">
+              <div>+91 93199 98197</div>
+            </Link>
+
+            <Link to="tel:+919319998196">
+              <div>
+                +91 93199 98196
+              </div>
+            </Link> */}
             <div>
-              <Link to="tel:+919319998197">+91 93199 98197</Link>
-                <br/>
-                <Link to="tel:+919319998196">+91 93199 98196</Link>
+              <Link to="tel:+919319998197">
+                +91 93199 98197 ,{' '}
+              </Link>
+
+              <Link to="tel:+919319998196">
+                +91 93199 98196
+              </Link>
             </div>
+
             <Link to='mailto:sales@becam.in'>
               <div>sales@becam.in</div>
             </Link>
@@ -80,10 +95,10 @@ const Footer = () => {
       <div className='footerCopyright'>
         <div>©️ BE-CAM TECH INDIA PVT LTD 2024. All Rights Reserved.</div>
         <Link to='https://www.thefuelmedia.co/' target='_blank'>
-          <strong style={{textTransform:'uppercase'}}><div>Designed & Developed by The Fuel Media</div></strong>
+          <strong style={{ textTransform: 'uppercase' }}><div>Designed & Developed by The Fuel Media</div></strong>
         </Link>
       </div>
-    </div>
+    </div >
   )
 }
 

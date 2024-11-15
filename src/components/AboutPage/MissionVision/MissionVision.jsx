@@ -5,6 +5,11 @@ import customised from '../../../assets/icons/Customized Solutions.png'
 import support from '../../../assets/icons/24_7 Support.png'
 import afford from '../../../assets/icons/Affordable Pricing.png'
 import custsatis from '../../../assets/icons/Customer Satisfaction.png'
+import one from '../../../assets/certi/7.png'
+import two from '../../../assets/certi/8.png'
+import three from '../../../assets/certi/9.png'
+import four from '../../../assets/certi/10.png'
+import five from '../../../assets/certi/11.png'
 
 const MissionVision = () => {
     return (
@@ -43,7 +48,7 @@ const MissionVision = () => {
                     <img src={support} />
                 </div>
                 <div className='WCU_content'>
-                    <div className='WCU_head'>24/7 Support</div>
+                    <div className='WCU_head'>Technical Support</div>
                     <div className='WCU_text'>
                         We offer round-the-clock technical support and maintenance services to ensure your system operates flawlessly.
                     </div>
@@ -75,6 +80,24 @@ const MissionVision = () => {
                 </div>
             </div>
 
+
+            <div className='certifications'>
+                <div className='certiLogo'>
+                    <img src={one} />
+                </div>
+                <div className='certiLogo'>
+                    <img src={four} />
+                </div>
+                <div className='certiLogo'>
+                    <img src={three} />
+                </div>
+                <div className='certiLogo'>
+                    <img src={two} />
+                </div>
+                <div className='certiLogo'>
+                    <img src={five} />
+                </div>
+            </div>
 
         </div>
     )

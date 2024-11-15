@@ -97,12 +97,14 @@
     margin: 8px 0 2px;
     text-align: left;
     font-size: 14px;
-    color: #111111;
+    /* color: #111111; */
+    color: var(--primary);
+    font-family: 'myfontbold';
 }
 
 .dropdown-item:hover {
-    color: black;
-    font-weight: 600;
+    /* color: black; */
+    font-family: 'myfontblack';
     cursor: pointer;
 }
 
@@ -179,7 +181,7 @@
 }
 
 .mobilenavSearch input {
-    width: calc(100% - 32px);
+    width: calc(100% - 48px);
 }
 
 .ProductDropDownDiv{
@@ -197,5 +199,19 @@
 
     .hamburgerNav {
         display: block;
+    }
+
+    .Navdropdown {
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        left: 0;
+        background-color: var(--grey);
+        padding: 16px;
+        padding-left: 24px;
+        min-width: 130px;
+        border-radius: 10px;
+        max-height: 250px;
+        overflow-y: scroll;
     }
 }

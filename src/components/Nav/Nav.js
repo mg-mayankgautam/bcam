@@ -283,24 +283,14 @@ const Nav = () => {
                                     value={searchInput}
                                     onChange={handleSearchChange}
                                 />
+                                <div className='searchIcon'>
+                                    <img src={search} />
+                                </div>
 
-                                {/* {(searchResults.length > 0 && searchInput) && (
+                                {(searchResults?.allResults?.length > 0 || searchResults?.directCodeMatches?.length > 0) && searchInput && (
                                     <div className='Navdropdown'>
-                                        {searchResults.map((match, index) => (
-                                            <div
-                                                key={index}
-                                                className='dropdown-item'
-                                                onClick={() => handleSelect(match)}
-                                            >
-                                                {match}
-                                            </div>
-                                        ))}
-                                    </div>
-                                )} */}
-                                {/* Display search results */}
-                                {(searchResults.length > 0 && searchInput) && (
-                                    <div className='Navdropdown'>
-                                        {searchResults.map((category, index) => (
+                                        {/* Show Category Matches */}
+                                        {searchResults.allResults.map((category, index) => (
                                             <div key={index}>
                                                 <div
                                                     className='dropdown-item'
@@ -308,16 +298,25 @@ const Nav = () => {
                                                 >
                                                     {category.name}
                                                 </div>
-                                                {/* Show related product codes as list items */}
-                                                <ul className='product-codes'>
-                                                    {category.codes.filter(code =>
-                                                        code.toLowerCase().includes(searchInput.toLowerCase())
-                                                    ).map((filteredCode, idx) => (
-                                                        <li key={idx} onClick={() => handleSelect(filteredCode)}>{filteredCode}</li>
-                                                    ))}
-                                                </ul>
+
+                                                {/* <Link to='/contactus'>
+                                        <div className={`navitem ${location.pathname === '/contactus' ? 'selected' : ''}`}>
+                                            Contact Us
+                                        </div>
+                                    </Link> */}
+
+                                                {category.directCodeMatches.map((code, idx) => (
+                                                    //  <Link to={`products/${category.name}/${code}`} className='product-codes'>
+                                                    // <div key={idx}>{code}</div>
+                                                    // </Link>
+                                                    <Link to={`products/${category.name}/${code}`} className='product-codes'>
+                                                        <div key={idx}>{code}</div>
+                                                    </Link>
+                                                ))}
+
                                             </div>
                                         ))}
+
                                     </div>
                                 )}
 
