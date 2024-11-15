@@ -7,12 +7,12 @@ const Main = () => {
         <div className='HomeMain'>
             <div className='mainHeader'>
                 {/* <div className='mainHeading'>
-                    <strong>
-                        <span className='orange'> Be</span>
-                        <span className='blue'>CAM</span>
-                    </strong>
-                    <br />
-                </div> */}
+                        <strong>
+                            <span className='orange'> BE-</span>
+                            <span className='blue'>CAM</span>
+                        </strong>
+                        <br />
+                    </div> */}
 
                 <div className='mainImg'>
                     {/* <img src={img} /> */}
@@ -21,13 +21,10 @@ const Main = () => {
 
                 <div className='mainText'>
 
-                    <div className='mainHeading'>
-                        <strong>
-                            <span className='orange'> BE-</span>
-                            <span className='blue'>CAM</span>
-                        </strong>
-                        <br />
+                    <div className='mainLogo'>
+                        <img src={img} />
                     </div>
+
 
                     <div className='mainTagline italic'>
                         {/* feel <strong className='orange italic'>SAFE</strong> with us */}

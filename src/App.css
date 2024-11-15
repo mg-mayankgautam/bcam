@@ -47,6 +47,22 @@ button{
   font-family: 'myfontblack';
 }
 
+.whatsappBtnDiv{
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.whatsappBtnDiv>a>img{
+  height: 50px;
+}
+
 
 @media only screen and (orientation: portrait) {
   .dummyNav{

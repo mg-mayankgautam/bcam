@@ -42,15 +42,14 @@ const ContactUs = () => {
                         
                     </Link>
 
-                    <div className='CU_flex'>
+                    <Link className='CU_flex' to="https://wa.me/+919319998197?text=Hi" target='_blank'>
                         <div className='CU_icon'>
                             <img src={wp} />
                         </div>
                         <div>
-                            <div>BE-CAM TECH INDIA PVT LTD</div>
-                            <div>608, Sidharth Building, Nehru Place, Delhi, India</div>
+                            Whatsapp
                         </div>
-                    </div>
+                    </Link>
 
                     <div className='CU_flex'>
                         <div className='CU_icon'>

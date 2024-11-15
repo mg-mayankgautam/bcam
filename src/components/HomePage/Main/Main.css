@@ -83,6 +83,19 @@
     max-height: 100%;
 }
 
+.mainLogo{
+    margin-left: -4px;
+    height: 200px;
+}
+
+.mainLogo img{
+    object-fit: contain;
+    height: 100%;
+    border-radius: 40px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 780px) {
     
     .mainHeader {

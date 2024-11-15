@@ -86,6 +86,12 @@ const Footer = () => {
             <Link to='mailto:technicalsupport@becam.in'>
               <div>technicalsupport@becam.in</div>
             </Link>
+
+            <Link to="https://wa.me/+919319998197?text=Hi" target='_blank'>
+              <div>
+                Whatsapp
+              </div>
+            </Link>
           </div>
 
         </div>
