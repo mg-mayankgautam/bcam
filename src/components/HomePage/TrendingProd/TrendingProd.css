@@ -33,10 +33,10 @@
     z-index: 10;
 }
 
-.swiper-button-prev{
+.TrendingProd .swiper-button-prev{
     left: 35% !important;
 }
-.swiper-button-next{
+.TrendingProd .swiper-button-next{
     right: 35% !important;
 }
 
