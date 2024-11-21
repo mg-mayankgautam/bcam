@@ -340,7 +340,7 @@
                 ],
                 "filters": [
                     {
-                        "Mega Pixel": "3+3"
+                        "Mega Pixel": 3
                     },
                     {
                         "IR Range": "20 Mtr"
