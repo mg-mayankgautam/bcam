@@ -345,7 +345,9 @@ const categories = [
             "BEC-WL05-MB",
             "BEC-Wi-Fi-WL06VC",
             "BEC-Wi-Fi-WL06PN",
-            "BEC-Wi-Fi-WL08-BT"
+            "BEC-Wi-Fi-WL08-BT",
+            "BEC-Wi-Fi-WL04PT",
+            "BEC-Wi-Fi-WL05PT-2L3D"
         ]
     },
     {
@@ -353,8 +355,8 @@ const categories = [
         codes: [
             "BEC-4G-B-3.0-A-S-SL-TWA",
             "BEC-4G-D-3.0MP-A-SL-TWA",
-            "BEC-4G-B-3.0-PT",
-            "BEC-4G-PT SL"
+            "BEC-4G-PT SL",
+            "BEC-4G-03-2L3D-PT"
         ]
     },
     {

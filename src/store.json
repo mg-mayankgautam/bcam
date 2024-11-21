@@ -293,7 +293,69 @@
                 ],
                 "img": "BEC-Wi-Fi-WL08-BT.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Wi-Fi+Camera&entry.1453432190=BEC-Wi-Fi-WL08-BT"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL04PT",
+                "features": [
+                    "3 Mega Pixel Wi-Fi PT Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "Two-Way Audio Supported",
+                    "IR Range up to 30 Mtr",
+                    "Support Motion Tracking",
+                    "Support Micro SD Card up to 128GB",
+                    "Weatherproof IP66",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": 3
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Fixed Lens"
+                    }
+                ],
+                "img": "BEC-Wi-Fi-WL04PT.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Wi-Fi+Camera&entry.1453432190=BEC-Wi-Fi-WL04PT"
+            },
+            {
+                "model_no": "BEC-Wi-Fi-WL05PT-2L3D",
+                "features": [
+                    "3+3 Mega Pixel Wi-Fi Color Camera",
+                    "3.6mm Lens (Triple Screens)",
+                    "Rotatable 355 Degrees",
+                    "24x7 Full Color Vision",
+                    "Two-Way Audio Supported",
+                    "IR Range up to 20 Mtr",
+                    "Support Motion Tracking",
+                    "Support 2.4/5Ghz Frequency",
+                    "Support Micro SD Card up to 256GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": "3+3"
+                    },
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    },
+                    {
+                        "Lens": "Triple Screens"
+                    }
+                ],
+                "img": "BEC-4G-03-2L3DPT, BEC-Wi-Fi-WL05PT-2L3D.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Wi-Fi+Camera&entry.1453432190=BEC-Wi-Fi-WL05PT-2L3D"
             }
+            
         ]
     },
     {
@@ -366,30 +428,6 @@
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-D-3.0MP/A/SL/TWA"
             },
             {
-                "model_no": "BEC-4G-B-3.0-PT",
-                "features": [
-                    "3 Mega Pixel 4G PT Camera",
-                    "3.6mm Fixed Lens",
-                    "24x7 Full Color",
-                    "4G Sim Supported",
-                    "Two-Way Audio Supported",
-                    "IR Range up to 30 Mtr.",
-                    "Support Micro SD Card up to 128GB",
-                    "Weather proof IP67",
-                    "Support Android & iOS Mobile Application"
-                ],
-                "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png",
-                "filters": [
-                    {
-                        "IR Range": "30 Mtr"
-                    },
-                    {
-                        "Memory Card": "Yes"
-                    }
-                ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-B-3.0/PT"
-            },
-            {
                 "model_no": "BEC-4G-PT SL",
                 "features": [
                     "3 Mega Pixel 4G PT Camera",
@@ -412,6 +450,30 @@
                     }
                 ],
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-PT+SL"
+            },
+            {
+                "model_no": "BEC-4G-03-2L3D-PT",
+                "features": [
+                    "3+3 Mega Pixel 4G/5G Color Camera",
+                    "3.6mm Lens (Triple Screens)",
+                    "Rotatable 355 Degrees",
+                    "24x7 Full Color Vision",
+                    "Two-Way Audio Supported",
+                    "IR Range up to 20 Mtr",
+                    "Support Motion Tracking",
+                    "Support Micro SD Card up to 128GB",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-4G-03-2L3DPT, BEC-Wi-Fi-WL05PT-2L3D.png",
+                "filters": [
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-03-2L3D/PT"
             }
         ]
     },

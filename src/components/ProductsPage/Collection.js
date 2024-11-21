@@ -7,6 +7,7 @@ import bnc1 from '../../assets/products/BNC cable MG 3564.png'
 import sd1 from '../../assets/products/64 GB SD Card.png'
 import sd2 from '../../assets/products/128 GB SD Card.png'
 import sd3 from '../../assets/products/256 GB SD Card.png'
+import one from '../../assets/products/BEC-4G-03-2L3DPT, BEC-Wi-Fi-WL05PT-2L3D.png'
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
