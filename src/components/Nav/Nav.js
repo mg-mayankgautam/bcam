@@ -413,12 +413,27 @@ const categories = [
         ]
     },
     {
+        name: "Ethernet Switch",
+        codes: [
+            "BEC-LS-05-N",
+            "BEC-LS-08-N",
+            "BEC-LS-08-GIGA"
+        ]
+    },
+    {
         name: "4G Router",
         codes: [
             "BEC-RT-01-4G-5G",
             "BEC-RT-03A",
             "BEC-RT-03-4G-5G",
             "BEC-RT-02-4G-5G"
+        ]
+    },
+    {
+        name: "4G Solar Camera",
+        codes: [
+            "BEC-4G-S01-8H-7.5W-PT",
+            "BEC-4G-S02-12H-10W-PT"
         ]
     },
     {
@@ -446,21 +461,6 @@ const categories = [
             "HDMI Cable",
             "Micro SD Card",
             "SGA60E12-P1J"
-        ]
-    },
-    {
-        name: "4G Solar Camera",
-        codes: [
-            "BEC-4G-S01-8H-7.5W-PT",
-            "BEC-4G-S02-12H-10W-PT"
-        ]
-    },
-    {
-        name: "Ethernet Switch",
-        codes: [
-            "BEC-LS-05-N",
-            "BEC-LS-08-N",
-            "BEC-LS-08-GIGA"
         ]
     }
 ];

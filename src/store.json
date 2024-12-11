@@ -1407,6 +1407,89 @@
         ]
     },
     {
+        "category": "Ethernet Switch",
+        "filters": [
+            {
+                "Port": [
+                    "5 Port",
+                    "8 Port"
+                ]
+            },
+            {
+                "Speed": [
+                    "10/100 Mbps",
+                    "10/100/1000 Mbps"
+                ]
+            }
+        ],
+        "selectedFiltersObj": {
+            "Port": [],
+            "Speed": []
+        },
+        "products": [
+            {
+                "model_no": "BEC-LS-05-N",
+                "features": [
+                    "5 Port Ethernet Switch",
+                    "10/100 Mbps",
+                    "Power LED Indicator",
+                    "Low Power Consumption",
+                    "Plug & Play, Easy to Install"
+                ],
+                "filters": [
+                    {
+                        "Port": "5 Port"
+                    },
+                    {
+                        "Speed": "10/100 Mbps"
+                    }
+                ],
+                "img": "BEC-LS-05-N.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-05-N"
+            },
+            {
+                "model_no": "BEC-LS-08-N",
+                "features": [
+                    "8 Port Ethernet Switch",
+                    "10/100 Mbps",
+                    "Power LED Indicator",
+                    "Low Power Consumption",
+                    "Plug & Play, Easy to Install"
+                ],
+                "filters": [
+                    {
+                        "Port": "8 Port"
+                    },
+                    {
+                        "Speed": "10/100 Mbps"
+                    }
+                ],
+                "img": "BEC-LS-08-N.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-N"
+            },
+            {
+                "model_no": "BEC-LS-08-GIGA",
+                "features": [
+                    "8 Port Ethernet Switch",
+                    "10/100/1000 Mbps",
+                    "Power LED Indicator",
+                    "Low Power Consumption",
+                    "Plug & Play, Easy to Install"
+                ],
+                "filters": [
+                    {
+                        "Port": "8 Port"
+                    },
+                    {
+                        "Speed": "10/100/1000 Mbps"
+                    }
+                ],
+                "img": "BEC-LS-08-GIGA.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-GIGA"
+            }
+        ]
+    },
+    {
         "category": "4G Router",
         "filters": [
             {
@@ -1511,6 +1594,64 @@
                 ],
                 "img": "BEC-RT-02-4G-5G.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-02-4G/5G"
+            }
+        ]
+    },
+    {
+        "category": "4G Solar Camera",
+        "filters": [
+            {
+                "Solar Plate": [
+                    "7.5W",
+                    "10W"
+                ]
+            }
+        ],
+        "selectedFiltersObj": {
+            "Solar Plate": []
+        },
+        "products": [
+            {
+                "model_no": "BEC-4G-S01-8H-7.5W-PT",
+                "features": [
+                    "3+3 Mega Pixel Solar 4G color Camera",
+                    "3.6mm Dual Lens",
+                    "Support 8000mAh Battery",
+                    "4G/5G Sim Support",
+                    "7.5 Watt Solar Plate",
+                    "IR Range up to 20mtr",
+                    "Weather Proof",
+                    "Support up to 128GB SD Card",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Solar Plate": "7.5W"
+                    }
+                ],
+                "img": "BEC-4G-SO1-8H-7.5W-PT.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT"
+            },
+            {
+                "model_no": "BEC-4G-S02-12H-10W-PT",
+                "features": [
+                    "3+3 Mega Pixel Solar 4G color Camera",
+                    "3.6mm Dual Lens",
+                    "Support 12000mAh Battery",
+                    "4G/5G Sim Support",
+                    "10 Watt Solar Plate",
+                    "2 PIR Sensor",
+                    "Weather Proof",
+                    "Support up to 128GB Card",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Solar Plate": "10W"
+                    }
+                ],
+                "img": "BEC-4G-SO2-12H-10W-PT.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT"
             }
         ]
     },
@@ -1723,147 +1864,6 @@
                 ],
                 "img": "SGA60E12-P1J - Power Adapter.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Accessories&entry.233447731=SGA60E12-P1J"
-            }
-        ]
-    },
-    {
-        "category": "4G Solar Camera",
-        "filters": [
-            {
-                "Solar Plate": [
-                    "7.5W",
-                    "10W"
-                ]
-            }
-        ],
-        "selectedFiltersObj": {
-            "Solar Plate": []
-        },
-        "products": [
-            {
-                "model_no": "BEC-4G-S01-8H-7.5W-PT",
-                "features": [
-                    "3+3 Mega Pixel Solar 4G color Camera",
-                    "3.6mm Dual Lens",
-                    "Support 8000mAh Battery",
-                    "4G/5G Sim Support",
-                    "7.5 Watt Solar Plate",
-                    "IR Range up to 20mtr",
-                    "Weather Proof",
-                    "Support up to 128GB SD Card",
-                    "Support Android & iOS Mobile Application"
-                ],
-                "filters": [
-                    {
-                        "Solar Plate": "7.5W"
-                    }
-                ],
-                "img": "BEC-4G-SO1-8H-7.5W-PT.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT"
-            },
-            {
-                "model_no": "BEC-4G-S02-12H-10W-PT",
-                "features": [
-                    "3+3 Mega Pixel Solar 4G color Camera",
-                    "3.6mm Dual Lens",
-                    "Support 12000mAh Battery",
-                    "4G/5G Sim Support",
-                    "10 Watt Solar Plate",
-                    "2 PIR Sensor",
-                    "Weather Proof",
-                    "Support up to 128GB Card",
-                    "Support Android & iOS Mobile Application"
-                ],
-                "filters": [
-                    {
-                        "Solar Plate": "10W"
-                    }
-                ],
-                "img": "BEC-4G-SO2-12H-10W-PT.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT"
-            }
-        ]
-    },
-    {
-        "category": "Ethernet Switch",
-        "filters": [
-            {
-                "Port": [
-                    "5 Port",
-                    "8 Port"
-                ]
-            },
-            {
-                "Speed": [
-                    "10/100 Mbps",
-                    "10/100/1000 Mbps"
-                ]
-            }
-        ],
-        "selectedFiltersObj": {
-            "Port": [],
-            "Speed": []
-        },
-        "products": [
-            {
-                "model_no": "BEC-LS-05-N",
-                "features": [
-                    "5 Port Ethernet Switch",
-                    "10/100 Mbps",
-                    "Power LED Indicator",
-                    "Low Power Consumption",
-                    "Plug & Play, Easy to Install"
-                ],
-                "filters": [
-                    {
-                        "Port": "5 Port"
-                    },
-                    {
-                        "Speed": "10/100 Mbps"
-                    }
-                ],
-                "img": "BEC-LS-05-N.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-05-N"
-            },
-            {
-                "model_no": "BEC-LS-08-N",
-                "features": [
-                    "8 Port Ethernet Switch",
-                    "10/100 Mbps",
-                    "Power LED Indicator",
-                    "Low Power Consumption",
-                    "Plug & Play, Easy to Install"
-                ],
-                "filters": [
-                    {
-                        "Port": "8 Port"
-                    },
-                    {
-                        "Speed": "10/100 Mbps"
-                    }
-                ],
-                "img": "BEC-LS-08-N.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-N"
-            },
-            {
-                "model_no": "BEC-LS-08-GIGA",
-                "features": [
-                    "8 Port Ethernet Switch",
-                    "10/100/1000 Mbps",
-                    "Power LED Indicator",
-                    "Low Power Consumption",
-                    "Plug & Play, Easy to Install"
-                ],
-                "filters": [
-                    {
-                        "Port": "8 Port"
-                    },
-                    {
-                        "Speed": "10/100/1000 Mbps"
-                    }
-                ],
-                "img": "BEC-LS-08-GIGA.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-GIGA"
             }
         ]
     }
