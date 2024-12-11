@@ -347,7 +347,8 @@ const categories = [
             "BEC-Wi-Fi-WL06PN",
             "BEC-Wi-Fi-WL08-BT",
             "BEC-Wi-Fi-WL04PT",
-            "BEC-Wi-Fi-WL05PT-2L3D"
+            "BEC-Wi-Fi-WL05PT-2L3D",
+            "BEC-Wi-Fi-BL01"
         ]
     },
     {
@@ -370,7 +371,9 @@ const categories = [
             "BEC-IP-B-4.0MP-A-SL (6mm)",
             "BEC-IP-D-4.0MP-A-SL-4AR",
             "BEC-IP-B-8.0MP-A-SL",
-            "BEC-IP-D-8.0MP-A-SL"
+            "BEC-IP-D-8.0MP-A-SL",
+            "BEC-IP-D-5.0MP-A-SL-FISHEYE",
+            "BEC-IP-B-5.0MP-A-SL-VF"
         ]
     },
     {
@@ -443,6 +446,21 @@ const categories = [
             "HDMI Cable",
             "Micro SD Card",
             "SGA60E12-P1J"
+        ]
+    },
+    {
+        name: "4G Solar Camera",
+        codes: [
+            "BEC-4G-S01-8H-7.5W-PT",
+            "BEC-4G-S02-12H-10W-PT"
+        ]
+    },
+    {
+        name: "Ethernet Switch",
+        codes: [
+            "BEC-LS-05-N",
+            "BEC-LS-08-N",
+            "BEC-LS-08-GIGA"
         ]
     }
 ];

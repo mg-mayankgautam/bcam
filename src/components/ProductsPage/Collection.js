@@ -75,6 +75,8 @@ const Collection = () => {
     "Size": [],
     "Channel": [],
     "Ampere": [],
+    "Solar Plate": [],
+    "Speed": []
   });
 
 
@@ -125,6 +127,8 @@ const Collection = () => {
       "Size": [],
       "Channel": [],
       "Ampere": [],
+      "Solar Plate": [],
+      "Speed": []
     })
     // console.log(selectedCategory)
     // console.log(selectedFilters)
