@@ -23,7 +23,7 @@ import f from '../../assets/gallery/f.jpg';
 import g from '../../assets/gallery/g.jpg';
 import h from '../../assets/gallery/h.jpg';
 import i from '../../assets/gallery/i.jpg';
-import one from '../../assets/gallery/1.jpg';
+import one from '../../assets/gallery/1m.jpg';
 import two from '../../assets/gallery/2.jpg';
 import three from '../../assets/gallery/3.jpg';
 import four from '../../assets/gallery/4.jpg';
