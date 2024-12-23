@@ -11,7 +11,7 @@ import MediaGallery from './pages/MediaGallery';
 import Contact from './pages/Contact';
 
 function App() {
-  // resp
+  // commit
   return (
     <Routes>
 
