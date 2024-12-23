@@ -139,7 +139,6 @@ const Gallery = () => {
         <div className='Gallery'>
 
             <div className='TP_head MG_head bold'>
-                {/* Media <span className='orange'>Gallery</span> */}
                 <span className='orange'>IFSEC </span> 2024
             </div>
 
