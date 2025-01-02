@@ -566,7 +566,7 @@
                     "Metal Body",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-5.0MP_A_SL.png",
+                "img": "BEC-IP-B-5.0MP-A-SL.png",
                 "filters": [
                     {
                         "Mega Pixel": "5"
@@ -600,7 +600,7 @@
                     "Plastic Body",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-5.0MP_A_SL (plastic body).png",
+                "img": "BEC-IP-B-5.0MP-A-SL (Plastic Body).png",
                 "filters": [
                     {
                         "Mega Pixel": "5"
@@ -665,7 +665,7 @@
                     "Weather proof IP66",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-D-5.0MP_A_SL.png",
+                "img": "BEC-IP-D-5.0MP-A-SL.png",
                 "filters": [
                     {
                         "Mega Pixel": "5"
@@ -952,7 +952,7 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png",
+                "img": "BEC-HD-B-2.4MP-SL.png",
                 "filters": [
                     {
                         "Mega Pixel": "2.4"
@@ -976,7 +976,7 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-D-2.4MP_SL.png",
+                "img": "BEC-HD-D-2.4MP-SL.png",
                 "filters": [
                     {
                         "Mega Pixel": "2.4"
@@ -1001,7 +1001,7 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-D-3.0MP_SL_A.png",
+                "img": "BEC-HD-D-3.0MP-SL-A.png",
                 "filters": [
                     {
                         "Mega Pixel": "3"
@@ -1026,7 +1026,7 @@
                     "Support Starlight Technology",
                     "Weather proof IP66"
                 ],
-                "img": "BEC-HD-B-2.4MP_SL, BEC-HD-B-3.0MP_SL_A.png",
+                "img": "BEC-HD-B-3.0MP_SL_A.png",
                 "filters": [
                     {
                         "Mega Pixel": "3"
@@ -1321,7 +1321,7 @@
                         "SFP Port": "No"
                     }
                 ],
-                "img": "BEC-PoE-0802FE.png",
+                "img": "BEC-PoE-0802-FE.png",
                 "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0802FE"
             },
             {
