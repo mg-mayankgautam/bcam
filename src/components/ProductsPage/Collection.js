@@ -12,6 +12,7 @@ import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { BsFiletypePdf } from "react-icons/bs";
 
 const Collection = () => {
 
@@ -494,7 +495,15 @@ const Collection = () => {
 
 
               <div className='prod_Content'>
-                <div className='prod_modelno'>{selectedProduct.model_no}</div>
+                <div className='prod_ContentFLex'>
+                  <div className='prod_modelno'>{selectedProduct.model_no}</div>
+                  {selectedProduct?.pdf &&
+                    <div className='pdfIcon'
+                      onClick={() => window.open(`/pdfs/${selectedProduct?.pdf}`, "_blank")}>
+                      <BsFiletypePdf color='#000066' />
+                    </div>
+                  }
+                </div>
                 <div className='prod_category'>{selectedCategory}</div>
 
                 <ul className='prod_features'>
