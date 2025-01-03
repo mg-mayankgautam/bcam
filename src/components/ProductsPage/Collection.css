@@ -226,9 +226,17 @@
     align-items: center;
     justify-content: space-between;
 }
+.prod_ContentFlexCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
 .pdfIcon{
-    font-size: 20px;
+    font-size: 36px;
     cursor: pointer;
+    /* margin: auto 0; */
+    height: 36px;
 }
 
 .prod_modelno {
