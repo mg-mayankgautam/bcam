@@ -223,7 +223,7 @@
 
 .prod_ContentFLex{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 .prod_ContentFlexCol{
@@ -235,7 +235,7 @@
 .pdfIcon{
     font-size: 36px;
     cursor: pointer;
-    /* margin: auto 0; */
+    margin: 4px 0 0;
     height: 36px;
 }
 
