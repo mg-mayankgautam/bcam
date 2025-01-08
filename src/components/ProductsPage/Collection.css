@@ -233,10 +233,14 @@
     gap: 8px;
 }
 .pdfIcon{
-    font-size: 36px;
-    cursor: pointer;
-    margin: 4px 0 0;
-    height: 36px;
+    background-color: var(--primary);
+    color: white;
+    padding: 6px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    width: fit-content;
+    margin-top: 4px;
 }
 
 .prod_modelno {

@@ -495,19 +495,20 @@ const Collection = () => {
 
 
               <div className='prod_Content'>
-                <div className='prod_ContentFLex'>
-                  <div className='prod_ContentFlexCol'>
-                    <div className='prod_modelno'>{selectedProduct.model_no}</div>
-                    <div className='prod_category'>{selectedCategory}</div>
-                  </div>
+                {/* <div className='prod_ContentFLex'> */}
+                {/* <div className='prod_ContentFlexCol'> */}
+                <div className='prod_modelno'>{selectedProduct.model_no}</div>
+                <div className='prod_category'>{selectedCategory}</div>
+                {/* </div> */}
 
-                  {selectedProduct?.pdf &&
-                    <div className='pdfIcon'
-                      onClick={() => window.open(`/pdfs/${selectedProduct?.pdf}`, "_blank")}>
-                      <BsFiletypePdf color='#000066' />
-                    </div>
-                  }
-                </div>
+                {selectedProduct?.pdf &&
+                  <button className='pdfIcon'
+                    onClick={() => window.open(`/pdfs/${selectedProduct?.pdf}`, "_blank")}>
+                    {/* <BsFiletypePdf color='#000066' /> */}
+                    View PDF
+                  </button>
+                }
+                {/* </div> */}
 
                 <ul className='prod_features'>
                   {selectedProduct.features?.map((feature, i) => (
