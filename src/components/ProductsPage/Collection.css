@@ -241,6 +241,7 @@
     border: none;
     width: fit-content;
     margin-top: 4px;
+    margin-left: -0.5px;
 }
 
 .prod_modelno {
