@@ -440,7 +440,8 @@
                         "Memory Card": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-B-3.0/A/S/SL/TWA"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-B-3.0/A/S/SL/TWA",
+                "pdf": "BEC-4G-B-3.0-A-S-SL-TWA.pdf"
             },
             {
                 "model_no": "BEC-4G-D-3.0MP-A-SL-TWA",
@@ -463,7 +464,8 @@
                         "Memory Card": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-D-3.0MP/A/SL/TWA"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-D-3.0MP/A/SL/TWA",
+                "pdf": "BEC-4G-D-3.0MP-A-S-SL-TWA.pdf"
             },
             {
                 "model_no": "BEC-4G-PT SL",
@@ -487,7 +489,8 @@
                         "Memory Card": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-PT+SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-PT+SL",
+                "pdf": "BEC-4G-PT SL.pdf"
             },
             {
                 "model_no": "BEC-4G-03-2L3D-PT",
@@ -511,7 +514,8 @@
                         "Memory Card": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-03-2L3D/PT"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Camera&entry.623029987=BEC-4G-03-2L3D/PT",
+                "pdf": "BEC-4G-03-2L3D-PT.pdf"
             }
         ]
     },
@@ -594,7 +598,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL",
+                "pdf":"BEC-IP-B-5.0MP-A-SL.pdf"
             },
             {
                 "model_no": "BEC-IP-B-5.0MP-A-SL (plastic body)",
@@ -628,7 +633,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL+(plastic+body)"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL+(plastic+body)",
+                "pdf":"BEC-IP-B-5.0MP-A-SL (Plastic Body).pdf"
             },
             {
                 "model_no": "BEC-IP-B-5.0MP-A-SL-Fisheye",
@@ -693,7 +699,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-5.0MP/A/SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-5.0MP/A/SL",
+                "pdf":"BEC-IP-D-5.0MP-A-SL.pdf"
             },
             {
                 "model_no": "BEC-IP-B-4.0MP-A-SL",
@@ -725,7 +732,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL",
+                "pdf":"BEC-IP-B-4.0MP-A-SL.pdf"
             },
             {
                 "model_no": "BEC-IP-B-4.0MP-A-SL- 6mm",
@@ -757,7 +765,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL+(6mm)"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL+(6mm)",
+                "pdf":"BEC-IP-B-4.0MP-A-SL-6mm.pdf"
             },
             {
                 "model_no": "BEC-IP-D-4.0MP-A-SL-4AR",
@@ -790,7 +799,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-4.0MP/A/SL/4AR"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-4.0MP/A/SL/4AR",
+                "pdf":"BEC-IP-D-4.0MP-A-SL-4AR.pdf"
             },
             {
                 "model_no": "BEC-IP-B-8.0MP-A-SL",
@@ -823,7 +833,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-8.0MP/A/SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-8.0MP/A/SL",
+                "pdf": "BEC-IP-B-8.0MP-A-SL.pdf"
             },
             {
                 "model_no": "BEC-IP-D-8.0MP-A-SL",
@@ -856,7 +867,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-8.0MP/A/SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-8.0MP/A/SL",
+                "pdf": "BEC-IP-D-8.0MP-A-SL.pdf"
             },
             {
                 "model_no": "BEC-IP-D-5.0MP-A-SL-FISHEYE",
@@ -974,7 +986,8 @@
                         "Audio": "No"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-B-2.4MP/SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-B-2.4MP/SL",
+                "pdf":"BEC-HD-B-2.4MP-SL.pdf"
             },
             {
                 "model_no": "BEC-HD-D-2.4MP-SL",
@@ -998,7 +1011,8 @@
                         "Audio": "No"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-D-2.4MP/SL"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-D-2.4MP/SL",
+                "pdf":"BEC-HD-D-2.4MP-SL.pdf"
             },
             {
                 "model_no": "BEC-HD-D-3.0MP-SL-A",
@@ -1023,7 +1037,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-D-3.0MP/SL/A"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-D-3.0MP/SL/A",
+                "pdf":"BEC-HD-D-3.0MP-SL-A.pdf"
             },
             {
                 "model_no": "BEC-HD-B-3.0MP-SL-A",
@@ -1048,7 +1063,8 @@
                         "Audio": "Yes"
                     }
                 ],
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-B-3.0MP/SL/A"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Analog+Camera&entry.359221656=BEC-HD-B-3.0MP/SL/A",
+                "pdf":"BEC-HD-B-3.0MP-SL-A.pdf"
             }
         ]
     },
@@ -1105,7 +1121,8 @@
                     }
                 ],
                 "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=NVR&entry.1907607775=BEC-NVR-1008-S1"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=NVR&entry.1907607775=BEC-NVR-1008-S1",
+                "pdf":"BEC-NVR-1008-S1.pdf"
             },
             {
                 "model_no": "BEC-NVR-1608-S1",
@@ -1132,7 +1149,8 @@
                     }
                 ],
                 "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=NVR&entry.1907607775=BEC-NVR-1608-S1"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=NVR&entry.1907607775=BEC-NVR-1608-S1",
+                "pdf":"BEC-NVR-1608-S1.pdf"
             },
             {
                 "model_no": "BEC-NVR-3208-S2",
@@ -1158,7 +1176,8 @@
                     }
                 ],
                 "img": "BEC-NVR-1008-S1, BEC-NVR-1608-S1, BEC-NVR-3208-S2.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=NVR&entry.1907607775=BEC-NVR-3208-S2"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=NVR&entry.1907607775=BEC-NVR-3208-S2",
+                "pdf":"BEC-NVR-3208-S2.pdf"
             }
         ]
     },
@@ -1215,7 +1234,8 @@
                     }
                 ],
                 "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=DVR&entry.781768272=BEC-XVR-4005-S1"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=DVR&entry.781768272=BEC-XVR-4005-S1",
+                "pdf":"BEC-XVR-4005-S1.pdf"
             },
             {
                 "model_no": "BEC-XVR-8005-S1",
@@ -1241,7 +1261,8 @@
                     }
                 ],
                 "img": "BEC-XVR-4005-S1, BEC-XVR-8005-S1,  BEC-XVR-1605-S2.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=DVR&entry.781768272=BEC-XVR-8005-S1"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=DVR&entry.781768272=BEC-XVR-8005-S1",
+                "pdf":"BEC-XVR-8005-S1.pdf"
             },
             {
                 "model_no": "BEC-XVR-1605-S2",
@@ -1312,7 +1333,8 @@
                     }
                 ],
                 "img": "BEC-PoE-0402FE.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0402FE"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0402FE",
+                "pdf":"BEC-PoE-0402FE.pdf"
             },
             {
                 "model_no": "BEC-PoE-0802FE",
@@ -1332,7 +1354,8 @@
                     }
                 ],
                 "img": "BEC-PoE-0802-FE.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0802FE"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0802FE",
+                "pdf":"BEC-PoE-0802FE.pdf"
             },
             {
                 "model_no": "BEC-PoE-0802-UPG",
@@ -1352,7 +1375,8 @@
                     }
                 ],
                 "img": "BEC-PoE-0802-UPG.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0802-UPG"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0802-UPG",
+                "pdf":"BEC-PoE-0802-UPG.pdf"
             },
             {
                 "model_no": "BEC-PoE-0802-FG",
@@ -1372,7 +1396,8 @@
                     }
                 ],
                 "img": "BEC-PoE-0802-FG.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0802-FG"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-0802-FG",
+                "pdf":"BEC-PoE-0802-FG.pdf"
             },
             {
                 "model_no": "BEC-PoE-1602UPGF1",
@@ -1392,7 +1417,8 @@
                     }
                 ],
                 "img": "BEC-PoE-1602UPGF1.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-1602UPGF1"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-1602UPGF1",
+                "pdf":"BEC-PoE-1602-UPGF1.pdf"
             },
             {
                 "model_no": "BEC-PoE-2402UPGF1",
@@ -1412,7 +1438,8 @@
                     }
                 ],
                 "img": "BEC-PoE-2402UPGF1.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-2402UPGF1"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=PoE+Switch&entry.1124283166=BEC-PoE-2402UPGF1",
+                "pdf":"BEC-PoE-2402-UPGF1.pdf"
             }
         ]
     },
@@ -1455,7 +1482,8 @@
                     }
                 ],
                 "img": "BEC-LS-05-N.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-05-N"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-05-N",
+                "pdf":"BEC-LS-05-N.pdf"
             },
             {
                 "model_no": "BEC-LS-08-N",
@@ -1475,7 +1503,8 @@
                     }
                 ],
                 "img": "BEC-LS-08-N.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-N"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-N",
+                "pdf":"BEC-LS-08-N.pdf"
             },
             {
                 "model_no": "BEC-LS-08-GIGA",
@@ -1495,7 +1524,8 @@
                     }
                 ],
                 "img": "BEC-LS-08-GIGA.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-GIGA"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Ethernet+Switch&entry.978150352=BEC-LS-08-GIGA",
+                "pdf":"BEC-LS-08-GIGA.pdf"
             }
         ]
     },
@@ -1539,7 +1569,8 @@
                     }
                 ],
                 "img": "BEC-RT-01-4G-5G.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-01-4G/5G"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-01-4G/5G",
+                "pdf":"BEC-RT-01-4G-5G.pdf"
             },
             {
                 "model_no": "BEC-RT-03A",
@@ -1561,7 +1592,8 @@
                     }
                 ],
                 "img": "BEC-RT-03A, BEC-RT-03-4G-5G.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-03A"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-03A",
+                "pdf":"BEC-RT-03A.pdf"
             },
             {
                 "model_no": "BEC-RT-03-4G-5G",
@@ -1582,7 +1614,8 @@
                     }
                 ],
                 "img": "BEC-RT-03A, BEC-RT-03-4G-5G.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-03-4G/5G"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-03-4G/5G",
+                "pdf":"BEC-RT-03-4G-5G.pdf"
             },
             {
                 "model_no": "BEC-RT-02-4G-5G",
@@ -1603,7 +1636,8 @@
                     }
                 ],
                 "img": "BEC-RT-02-4G-5G.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-02-4G/5G"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Router&entry.1531900342=BEC-RT-02-4G/5G",
+                "pdf":"BEC-RT-02-4G-5G.pdf"
             }
         ]
     },
@@ -1640,7 +1674,8 @@
                     }
                 ],
                 "img": "BEC-4G-SO1-8H-7.5W-PT.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT",
+                "pdf":"BEC-4G-S01-8H-7.5W-PT.pdf"
             },
             {
                 "model_no": "BEC-4G-S02-12H-10W-PT",
@@ -1661,7 +1696,8 @@
                     }
                 ],
                 "img": "BEC-4G-SO2-12H-10W-PT.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=4G+Solar+Camera&entry.1295598572=BEC-4G-SO1-8H-7.5W-PT",
+                "pdf":"BEC-4G-S02-12H-10W-PT.pdf"
             }
         ]
     },
@@ -1694,7 +1730,8 @@
                     }
                 ],
                 "img": "BEC-RACK 4U, BEC RACK 2U.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Rack&entry.1000829473=BEC-RACK+2U"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Rack&entry.1000829473=BEC-RACK+2U",
+                "pdf":"BEC-RACK 2U.pdf"
             },
             {
                 "model_no": "BEC-RACK 4U",
@@ -1711,7 +1748,8 @@
                     }
                 ],
                 "img": "BEC-RACK 4U, BEC RACK 2U.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Rack&entry.1000829473=BEC-RACK+4U"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Rack&entry.1000829473=BEC-RACK+4U",
+                "pdf":"BEC-RACK 4U.pdf"
             }
         ]
     },
@@ -1756,7 +1794,8 @@
                     }
                 ],
                 "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Power+Supply&entry.378321931=BEC-PS04-12"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Power+Supply&entry.378321931=BEC-PS04-12",
+                "pdf":"BEC-PS04-12.pdf"
             },
             {
                 "model_no": "BEC-PS08-12",
@@ -1776,7 +1815,8 @@
                     }
                 ],
                 "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Power+Supply&entry.378321931=BEC-PS08-12"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Power+Supply&entry.378321931=BEC-PS08-12",
+                "pdf":"BEC-PS08-12.pdf"
             },
             {
                 "model_no": "BEC-PS16-12",
@@ -1796,7 +1836,8 @@
                     }
                 ],
                 "img": "BEC-PS04-12, BEC-PS08-12, BEC-PS16-12.png",
-                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Power+Supply&entry.378321931=BEC-PS16-12"
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=Power+Supply&entry.378321931=BEC-PS16-12",
+                "pdf":"BEC-PS16-12.pdf"
             }
         ]
     },
