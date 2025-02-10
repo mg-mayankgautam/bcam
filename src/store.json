@@ -147,7 +147,7 @@
                     "Support Motion tracking",
                     "Support 2.4Ghz",
                     "Support Micro SD Card upto 128GB",
-                    "Weather proof IP67",
+                    "Supports IP67",
                     "Support Android & iOS Mobile Application"
                 ],
                 "filters": [
@@ -344,7 +344,7 @@
                     "IR Range up to 20 Mtr",
                     "Support Motion Tracking",
                     "Support 2.4/5Ghz Frequency",
-                    "Support Micro SD Card up to 256GB",
+                    "Support Micro SD Card up to 128GB",
                     "Support Android & iOS Mobile Application"
                 ],
                 "filters": [
@@ -428,7 +428,7 @@
                     "IR Range up to 20 Mtr.",
                     "Support Micro SD Card up to 128GB",
                     "Support Motion Detection",
-                    "Weather proof IP67",
+                    "Supports IP67",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-4G-B-3.0_A_S_SL_TWA.png",
@@ -476,8 +476,8 @@
                     "4G Sim Supported",
                     "Two-Way Audio Supported",
                     "IR Range up to 30 Mtr.",
-                    "Support Micro SD Card up to 256GB",
-                    "Weather proof IP67",
+                    "Support Micro SD Card up to 128GB",
+                    "Supports IP67",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-4G-B-3.0_PT, BEC-4G-PT SL.png",
@@ -576,7 +576,7 @@
                     "IR Range of 20 Mtr.",
                     "Support Starlight Technology",
                     "Warm Light with 4 Array",
-                    "Weather proof IP67",
+                    "Supports IP67",
                     "Metal Body",
                     "Support Android & iOS Mobile Application"
                 ],
@@ -611,7 +611,7 @@
                     "Audio Supported",
                     "Array Range of 30 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66",
+                    "Supports IP66",
                     "Plastic Body",
                     "Support Android & iOS Mobile Application"
                 ],
@@ -645,7 +645,7 @@
                     "Audio Supported",
                     "Support Starlight Technology",
                     "3 Array Range of 50 Mtr.",
-                    "Weather proof IP67",
+                    "Supports IP67",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-IP-B-5.0MP_A_SL_Fisheye.png",
@@ -678,7 +678,7 @@
                     "Audio Supported",
                     "4 Array Range of 30 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66",
+                    "Supports IP66",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-IP-D-5.0MP-A-SL.png",
@@ -711,7 +711,7 @@
                     "Audio Supported",
                     "Support Starlight Technology",
                     "8 Array Range of 60 Mtr.",
-                    "Weather proof IP67",
+                    "Supports IP67",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-IP-B-4.0MP_A_SL.png",
@@ -744,7 +744,7 @@
                     "Support Starlight Technology",
                     "Audio Supported",
                     "10 Array Range of 40 Mtr.",
-                    "Weather proof IP66",
+                    "Supports IP66",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-IP-B-4.0MP_A_SL- 6mm.png",
@@ -778,7 +778,7 @@
                     "Audio Supported",
                     "4 Array Range of 20 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66",
+                    "Supports IP66",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-IP-D-4.0MP_A_SL_4AR.png",
@@ -812,10 +812,10 @@
                     "Audio Supported",
                     "4 Array Range of 30 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP67",
+                    "Supports IP67",
                     "Support Android & iOS Mobile Application"
                 ],
-                "img": "BEC-IP-B-8.0MPASL,  BEC-IP-D-8.0MPASL.png",
+                "img": "BEC-IP-B-8.0MP-A-SL.png",
                 "filters": [
                     {
                         "Mega Pixel": "8"
@@ -846,7 +846,7 @@
                     "Audio Supported",
                     "4 Array Range of 30 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP67",
+                    "Supports IP67",
                     "Support Android & iOS Mobile Application"
                 ],
                 "img": "BEC-IP-D-8.0MP.png",
@@ -972,7 +972,7 @@
                     "24x7 Full Color with Night Vision",
                     "4 Array Range of 20 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66"
+                    "Supports IP66"
                 ],
                 "img": "BEC-HD-B-2.4MP-SL.png",
                 "filters": [
@@ -997,7 +997,7 @@
                     "24x7 Full Color with Night Vision",
                     "2 Array Range of 20 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66"
+                    "Supports IP66"
                 ],
                 "img": "BEC-HD-D-2.4MP-SL.png",
                 "filters": [
@@ -1023,7 +1023,7 @@
                     "Audio Supported",
                     "2 Array Range of 20 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66"
+                    "Supports IP66"
                 ],
                 "img": "BEC-HD-D-3.0MP-SL-A.png",
                 "filters": [
@@ -1049,7 +1049,7 @@
                     "Audio Supported",
                     "4 Array Range of 20 Mtr.",
                     "Support Starlight Technology",
-                    "Weather proof IP66"
+                    "Supports IP66"
                 ],
                 "img": "BEC-HD-B-3.0MP_SL_A.png",
                 "filters": [
@@ -1664,7 +1664,7 @@
                     "4G/5G Sim Support",
                     "7.5 Watt Solar Plate",
                     "IR Range up to 20mtr",
-                    "Weather Proof",
+                    "Supports IP67",
                     "Support up to 128GB SD Card",
                     "Support Android & iOS Mobile Application"
                 ],
@@ -1686,7 +1686,7 @@
                     "4G/5G Sim Support",
                     "10 Watt Solar Plate",
                     "2 PIR Sensor",
-                    "Weather Proof",
+                    "Supports IP67 ",
                     "Support up to 128GB Card",
                     "Support Android & iOS Mobile Application"
                 ],
