@@ -10,7 +10,8 @@ root.render(
   
   <Router>
          <Routes>
-           <Route path="/*" element={<App/>} />
+           // <Route path="/*" element={<App/>} />
+  <p>website unavailable</p>
          </Routes>
   </Router>
 
