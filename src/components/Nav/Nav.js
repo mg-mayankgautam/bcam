@@ -360,22 +360,22 @@ const categories = [
             "BEC-4G-03-2L3D-PT"
         ]
     },
-    {
-        name: "IP Camera",
-        codes: [
-            "BEC-IP-B-5.0MP-A-SL",
-            "BEC-IP-B-5.0MP-A-SL (plastic body)",
-            "BEC-IP-B-5.0MP-A-SL-Fisheye",
-            "BEC-IP-D-5.0MP-A-SL",
-            "BEC-IP-B-4.0MP-A-SL",
-            "BEC-IP-B-4.0MP-A-SL (6mm)",
-            "BEC-IP-D-4.0MP-A-SL-4AR",
-            "BEC-IP-B-8.0MP-A-SL",
-            "BEC-IP-D-8.0MP-A-SL",
-            "BEC-IP-D-5.0MP-A-SL-FISHEYE",
-            "BEC-IP-B-5.0MP-A-SL-VF"
-        ]
-    },
+    // {
+    //     name: "IP Camera",
+    //     codes: [
+    //         "BEC-IP-B-5.0MP-A-SL",
+    //         "BEC-IP-B-5.0MP-A-SL (plastic body)",
+    //         "BEC-IP-B-5.0MP-A-SL-Fisheye",
+    //         "BEC-IP-D-5.0MP-A-SL",
+    //         "BEC-IP-B-4.0MP-A-SL",
+    //         "BEC-IP-B-4.0MP-A-SL (6mm)",
+    //         "BEC-IP-D-4.0MP-A-SL-4AR",
+    //         "BEC-IP-B-8.0MP-A-SL",
+    //         "BEC-IP-D-8.0MP-A-SL",
+    //         "BEC-IP-D-5.0MP-A-SL-FISHEYE",
+    //         "BEC-IP-B-5.0MP-A-SL-VF"
+    //     ]
+    // },
     {
         name: "Analog Camera",
         codes: [

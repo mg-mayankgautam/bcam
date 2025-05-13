@@ -7,12 +7,12 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
+
   <Router>
-         <Routes>
-           // <Route path="/*" element={<App/>} />
-  <p>website unavailable</p>
-         </Routes>
+    <Routes>
+      <Route path="/*" element={<App />} />
+      {/* <p>website unavailable</p> */}
+    </Routes>
   </Router>
 
 );

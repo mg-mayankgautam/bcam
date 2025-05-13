@@ -1,0 +1,419 @@
+[
+    {
+        "category": "IP Camera",
+        "filters": [
+            {
+                "Mega Pixel": [
+                    "4",
+                    "5",
+                    "8"
+                ]
+            },
+            {
+                "Body Type": [
+                    "Dome",
+                    "Bullet",
+                    "Fisheye"
+                ]
+            },
+            {
+                "IR Range": [
+                    "20 Mtr",
+                    "30 Mtr",
+                    "50 Mtr",
+                    "60 Mtr"
+                ]
+            },
+            {
+                "Memory Card": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "Audio": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ],
+        "selectedFiltersobj": {
+            "Mega Pixel": [],
+            "Body Type": [],
+            "IR Range": [],
+            "Memory Card": [],
+            "Audio": []
+        },
+        "products": [
+            {
+                "model_no": "BEC-IP-B-5.0MP-A-SL",
+                "features": [
+                    "5 Mega Pixel Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "IR Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Warm Light with 4 Array",
+                    "Supports IP67",
+                    "Metal Body",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-5.0MP-A-SL.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL",
+                "pdf": "BEC-IP-B-5.0MP-A-SL.pdf"
+            },
+            {
+                "model_no": "BEC-IP-B-5.0MP-A-SL (plastic body)",
+                "features": [
+                    "5 Mega Pixel Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Supports IP66",
+                    "Plastic Body",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-5.0MP-A-SL (Plastic Body).png",
+                "filters": [
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL+(plastic+body)",
+                "pdf": "BEC-IP-B-5.0MP-A-SL (Plastic Body).pdf"
+            },
+            {
+                "model_no": "BEC-IP-B-5.0MP-A-SL-Fisheye",
+                "features": [
+                    "5 Mega Pixel Bullet Fisheye Camera",
+                    "1.8mm Fixed Lens",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "Support Starlight Technology",
+                    "3 Array Range of 50 Mtr.",
+                    "Supports IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-5.0MP_A_SL_Fisheye.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Fisheye"
+                    },
+                    {
+                        "IR Range": "50 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-5.0MP/A/SL/Fisheye"
+            },
+            {
+                "model_no": "BEC-IP-D-5.0MP-A-SL",
+                "features": [
+                    "5 Mega Pixel Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Supports IP66",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-D-5.0MP-A-SL.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-5.0MP/A/SL",
+                "pdf": "BEC-IP-D-5.0MP-A-SL.pdf"
+            },
+            {
+                "model_no": "BEC-IP-B-4.0MP-A-SL",
+                "features": [
+                    "4 Mega Pixel Bullet Camera",
+                    "8mm Fixed Lens",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "Support Starlight Technology",
+                    "8 Array Range of 60 Mtr.",
+                    "Supports IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-4.0MP_A_SL.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "4"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "60 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL",
+                "pdf": "BEC-IP-B-4.0MP-A-SL.pdf"
+            },
+            {
+                "model_no": "BEC-IP-B-4.0MP-A-SL- 6mm",
+                "features": [
+                    "4 Mega Pixel Bullet Camera",
+                    "6mm Fixed Lens (8mm/12mm/16mm Optional)",
+                    "PoE Supported",
+                    "Support Starlight Technology",
+                    "Audio Supported",
+                    "10 Array Range of 40 Mtr.",
+                    "Supports IP66",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-4.0MP_A_SL- 6mm.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "4"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "40 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-4.0MP/A/SL+(6mm)",
+                "pdf": "BEC-IP-B-4.0MP-A-SL-6mm.pdf"
+            },
+            {
+                "model_no": "BEC-IP-D-4.0MP-A-SL-4AR",
+                "features": [
+                    "4 Mega Pixel Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 20 Mtr.",
+                    "Support Starlight Technology",
+                    "Supports IP66",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-D-4.0MP_A_SL_4AR.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "4"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "20 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-4.0MP/A/SL/4AR",
+                "pdf": "BEC-IP-D-4.0MP-A-SL-4AR.pdf"
+            },
+            {
+                "model_no": "BEC-IP-B-8.0MP-A-SL",
+                "features": [
+                    "8 Mega Pixel Bullet Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Supports IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-B-8.0MP-A-SL.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "8"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-8.0MP/A/SL",
+                "pdf": "BEC-IP-B-8.0MP-A-SL.pdf"
+            },
+            {
+                "model_no": "BEC-IP-D-8.0MP-A-SL",
+                "features": [
+                    "8 Mega Pixel Dome Camera",
+                    "3.6mm Fixed Lens",
+                    "24x7 Full Color with Night Vision",
+                    "PoE Supported",
+                    "Audio Supported",
+                    "4 Array Range of 30 Mtr.",
+                    "Support Starlight Technology",
+                    "Supports IP67",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "img": "BEC-IP-D-8.0MP.png",
+                "filters": [
+                    {
+                        "Mega Pixel": "8"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "30 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-8.0MP/A/SL",
+                "pdf": "BEC-IP-D-8.0MP-A-SL.pdf"
+            },
+            {
+                "model_no": "BEC-IP-D-5.0MP-A-SL-FISHEYE",
+                "features": [
+                    "5 Mega Pixel Dome Fisheye Camera",
+                    "1.8mm Fixed Lens",
+                    "Warm Light 2 Array",
+                    "24x7 Color Vision",
+                    "PoE Supported",
+                    "Audio Supported Onvif",
+                    "Support 50mtr IR Distance",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Dome"
+                    },
+                    {
+                        "IR Range": "50 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "img": "BEC-IP-D-5.0MP-A-SL-FISHEYE.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-D-5.0MP-A-SL-FISHEYE"
+            },
+            {
+                "model_no": "BEC-IP-B-5.0MP-A-SL-VF",
+                "features": [
+                    "5 Mega Pixel Bullet Camera",
+                    "2.8-12mm Varifocal Lens",
+                    "Warm Light 8 Array",
+                    "24x7 Color Vision",
+                    "PoE Supported",
+                    "Audio Support Onvif",
+                    "Support 50mtr IR Distance",
+                    "Support Android & iOS Mobile Application"
+                ],
+                "filters": [
+                    {
+                        "Mega Pixel": "5"
+                    },
+                    {
+                        "Body Type": "Bullet"
+                    },
+                    {
+                        "IR Range": "50 Mtr"
+                    },
+                    {
+                        "Memory Card": "No"
+                    },
+                    {
+                        "Audio": "Yes"
+                    }
+                ],
+                "img": "BEC-IP-B-5.0PM-A-SL-VF.png",
+                "form_link": "https://docs.google.com/forms/d/e/1FAIpQLSfEqPSTqe4IahxEROUhcyU5Ub4kk3a9Laag-pN8HfE7ptem-Q/viewform?usp=pp_url&entry.276228823=IP+Camera&entry.136961960=BEC-IP-B-8.0MP-A-SL-VF"
+            }
+        ]
+    }
+]
